@@ -46,8 +46,8 @@ Below are the tags you are able to use in your Behavior Profiles. They are divid
 **[Hunter](#Hunter)**  
 **[Nautical](#Nautical)**  
 **[Passive](#Passive)**  
-**[Scout](#Scout)** 
-**[Sniper](#Sniper)** 
+**[Scout](#Scout)**  
+**[Sniper](#Sniper)**  
 **[Strike](#Strike)**  
  
  
