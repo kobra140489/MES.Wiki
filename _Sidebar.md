@@ -28,7 +28,7 @@
         * [Replenishment]()
     * [Zone]()
   * [**Behaviors (Getting Started)**]()
-    * [Core Behavior]()
+    * [Core Behavior](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Core-Behavior)
       * [Autopilot]()
       * [Command]()
       * [Datapad]()
