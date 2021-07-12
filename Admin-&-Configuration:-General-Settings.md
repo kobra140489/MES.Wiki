@@ -1,35 +1,5 @@
 You can find the General Settings Configuration File in `MySaveWorldFolder\Storage\1521905890.sbm_ModularEncountersSpawner\Config-General.xml`. The settings you can modify are listed below:
 
-|Setting:|EnableSpaceCargoShips|
-|:----|:----|
-|XML:|`<EnableSpaceCargoShips>Value</EnableSpaceCargoShips>`|
-|Chat Command:|`/MES.Settings.General.EnableSpaceCargoShips.Value`|
-|Description:|This setting allows you to specify whether or not Space/Lunar Cargo Ships should spawn. `Value` can be replaced with `true` or `false`|
-
-|Setting:|EnablePlanetaryCargoShips|
-|:----|:----|
-|XML:|`<EnablePlanetaryCargoShips>Value</EnablePlanetaryCargoShips>`|
-|Chat Command:|`/MES.Settings.General.EnablePlanetaryCargoShips.Value`|
-|Description:|This setting allows you to specify whether or not Planetary Cargo Ships should spawn. `Value` can be replaced with `true` or `false`|
-
-|Setting:|EnableRandomEncounters|
-|:----|:----|
-|XML:|`<EnableRandomEncounters>Value</EnableRandomEncounters>`|
-|Chat Command:|`/MES.Settings.General.EnableRandomEncounters.Value`|
-|Description:|This setting allows you to specify whether or not Random Space Encounters should spawn. `Value` can be replaced with `true` or `false`|
-
-|Setting:|EnablePlanetaryInstallations|
-|:----|:----|
-|XML:|`<EnablePlanetaryInstallations>Value</EnablePlanetaryInstallations>`|
-|Chat Command:|`/MES.Settings.General.EnablePlanetaryInstallations.Value`|
-|Description:|This setting allows you to specify whether or not Planetary Installations should spawn. `Value` can be replaced with `true` or `false`|
-
-|Setting:|EnableBossEncounters|
-|:----|:----|
-|XML:|`<EnableBossEncounters>Value</EnableBossEncounters>`|
-|Chat Command:|`/MES.Settings.General.EnableBossEncounters.Value`|
-|Description:|This setting allows you to specify whether or not Boss Encounters should spawn. `Value` can be replaced with `true` or `false`|
-
 |Setting:|EnableGlobalNPCWeaponRandomizer|
 |:----|:----|
 |XML:|`<EnableGlobalNPCWeaponRandomizer>Value</EnableGlobalNPCWeaponRandomizer>`|
