@@ -19,7 +19,7 @@
 
 # Modding
   * [**Spawning (Getting Started)**]()
-    * [SpawnGroup]()
+    * [SpawnGroup](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/SpawnGroup)
       * [Spawning Conditions]()
         * [Zone Conditions]()
       * [Manipulation]()
