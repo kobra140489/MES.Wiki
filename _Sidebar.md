@@ -22,7 +22,7 @@
     * [SpawnGroup](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/SpawnGroup)
       * [Spawning Conditions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Spawn-Conditions)
         * [Zone Conditions]()
-      * [Manipulation]()
+      * [Manipulation](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Manipulation)
         * [Block Replacement]()
         * [Dereliction]()
         * [Replenishment]()
