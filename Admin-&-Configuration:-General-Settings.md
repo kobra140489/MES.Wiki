@@ -1,17 +1,5 @@
 You can find the General Settings Configuration File in `MySaveWorldFolder\Storage\1521905890.sbm_ModularEncountersSpawner\Config-General.xml`. The settings you can modify are listed below:
 
-|Setting:|EnableGlobalNPCWeaponRandomizer|
-|:----|:----|
-|XML:|`<EnableGlobalNPCWeaponRandomizer>Value</EnableGlobalNPCWeaponRandomizer>`|
-|Chat Command:|`/MES.Settings.General.EnableGlobalNPCWeaponRandomizer.Value`|
-|Description:|This setting allows you to specify if NPC spawns should all have their weapons randomized. This is the same behavior provided by the `NPC Weapon Upgrades` mod. `Value` can be replaced with `true` or `false`|
-
-|Setting:|EnableGlobalNPCShieldProvider|
-|:----|:----|
-|XML:|`<EnableGlobalNPCShieldProvider>Value</EnableGlobalNPCShieldProvider>`|
-|Chat Command:|`/MES.Settings.General.EnableGlobalNPCShieldProvider.Value`|
-|Description:|This setting allows you to specify if NPC spawns should have Defense Shield blocks added. This is the same behavior provided by the `NPC Defense Shield Provider` mod. `Value` can be replaced with `true` or `false`|
-
 |Setting:|EnableLegacySpaceCargoShipDetection|
 |:----|:----|
 |XML:|`<EnableLegacySpaceCargoShipDetection>Value</EnableLegacySpaceCargoShipDetection>`|
