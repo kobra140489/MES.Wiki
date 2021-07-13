@@ -27,7 +27,7 @@
         * [Dereliction]()
       * [Replenishment]()
     * [Zone]()
-  * [**Behaviors (Getting Started)**]()
+  * [**Behaviors (Getting Started)**](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Behaviors:-Getting-Started)
     * [Core Behavior](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Core-Behavior)
       * [Autopilot]()
       * [Command]()
