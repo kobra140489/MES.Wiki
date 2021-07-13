@@ -13,6 +13,14 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 
 # Conditions
 
+<!-- SpawnConditionsProfiles-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnConditionsProfiles|
+|:----|:----|
+|Tag Format:|`[SpawnConditionsProfiles:Value]`|
+|Description:|This tag allows you to provide one or more sets of Spawn Conditions to the SpawnGroup. If a single Spawn Conditions Profile is satisfied, then the spawn will be considered eligible.|
+|Allowed Values:|Any Spawn Condition Profile SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 
 # Economy
@@ -77,7 +85,14 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 
 # Manipulations  
 
-
+<!-- ManipulationProfiles-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationProfiles|
+|:----|:----|
+|Tag Format:|`[ManipulationProfiles:Value]`|
+|Description:|This tag allows you to provide one or more Manipulation Profiles to the SpawnGroup. If multiple profiles are provided, then all of the Manipulations within each profile are processed on the Grids before they spawn..|
+|Allowed Values:|Any Manipulation Profile SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 
 # Misc
