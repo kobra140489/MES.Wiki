@@ -25,7 +25,7 @@
       * [Manipulation](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Manipulation)
         * [Block Replacement]()
         * [Dereliction]()
-        * [Replenishment]()
+      * [Replenishment]()
     * [Zone]()
   * [**Behaviors (Getting Started)**]()
     * [Core Behavior](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Core-Behavior)
