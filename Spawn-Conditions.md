@@ -23,9 +23,9 @@ Here is an example of how a Spawn Condition Profile is created:
         [SpaceCargoShip:true]
         [LunarCargoShip:true]
 
-		[UseThreatLevelCheck:true]
-		[ThreatLevelCheckRange:15000]
-		[ThreatScoreMinimum:500]
+	[UseThreatLevelCheck:true]
+	[ThreatLevelCheckRange:15000]
+	[ThreatScoreMinimum:500]
 
       </Description>
 
@@ -39,31 +39,30 @@ To link a profile to your SpawnGroup, simply use the `SpawnConditionsProfiles` t
 
 Below are several types of condition tags you can include in your Spawn Condition Profile:
 
-
-[Space-Cargo-Ships](#Space-Cargo-Ships)  
-[Random-Encounters](#Random-Encounters)  
-[Planetary-Cargo-Ships](#Planetary-Cargo-Ships)  
-[Planetary-Installations](#Planetary-Installations)  
-[Boss-Encounters](#Boss-Encounters)  
-[Creatures](#Creatures)  
-[Static-Encounters](#Static-Encounters)  
-[Other-NPCs](#Other-NPCs)  
+[**Space-Cargo-Ships**](#Space-Cargo-Ships)  
+[**Random-Encounters**](#Random-Encounters)  
+[**Planetary-Cargo-Ships**](#Planetary-Cargo-Ships)  
+[**Planetary-Installations**](#Planetary-Installations)  
+[**Boss-Encounters**](#Boss-Encounters)  
+[**Creatures**](#Creatures)  
+[**Static-Encounters**](#Static-Encounters)  
+[**Other-NPCs**](#Other-NPCs)  
   
-[General](#General)  
-[Cost](#Cost)  
-[Economy](#Economy)  
-[Faction](#Faction)  
-[Known-Player-Location](#Known-Player-Location)  
-[Mods](#Mods)  
-[Planetary](#Planetary)  
-[Players](#Players)  
-[Reputation](#Reputation)  
-[Restrictions](#Restrictions)  
-[Settings](#Settings)  
-[Threat](#Threat)  
-[Variables](#Variables)  
-[World](#World)  
-[Zone](#Zone)  
+[**General**](#General)  
+[**Cost**](#Cost)  
+[**Economy**](#Economy)  
+[**Faction**](#Faction)  
+[**Known-Player-Location**](#Known-Player-Location)  
+[**Mods**](#Mods)  
+[**Planetary**](#Planetary)  
+[**Players**](#Players)  
+[**Reputation**](#Reputation)  
+[**Restrictions**](#Restrictions)  
+[**Settings**](#Settings)  
+[**Threat**](#Threat)  
+[**Variables**](#Variables)  
+[**World**](#World)  
+[**Zone**](#Zone)  
 
 
 # Space-Cargo-Ships
