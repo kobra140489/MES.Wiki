@@ -56,6 +56,7 @@ Below are several types of condition tags you can include in your Spawn Conditio
 [**Mods**](#Mods)  
 [**Planetary**](#Planetary)  
 [**Players**](#Players)  
+[**Prefabs**](#Prefabs)  
 [**Reputation**](#Reputation)  
 [**Restrictions**](#Restrictions)  
 [**Settings**](#Settings)  
@@ -1090,6 +1091,10 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Allowed Values:|Any Steam User Id (64 bit)|
 |Default Value(s):|`none`|
 |Multiple Tag Allowed:|Yes|
+
+
+# Prefabs
+
 
 
 # Reputation
