@@ -538,9 +538,9 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Multiple Tag Allowed:|No|
 
 <!-- StaticEncounterUp-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterForward|
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterUp|
 |:----|:----|
-|Tag Format:|`[StaticEncounterForward:Value]`|
+|Tag Format:|`[StaticEncounterUp:Value]`|
 |Description:|This tag specifies the Up Orientation of the static encounter. It must be paired with a valid `StaticEncounterForward` tag that is perpendicular to this value.|
 |Allowed Values:|Vector3D Format Coordinates<br>eg: `{X:0 Y:0 Z:1}`|
 |Default Value(s):|`{X:0 Y:0 Z:0}`|
