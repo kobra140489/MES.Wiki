@@ -474,6 +474,78 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 
 # Static-Encounters
 
+<!-- StaticEncounter-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounter|
+|:----|:----|
+|Tag Format:|`[StaticEncounter:Value]`|
+|Description:|This tag specifies if the SpawnGroup should spawn as a Static Encounter. These types of encounters spawn at specific parts of the game world, and only appear once. They are useful for scenario building where you might not want an encounter to appear until after certain conditions are met|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- StaticEncounterCoords-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterCoords|
+|:----|:----|
+|Tag Format:|`[StaticEncounterCoords:Value]`|
+|Description:|This tag specifies the exact coordinates in the world that a static encounter will appear at. The orientation of the encounter is determined by the `StaticEncounterForward` and `StaticEncounterUp` tags.|
+|Allowed Values:|Vector3D Format Coordinates<br>eg: `{X:1000 Y:1000 Z:1000}`|
+|Default Value(s):|`{X:0 Y:0 Z:0}`|
+|Multiple Tag Allowed:|No|
+
+<!-- StaticEncounterForward-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterForward|
+|:----|:----|
+|Tag Format:|`[StaticEncounterForward:Value]`|
+|Description:|This tag specifies the Forward Orientation of the static encounter. It must be paired with a valid `StaticEncounterUp` tag that is perpendicular to this value.|
+|Allowed Values:|Vector3D Format Coordinates<br>eg: `{X:0 Y:0 Z:1}`|
+|Default Value(s):|`{X:0 Y:0 Z:0}`|
+|Multiple Tag Allowed:|No|
+
+<!-- StaticEncounterUp-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterForward|
+|:----|:----|
+|Tag Format:|`[StaticEncounterForward:Value]`|
+|Description:|This tag specifies the Up Orientation of the static encounter. It must be paired with a valid `StaticEncounterForward` tag that is perpendicular to this value.|
+|Allowed Values:|Vector3D Format Coordinates<br>eg: `{X:0 Y:0 Z:1}`|
+|Default Value(s):|`{X:0 Y:0 Z:0}`|
+|Multiple Tag Allowed:|No|
+
+<!-- StaticEncounterUsePlanetDirectionAndAltitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterUsePlanetDirectionAndAltitude|
+|:----|:----|
+|Tag Format:|`[StaticEncounterUsePlanetDirectionAndAltitude:Value]`|
+|Description:|This tag specifies if the Static Encounter should not use the `StaticEncounterCoords`, and instead dynamically generate coordinates from the center of a provided planet at a given direction from the core and altitude from the surface at that direction.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- StaticEncounterUsePlanetDirectionAndAltitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterUsePlanetDirectionAndAltitude|
+|:----|:----|
+|Tag Format:|`[StaticEncounterUsePlanetDirectionAndAltitude:Value]`|
+|Description:|This tag specifies the name of the Planet that the static encounter will appear on if calculating the spawning coords dynamically. This tag is only used if `StaticEncounterUsePlanetDirectionAndAltitude` is `true`|
+|Allowed Values:|Any Planet SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
+
+<!-- StaticEncounterPlanetDirection-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterPlanetDirection|
+|:----|:----|
+|Tag Format:|`[StaticEncounterForward:Value]`|
+|Description:|This tag specifies the Direction from the center of the planet that will be used to calculate the spawning coordinates of the Static Encounter. This tag is only used if `StaticEncounterUsePlanetDirectionAndAltitude` is `true`|
+|Allowed Values:|Vector3D Format Coordinates<br>eg: `{X:0 Y:0 Z:1}`|
+|Default Value(s):|`{X:0 Y:0 Z:0}`|
+|Multiple Tag Allowed:|No|
+
+<!-- StaticEncounterPlanetAltitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterPlanetAltitude|
+|:----|:----|
+|Tag Format:|`[StaticEncounterPlanetAltitude:Value]`|
+|Description:|This tag specifies the Altitude from the surface that will be used to calculate the spawning coordinates of the Static Encounter. This tag is only used if `StaticEncounterUsePlanetDirectionAndAltitude` is `true`|
+|Allowed Values:|Any Number|
+|Default Value(s):|`0`|
+|Multiple Tag Allowed:|No|
+
 
 # Other-NPCs
 
