@@ -435,6 +435,24 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|Yes|
 
+<!-- AiEnabledModBots-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AiEnabledModBots|
+|:----|:----|
+|Tag Format:|`[AiEnabledModBots:Value]`|
+|Description:|This tag specifies if the Bots/Creatures spawned in this SpawnGroup are controlled by the **AiEnabled** mod.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- AiEnabledRole-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AiEnabledRole|
+|:----|:----|
+|Tag Format:|`[AiEnabledRole:Value]`|
+|Description:|This tag specifies the behavior/role that the AiEnabled bots will spawn with.|
+|Allowed Values:|Any Eligible AiEnabled Role Id|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
+
 <!-- MinCreatureCount-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinCreatureCount|
 |:----|:----|
@@ -469,6 +487,24 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Description:|This tag specifies the maximum distance from the player Creatures that are spawned at if `CreatureSpawn` is `true`.|
 |Allowed Values:|Any integer `1` or higher<br>Value should be equal or higher than `MinCreatureDistance`|
 |Default Value(s):|`150`|
+|Multiple Tag Allowed:|No|
+
+<!-- MinDistFromOtherCreaturesInGroup-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDistFromOtherCreaturesInGroup|
+|:----|:----|
+|Tag Format:|`[MinDistFromOtherCreaturesInGroup:Value]`|
+|Description:|This tag specifies the minimum distance each creature/bot should spawn from one another if there are multiple creatures/bots in the SpawnGroup.|
+|Allowed Values:|Any number `1` or higher|
+|Default Value(s):|`5`|
+|Multiple Tag Allowed:|No|
+
+<!-- CreatureChance-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CreatureChance|
+|:----|:----|
+|Tag Format:|`[CreatureChance:Value]`|
+|Description:|This tag specifies the chance (out of 100) this spawngroup has of being selected as eligible if being spawned as a Creature Spawn.|
+|Allowed Values:|`0` - `100`|
+|Default Value(s):|`100`|
 |Multiple Tag Allowed:|No|
 
 
