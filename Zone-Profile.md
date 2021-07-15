@@ -72,7 +72,13 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--PublicName-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PublicName|
+|:----|:----|
+|Tag Format:|`[PublicName:Value]`|
+|Description:|This tag determines the name the Zone will use with the Spawner. You'll use this to link Zones to your Zone Conditions Profiles.|
+|Allowed Values:|Any Name|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
 
 <!--UseLimitedFactions-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseLimitedFactions|
@@ -84,13 +90,31 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--Factions-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Factions|
+|:----|:----|
+|Tag Format:|`[Factions:Value]`|
+|Description:|This tag determines the Factions that are allowed to spawn within the Zone if using the `UseLimitedFactions` tag.|
+|Allowed Values:|Any Faction Tag|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 <!--Coordinates-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Coordinates|
+|:----|:----|
+|Tag Format:|`[Coordinates:Value]`|
+|Description:|This tag determines the exact location of the center of this Zone.|
+|Allowed Values:|Vector3D Coordinates<br />eg: `{X:0 Y:0 Z:0}`|
+|Default Value(s):|`{X:0 Y:0 Z:0}`|
+|Multiple Tag Allowed:|No|
 
 <!--Radius-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Radius|
+|:----|:----|
+|Tag Format:|`[Radius:Value]`|
+|Description:|This tag determines the radius distance from the Zone center coordinates.|
+|Allowed Values:|Any Number Greater Than `0`|
+|Default Value(s):|`0`|
+|Multiple Tag Allowed:|No|
 
 <!--PlanetaryZone-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetaryZone|
@@ -102,13 +126,31 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--PlanetName-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetName|
+|:----|:----|
+|Tag Format:|`[PlanetName:Value]`|
+|Description:|This tag determines the name of the planet that the Zone will be created on.|
+|Allowed Values:|Any Planet Name|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
 
 <!--Direction-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Direction|
+|:----|:----|
+|Tag Format:|`[Direction:Value]`|
+|Description:|This tag determines the direction from the center of the planet that the Zone is created at. If a direction is provided, then the Zone center will be at the surface location nearest to the direction provided. If no direction is provided, then the center of the planet is instead used for the Zone center.|
+|Allowed Values:|Vector3D Coordinates<br />eg: `{X:0 Y:0 Z:0}`|
+|Default Value(s):|`{X:0 Y:0 Z:0}`|
+|Multiple Tag Allowed:|No|
 
 <!--HeightOffset-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|HeightOffset|
+|:----|:----|
+|Tag Format:|`[HeightOffset:Value]`|
+|Description:|This tag determines the height offset from the planet surface if a `Direction` tag is provided.|
+|Allowed Values:|Any Number|
+|Default Value(s):|`0`|
+|Multiple Tag Allowed:|No|
 
 <!--ScaleZoneRadiusWithPlanet NOT YET-->
 
@@ -125,7 +167,13 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--AllowedSpawnGroups-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseAllowedSpawnGroups|
+|:----|:----|
+|Tag Format:|`[UseAllowedSpawnGroups:Value]`|
+|Description:|This tag determines which SpawnGroups are allowed to spawn inside this Zone.|
+|Allowed Values:|Any SpawnGroup SubtypeID|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 <!--UseRestrictedSpawnGroups-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRestrictedSpawnGroups|
@@ -137,7 +185,13 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--RestrictedSpawnGroups-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RestrictedSpawnGroups|
+|:----|:----|
+|Tag Format:|`[RestrictedSpawnGroups:Value]`|
+|Description:|This tag determines which SpawnGroups are not allowed to spawn inside this Zone.|
+|Allowed Values:|Any SpawnGroup SubtypeID|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 <!--UseAllowedModIDs-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseAllowedModIDs|
@@ -149,7 +203,13 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--AllowedModIDs-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowedModIDs|
+|:----|:----|
+|Tag Format:|`[AllowedModIDs:Value]`|
+|Description:|This tag determines which SpawnGroup Mod IDs are allowed to spawn inside this Zone.|
+|Allowed Values:|Any SpawnGroup SubtypeID|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 <!--UseRestrictedModIDs-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRestrictedModIDs|
@@ -161,7 +221,13 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--RestrictedModIDs-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RestrictedModIDs|
+|:----|:----|
+|Tag Format:|`[RestrictedModIDs:Value]`|
+|Description:|This tag determines which SpawnGroup Mod IDs are not allowed to spawn inside this Zone.|
+|Allowed Values:|Any SpawnGroup SubtypeID|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 <!--UseZoneAnnounce-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseZoneAnnounce|
@@ -173,10 +239,22 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--ZoneEnterAnnounce-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneEnterAnnounce|
+|:----|:----|
+|Tag Format:|`[ZoneEnterAnnounce:Value]`|
+|Description:|This tag determines the message players will receive when they enter this Zone.|
+|Allowed Values:|Any Message|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
 
 <!--ZoneLeaveAnnounce-->
-
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneLeaveAnnounce|
+|:----|:----|
+|Tag Format:|`[ZoneLeaveAnnounce:Value]`|
+|Description:|This tag determines the message players will receive when they leave this Zone.|
+|Allowed Values:|Any Message|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
 
 <!--FlashZoneRadius NOT YET-->
 
