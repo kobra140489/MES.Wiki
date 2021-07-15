@@ -67,6 +67,51 @@ Below are several types of tags you can include in your Manipulation Profile:
 
 # Conditions
 
+<!-- ManipulationChance-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationChance|
+|:----|:----|
+|Tag Format:|`[ManipulationChance:Value]`|
+|Description:|This tag allows you to specify a number between `0` and `100` that is used to determine the chance the Manipulation Profile has to be applied to the pending spawn.|
+|Allowed Values:|Integer Between `0` and `100`|
+|Default Value(s):|`100`|
+|Multiple Tag Allowed:|No|
+
+<!-- RequiredManipulationSpawnType-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RequiredManipulationSpawnType|
+|:----|:----|
+|Tag Format:|`[RequiredManipulationSpawnType:Value]`|
+|Description:|This tag allows you to specify one or more Spawn Types. If any of the provided Spawn Types match the Type of the encounter that is being spawned, then this condition is considered satisfied.|
+|Allowed Values:|`SpaceCargoShip`<br />`LunarCargoShip`<br />`RandomEncounter`<br />`PlanetaryCargoShip`<br />`GravityCargoShip`<br />`PlanetaryInstallation`<br />`WaterSurfaceStation`<br />`UnderWaterStation`<br />`BossSpace`<br />`BossAtmo`<br />`BossGravity`<br />`Creature`<br />`OtherNPC`<br />`StaticEncounter`<br />`DryLandInstallation`|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- RequiredManipulationSpawnConditions-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RequiredManipulationSpawnConditions|
+|:----|:----|
+|Tag Format:|`[RequiredManipulationSpawnConditions:Value]`|
+|Description:|This tag allows you to specify one or more Spawn Condition Profile SubtypeIds. If any Spawn Condition Profile with a matching ID is used to spawn the encounter, then this condition is considered satisfied.|
+|Allowed Values:|Any Spawn Condition Profile SubtypeID|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- ManipulationThreatMinimum-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationThreatMinimum|
+|:----|:----|
+|Tag Format:|`[ManipulationThreatMinimum:Value]`|
+|Description:|This tag allows you to specify a minimum threat score that must be met for this Manipulation Profile to be applied to the pending spawn. If this tag is not provided, then no minimum is used.|
+|Allowed Values:|Any Number|
+|Default Value(s):|`-1`|
+|Multiple Tag Allowed:|No|
+
+<!-- ManipulationThreatMaximum-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationThreatMaximum|
+|:----|:----|
+|Tag Format:|`[ManipulationThreatMaximum:Value]`|
+|Description:|This tag allows you to specify a maximum threat score that must be met for this Manipulation Profile to be applied to the pending spawn. If this tag is not provided, then no maximum is used.|
+|Allowed Values:|Any Number|
+|Default Value(s):|`-1`|
+|Multiple Tag Allowed:|No|
+
 
 # General
 
