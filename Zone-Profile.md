@@ -35,91 +35,91 @@ Here is an example of how a Zone is defined:
 
 Below are the types of tags you can include in your Zone Profile:
 
-<!--XXX-->
+<!--Active-->
 
 
-<!--XXX-->
+<!--Persistent-->
 
 
-<!--XXX-->
+<!--Strict-->
 
 
-<!--XXX-->
+<!--NoSpawnZone-->
 
 
-<!--XXX-->
+<!--PublicName-->
 
 
-<!--XXX-->
+<!--UseLimitedFactions-->
 
 
-<!--XXX-->
+<!--Factions-->
 
 
-<!--XXX-->
+<!--Coordinates-->
 
 
-<!--XXX-->
+<!--Radius-->
 
 
-<!--XXX-->
+<!--PlanetaryZone-->
 
 
-<!--XXX-->
+<!--PlanetName-->
 
 
-<!--XXX-->
+<!--Direction-->
 
 
-<!--XXX-->
+<!--HeightOffset-->
 
 
-<!--XXX-->
+<!--ScaleZoneRadiusWithPlanet NOT YET-->
 
 
-<!--XXX-->
+<!--IntendedPlanetSize NOT YET-->
 
 
-<!--XXX-->
+<!--UseMaxSpawnedEncounters-->
 
 
-<!--XXX-->
+<!--MaxSpawnedEncounters-->
 
 
-<!--XXX-->
+<!--UseAllowedSpawnGroups-->
 
 
-<!--XXX-->
+<!--AllowedSpawnGroups-->
 
 
-<!--XXX-->
+<!--UseRestrictedSpawnGroups-->
 
 
-<!--XXX-->
+<!--RestrictedSpawnGroups-->
 
 
-<!--XXX-->
+<!--UseAllowedModIDs-->
 
 
-<!--XXX-->
+<!--AllowedModIDs-->
 
 
-<!--XXX-->
+<!--UseRestrictedModIDs-->
 
 
-<!--XXX-->
+<!--RestrictedModIDs-->
 
 
-<!--XXX-->
+<!--UseZoneAnnounce-->
 
 
-<!--XXX-->
+<!--ZoneEnterAnnounce-->
 
 
-<!--XXX-->
+<!--ZoneLeaveAnnounce-->
 
 
-<!--XXX-->
+<!--FlashZoneRadius NOT YET-->
 
 
 <!--XXX-->
