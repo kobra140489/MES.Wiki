@@ -1,0 +1,1 @@
+Zones (formerly Territories) are pre-defined locations in the game world that can be used to control what encounters are allowed to spawn and when.
