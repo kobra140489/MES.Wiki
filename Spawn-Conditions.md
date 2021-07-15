@@ -1140,6 +1140,41 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`All`|
 |Multiple Tag Allowed:|No|
 
+<!-- PrefabIndexes-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PrefabIndexes|
+|:----|:----|
+|Tag Format:|`[PrefabIndexes:Value]`|
+|Description:|This tag allows you to specify a number of index values that are used to determine which prefabs should spawn if using the `SelectedIndexes` value in the `PrefabSpawningMode` tag.|
+|Allowed Values:|Any Number `0` or Greater|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- PrefabIndexGroupNames-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PrefabIndexGroupNames|
+|:----|:----|
+|Tag Format:|`[PrefabIndexGroupNames:Value]`|
+|Description:|This tag allows you to specify a number of index group names that are paried with values in the `PrefabIndexGroupValues` tag, which are used to determine which prefabs should spawn if using the `RandomSelectedIndexes` value in the `PrefabSpawningMode` tag.|
+|Allowed Values:|Any Name|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- PrefabIndexGroupValues-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PrefabIndexGroupValues|
+|:----|:----|
+|Tag Format:|`[PrefabIndexGroupValues:Value]`|
+|Description:|This tag allows you to specify a number of indexes that are paired with values in the `PrefabIndexGroupNames` tag, which are used to determine which prefabs should spawn if using the `RandomSelectedIndexes` value in the `PrefabSpawningMode` tag.|
+|Allowed Values:|Any Number `0` or Greater|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- PrefabOffsetOverrides-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PrefabOffsetOverrides|
+|:----|:----|
+|Tag Format:|`[PrefabOffsetOverrides:Value]`|
+|Description:|This tag allows you to specify one or more sets of position offset coordinates that are used to override the position offsets of the prefabs. Example: if you are randomly spawning 3 prefabs, then you can force them into specific formations, regardless of the grids that are chosen.|
+|Allowed Values:|Vector3D Coordinates<br />eg: '{X:0 Y:0 Z:0}'|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 # Reputation
 
