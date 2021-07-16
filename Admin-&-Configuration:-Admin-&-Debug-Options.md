@@ -1,5 +1,10 @@
 These commands can be used to force spawn random or specific spawn groups, enable debug mode, get data on loaded spawngroups / active players / active NPCs / etc, and much more. These are chat commands only:
 
+[****](#)
+[****](#)
+[****](#)
+[****](#)
+
 |Setting:|Spawn Space Cargo Ship|
 |:----|:----|
 |XML:|`N/A`|
