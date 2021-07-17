@@ -582,6 +582,14 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`0`|
 |Multiple Tag Allowed:|No|
 
+<!--ForceExactPositionAndOrientation-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ForceExactPositionAndOrientation|
+|:----|:----|
+|Tag Format:|`[ForceExactPositionAndOrientation:Value]`|
+|Description:|This tag specifies if the Static Encounter should force the orientation data provided in the Spawn Conditions tags after the grid has spawned. Use this if you're having issues with an encounter not being in the correct orientations at spawn.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
 
 # Other-NPCs
 
