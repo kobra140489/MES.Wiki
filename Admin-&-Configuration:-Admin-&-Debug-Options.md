@@ -1,10 +1,10 @@
 These commands can be used to force spawn random or specific spawn groups, enable debug mode, get data on loaded spawngroups / active players / active NPCs / etc, and much more. These are chat commands only:
 
-[**BehaviorDebug**](#BehaviorDebug)
-[**Debug**](#Debug)
-[**Info**](#Info)
-[**Spawn**](#Spawn)
-[**SpawnDebug**](#SpawnDebug)
+[**BehaviorDebug**](#BehaviorDebug)  
+[**Debug**](#Debug)  
+[**Info**](#Info)  
+[**Spawn**](#Spawn)  
+[**SpawnDebug**](#SpawnDebug)  
 
 # Info
 
