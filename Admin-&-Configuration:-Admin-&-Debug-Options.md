@@ -11,7 +11,7 @@ These commands can be used to force spawn random or specific spawn groups, enabl
 |Setting:|Enable or Disable Logging|
 |:----|:----|
 |XML:|`N/A`|
-|Chat Command:|`/MES.BehaviorDebug.`Value1`.`Value2`|
+|Chat Command:|`/MES.BehaviorDebug.Value1.Value2`|
 |Description:|This chat command allows you to enable various forms of logging for Behavior Related events. This can help you troubleshoot issues.|
 |Allowed Value1:|`Action`<br />`AutoPilot`<br />`BehaviorMode`<br />`BehaviorSetup`<br />`BehaviorSpecific`<br />`Chat`<br />`Command`<br />`Condition`<br />`Collision`<br />`Dev`<br />`Error`<br />`GameLog` (enable this to write enabled events to game log)<br />`General`<br />`Owner`<br />`Settings`<br />`Spawn`<br />`Startup`<br />`TargetAcquisition`<br />`TargetEvaluation`<br />`Thrust`<br />`Trigger`<br />`Weapon`<br />`Target`|
 |Allowed Value2:|`true`<br />`false`|
@@ -26,11 +26,35 @@ These commands can be used to force spawn random or specific spawn groups, enabl
 |Chat Command:|`/MES.Info.GetActiveNpcs`|
 |Description:|This chat command will gather a list of all Active NPC grids identified by the mod and save it to your clipboard.|
 
+|Setting:|Get All Profiles|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetAllProfiles`|
+|Description:|This chat command will gather a list of all MES Profiles and save it to your clipboard.|
+
+|Setting:|Get Block Definitions|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetBlockDefinitions`|
+|Description:|This chat command will gather a list of all currently loaded block definition data and save it to your clipboard.|
+
+|Setting:|Get Colors From Grid|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetColorsFromGrid`|
+|Description:|This chat command will gather a list of all colors from blocks on a particular grid and save it to your clipboard. You must be sitting in a seat of the grid you want to collect data from.|
+
 |Setting:|Get Eligible Spawns At Position|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Info.GetEligibleSpawnsAtPosition`<br />`/MES.GESAP`|
 |Description:|This chat command will gather a list of all Spawn Groups that are eligible to spawn at your position and saves it to your clipboard.|
+
+|Setting:|Get Logging|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetLogging.Value1.Value2`|
+|Description:|This chat command will copy logged data from a particular logging type and save it to your clipboard. `Value1` is replaced with `BehaviorDebug` or `SpawnDebug`. `Value2` is replaced with any of the logging types from the respective logging types in `Value1`. |
 
 
 # Spawn
