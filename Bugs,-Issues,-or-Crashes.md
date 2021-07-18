@@ -68,4 +68,4 @@ Below is a list of some common issues you may run into, and some potential solut
 
 # Steam Discussions
 
-Please refrain from posting issues in the <u>**Discussions**</u> sections of my mod pages. The main **Comments** section is fine, but on most of my mod pages I do not have notifications turned on for Discussions, so I will probably miss them if you post them there.
+Please refrain from posting issues in the <u>**Discussions**</u> sections of my mod pages. The main <u>**Comments**</u> section is fine, but on most of my mod pages I do not have notifications turned on for Discussions, so I will probably miss them if you post them there.
