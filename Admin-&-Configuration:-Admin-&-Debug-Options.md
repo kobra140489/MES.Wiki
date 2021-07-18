@@ -24,64 +24,71 @@ Here is a list of command categories:
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.ChangeCounter.Value1.Value2`|
-|Description:|This chat command .|
+|Description:|This chat command allows you to manually set or adjust the value of a Sandbox Counter.|
+|Allowed `Value1`|Name of Sandbox Counter|
+|Allowed `Value2`|Any Integer Value you want to Set the Sandbox Counter at|
 
 |Setting:|Clear All Timeouts|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.ClearAllTimeouts`|
-|Description:|This chat command .|
+|Description:|This chat command will remove all Timeout Spawning Restrictions in the game world.|
 
 |Setting:|Clear Ship Inventory|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.ClearShipInventory`|
-|Description:|This chat command .|
+|Description:|This chat command will clear all inventory blocks of the grid the player is currently sitting on.|
 
 |Setting:|Clear Static Encounters|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.ClearStaticEncounters`|
-|Description:|This chat command .|
+|Description:|This chat command will clear all Static Encounters from the Spawner. This is useful for debugging in case you need to regenerate the static encounters at start up. It is usually recommended to Save/Reload after using this command.|
 
 |Setting:|Clear Timeouts At Position|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.ClearTimeoutsAtPosition`|
-|Description:|This chat command .|
+|Description:|This chat command will remove all Timeout Spawning Restrictions at the player's current position.|
 
 |Setting:|Clear Unique Encounters|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.ClearUniqueEncounters`|
-|Description:|This chat command .|
+|Description:|This chat command will clear any Unique Encounters that have spawned, allowing them to spawn again.|
 
-|Setting:|Create KPL|
+|Setting:|Create Known Player Location|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command 1:|`/MES.Debug.CreateKPL.FactionValue`|
 |Chat Command 2:|`/MES.Debug.CreateKPL.FactionValue.RadiusValue`|
 |Chat Command 3:|`/MES.Debug.CreateKPL.FactionValue.RadiusValue.DurationValue`|
 |Chat Command 4:|`/MES.Debug.CreateKPL.FactionValue.RadiusValue.DurationValue.MaxEncounterValue`|
-|Description:|This chat command .|
+|Description:|This chat command allows you to create a Known Player Location at your current position.|
+|Allowed Value for `FactionValue`:|Any Faction Tag|
+|Allowed Value for `RadiusValue`:|Any Number Greater Than 0|
+|Allowed Value for `DurationValue`:|Any Integer Greater Than 0|
+|Allowed Value for `MaxEncounterValue`:|Any Integer Greater Than 0, or `-1` for Unused|
 
 |Setting:|Remove All Npcs|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.RemoveAllNpcs`|
-|Description:|This chat command .|
+|Description:|This chat command will remove all grids that have NPC Ownership. Any grids with Player Ownership or No Ownership will be ignored.|
 
 |Setting:|Reset Reputation|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.ResetReputation.Value`|
-|Description:|This chat command .|
+|Description:|This chat command allows you to reset all players reputation with a specified faction.|
+|Allowed Value:|Any NPC Faction Tag|
 
 |Setting:|Unlock Admin Blocks|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.UnlockAdminBlocks`|
-|Description:|This chat command .|
+|Description:|This chat command allows you to unlock all MES Special Blocks (eg: AI Control Module, Inhibitors, etc). This only allows the player that entered the command to use the blocks, and only for the duration of the session.|
 
 # Info
 
@@ -170,6 +177,28 @@ Here is a list of command categories:
 |Chat Command 1:|`/MES.Spawn.PlanetaryInstallation`<br />`/MES.SPI`|
 |Chat Command 2:|`/MES.Spawn.PlanetaryInstallation.Value`<br />`/MES.SPI.Value`|
 |Description:|This chat command allows you to spawn a Planetary Installation near your player character. This spawn will obey the rules you have set for encounters to appear in that area. Chat Command 1 will spawn a random group from whatever groups are available. Chat Command 2 allows you to specify the Spawn Group you want to spawn, just replace `Value` with the SubtypeId of the Spawn Group you want to spawn.|
+
+|Setting:|Spawn Prefab|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Spawn.Prefab.Value1`|
+|Description:|This chat command allows you to spawn a Prefab near your player character. This spawn does not use SpawnGroup rules, it only spawns a grid. The spawned grid will also spawn with Player Ownership.|
+|Allowed Value `Value1`|Any Prefab SubtypeId|
+
+|Setting:|Spawn Prefab Station|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Spawn.PrefabStation.Value1.Value2`|
+|Description:|This chat command allows you to spawn a Prefab Station near the terrain of your player character. This spawn does not use SpawnGroup rules, it only spawns a grid. The spawned grid will also spawn with Player Ownership. Using `Value1`, you can specify a Height Offset from the surface, which allows you to test/debug which height is needed for setting up a Planetary Installation height offset.|
+|Allowed Value `Value1`|Any Positive/Negative Integer|
+|Allowed Value `Value2`|Any Prefab SubtypeId|
+
+|Setting:|Spawn Creature|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Spawn.Creature`<br />`/MES.SC`|
+|Chat Command 2:|`/MES.Spawn.Creature.Value`<br />`/MES.SC.Value`|
+|Description:|This chat command allows you to spawn a Creature/Bot near your player character. This spawn will obey the rules you have set for encounters to appear in that area. Chat Command 1 will spawn a random group from whatever groups are available. Chat Command 2 allows you to specify the Spawn Group you want to spawn, just replace `Value` with the SubtypeId of the Spawn Group you want to spawn.|
 
 |Setting:|Activate Wave Spawner|
 |:----|:----|
