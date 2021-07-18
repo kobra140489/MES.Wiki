@@ -6,6 +6,18 @@ These commands can be used to force spawn random or specific spawn groups, enabl
 [**Spawn**](#Spawn)  
 [**SpawnDebug**](#SpawnDebug)  
 
+# BehaviorDebug
+
+|Setting:|Enable or Disable Logging|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.BehaviorDebug.`Value1`.`Value2`|
+|Description:|This chat command allows you to enable various forms of logging for Behavior Related events. This can help you troubleshoot issues.|
+|Allowed Value1:|`Action`<br />`AutoPilot`<br />`BehaviorMode`<br />`BehaviorSetup`<br />`BehaviorSpecific`<br />`Chat`<br />`Command`<br />`Condition`<br />`Collision`<br />`Dev`<br />`Error`<br />`GameLog` (enable this to write enabled events to game log)<br />`General`<br />`Owner`<br />`Settings`<br />`Spawn`<br />`Startup`<br />`TargetAcquisition`<br />`TargetEvaluation`<br />`Thrust`<br />`Trigger`<br />`Weapon`<br />`Target`|
+|Allowed Value2:|`true`<br />`false`|
+
+# Debug
+
 # Info
 
 |Setting:|Get Active NPCs|
@@ -65,3 +77,6 @@ These commands can be used to force spawn random or specific spawn groups, enabl
 |Chat Command 2:|`/MES.Spawn.WaveSpawner.Planet`|
 |Chat Command 3:|`/MES.Spawn.WaveSpawner.Creature`|
 |Description:|This chat command allows you to immediately start a Wave Spawning Event for all players in the current session, regardless of whether or not the specific Wave Spawner is enabled in the world. Depending on the chat command you use, you can start Wave Spawning events for Space Cargo Ships, Planetary Cargo Ships, or Creatures/Bots. These events will honor whatever Wave Spawner settings are currently in place in your config files.|
+
+# SpawnDebug
+
