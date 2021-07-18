@@ -1,4 +1,6 @@
-These commands can be used to force spawn random or specific spawn groups, enable debug mode, get data on loaded spawngroups / active players / active NPCs / etc, and much more. These are chat commands only:
+These commands can be used to force spawn random or specific spawn groups, enable debug mode, get data on loaded spawngroups / active players / active NPCs / etc, and much more. These are chat commands only, so there are no accompanying XML configs.
+
+Here is a list of command categories:
 
 [**BehaviorDebug**](#BehaviorDebug)  
 [**Debug**](#Debug)  
@@ -17,6 +19,69 @@ These commands can be used to force spawn random or specific spawn groups, enabl
 |Allowed Value2:|`true`<br />`false`|
 
 # Debug
+
+|Setting:|Change Counter|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ChangeCounter.Value1.Value2`|
+|Description:|This chat command .|
+
+|Setting:|Clear All Timeouts|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ClearAllTimeouts`|
+|Description:|This chat command .|
+
+|Setting:|Clear Ship Inventory|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ClearShipInventory`|
+|Description:|This chat command .|
+
+|Setting:|Clear Static Encounters|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ClearStaticEncounters`|
+|Description:|This chat command .|
+
+|Setting:|Clear Timeouts At Position|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ClearTimeoutsAtPosition`|
+|Description:|This chat command .|
+
+|Setting:|Clear Unique Encounters|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ClearUniqueEncounters`|
+|Description:|This chat command .|
+
+|Setting:|Create KPL|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Debug.CreateKPL.FactionValue`|
+|Chat Command 2:|`/MES.Debug.CreateKPL.FactionValue.RadiusValue`|
+|Chat Command 3:|`/MES.Debug.CreateKPL.FactionValue.RadiusValue.DurationValue`|
+|Chat Command 4:|`/MES.Debug.CreateKPL.FactionValue.RadiusValue.DurationValue.MaxEncounterValue`|
+|Description:|This chat command .|
+
+|Setting:|Remove All Npcs|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.RemoveAllNpcs`|
+|Description:|This chat command .|
+
+|Setting:|Reset Reputation|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ResetReputation.Value`|
+|Description:|This chat command .|
+
+|Setting:|Unlock Admin Blocks|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.UnlockAdminBlocks`|
+|Description:|This chat command .|
 
 # Info
 
@@ -56,6 +121,18 @@ These commands can be used to force spawn random or specific spawn groups, enabl
 |Chat Command:|`/MES.Info.GetLogging.Value1.Value2`|
 |Description:|This chat command will copy logged data from a particular logging type and save it to your clipboard. `Value1` is replaced with `BehaviorDebug` or `SpawnDebug`. `Value2` is replaced with any of the logging types from the respective logging types in `Value1`. |
 
+|Setting:|Get Players|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetPlayers`|
+|Description:|This chat command will collect data on all players currently in the session and save it to your clipboard. |
+
+|Setting:|Get Threat Score|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Info.GetThreatScore`<br />`/MES.GTS`|
+|Chat Command 2:|`/MES.Info.GetThreatScore.Value`<br />`/MES.GTS.Value`|
+|Description:|This chat command will get the current Threat Score near your position and save it to your clipboard. By default, a range of `5000` meters is checked. You can provide a custom distance by replacing the `Value` text in Chat Command 2|
 
 # Spawn
 
