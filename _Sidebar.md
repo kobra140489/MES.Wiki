@@ -1,5 +1,6 @@
 # Player Resources
   * [Encounter Guide and Troubleshooting](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/FAQ-and-Resources:-Encounter-Guide-and-Troubleshooting)
+  * [Bug Reporting]()
   * [Economy Stations FAQ](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/FAQ-and-Resources:-Economy-Stations-FAQ)  
   * [Mod Republishing Guidelines]()
   * [Other FAQs]()
