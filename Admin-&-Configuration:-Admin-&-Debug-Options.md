@@ -110,6 +110,12 @@ Here is a list of command categories:
 |Chat Command:|`/MES.Info.GetBlockDefinitions`|
 |Description:|This chat command will gather a list of all currently loaded block definition data and save it to your clipboard.|
 
+|Setting:|Get Block Mass Data|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetBlockMassData`|
+|Description:|This chat command will gather a list of all Blocks in the game and how much they weigh.|
+
 |Setting:|Get Colors From Grid|
 |:----|:----|
 |XML:|`N/A`|
@@ -122,7 +128,13 @@ Here is a list of command categories:
 |Chat Command:|`/MES.Info.GetEligibleSpawnsAtPosition`<br />`/MES.GESAP`|
 |Description:|This chat command will gather a list of all Spawn Groups that are eligible to spawn at your position and saves it to your clipboard.|
 
+|Setting:|Get Item Mass Data|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetItemMassData`|
+|Description:|This chat command will gather a list of all Items in the game and how much they weigh.|
 |Setting:|Get Logging|
+
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Info.GetLogging.Value1.Value2`|
