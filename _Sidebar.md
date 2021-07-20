@@ -2,7 +2,7 @@
   * [Encounter Guide and Troubleshooting](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Encounter-Guide-and-Troubleshooting)
   * [Bugs, Issues, or Crashes](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Bugs,-Issues,-or-Crashes)
   * [Economy Stations FAQ](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Economy-Stations-FAQ)  
-  * [Mod Republishing Guidelines]()
+  * [Mod Republishing Guidelines](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Republishing-and-Reuse)
   * [Other FAQs]()
 
 # Admin & Configuration
