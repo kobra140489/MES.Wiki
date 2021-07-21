@@ -8,7 +8,7 @@ Check to see if your various profiles were detected at load time. You can easily
 ***
 
 **Check Your File Formats**  
-If you save one of your Definition Files (ie, SpawnGroup, Profile, or Other XML Based Document) with a File Extension other than `.sbc`, then the game will not load it.
+If you save one of your Definition Files (ie, SpawnGroup, Profile, or Other XML Based Document) with a File Extension other than `.sbc`, then the game will not load it. A common error is saving them with the `.xml` or `.txt` formats.
 
 ***
 
