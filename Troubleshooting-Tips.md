@@ -3,7 +3,7 @@ This page aims to provide some common troubleshooting steps you can try if your 
 # Common
 
 **Ensure That Profiles (SpawnGroup, Behavior, Profile, etc) Loaded**  
-Check the log file to see if your various profiles were detected at load time. You can easily get this information with the chat command `/MES.Info.GetAllProfiles`.
+Check to see if your various profiles were detected at load time. You can easily get this information with the chat command `/MES.Info.GetAllProfiles`.
 
 ***
 
@@ -15,8 +15,9 @@ If you save one of your Definition Files (ie, SpawnGroup, Profile, or Other XML 
 **Check For Duplicate SubtypeIDs**  
 If you use the same SubtypeID twice for a profile, spawngroup, etc - then the game will only use one of the definitions/profiles. This is a little trickier to look for, so I recommend using Notepad++ and using its search features to search for the ID across all your mod files.
 
-***
+
 # Spawning
+
 
 # Behaviors
 
