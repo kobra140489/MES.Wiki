@@ -22,7 +22,7 @@ If you use the same SubtypeID twice for a profile, spawngroup, etc - then the ga
 # Behaviors
 
 **Does the Grid Have a Remote Control?**  
-Ensure the grid you are trying to add behavior to has a Remote Control block that can be replaced by the Modular Encounters Spawner during spawning (or that it is already has a RivalAI compatible remote control).  
+Ensure the grid you are trying to add behavior to has a Remote Control block that can be replaced by the Spawner during spawning (or that it is already has a RivalAI compatible remote control).  
 
 ***
 
