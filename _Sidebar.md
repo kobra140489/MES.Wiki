@@ -14,6 +14,7 @@
   * [Planetary Installations](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Planetary-Installations)
   * [Boss Encounters](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Boss-Encounters)
   * [Creatures](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Creatures)
+  * [Wave Spawner](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Wave-Spawners)
   * [Clean-Up](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Clean-Up)
   * [Timeout](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Timeout)
   * [Admin & Debug Options](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Admin-&-Debug-Options)
