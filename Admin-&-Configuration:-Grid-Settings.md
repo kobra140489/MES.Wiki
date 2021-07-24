@@ -12,6 +12,12 @@ You can find the Grids Settings Configuration File in `MySaveWorldFolder\Storage
 |Chat Command:|`/MES.Settings.Grids.EnableGlobalNPCShieldProvider.Value`|
 |Description:|This setting allows you to specify if NPC spawns should have Defense Shield blocks added. This is the same behavior provided by the `NPC Defense Shield Provider` mod. `Value` can be replaced with `true` or `false`|
 
+|Setting:|RandomWeaponChance|
+|:----|:----|
+|XML:|`<RandomWeaponChance>Value</RandomWeaponChance>`|
+|Chat Command:|`/MES.Settings.Grids.RandomWeaponChance.Value`|
+|Description:|This setting allows you to control the odds (out of 100) that a spawned grid will receive randomized weapons if using the `EnableGlobalNPCWeaponRandomizer` option (or the NPC Weapons Upgrades mod). SpawnGroups that enable randomized weapons on their own do not use this value.|
+
 |Setting:|RandomWeaponSizeVariance|
 |:----|:----|
 |XML:|`<RandomWeaponSizeVariance>Value</RandomWeaponSizeVariance>`|
@@ -46,6 +52,12 @@ You can find the Grids Settings Configuration File in `MySaveWorldFolder\Storage
 |Chat Command (Remove):|`/MES.Settings.Grids.WeaponReplacerTargetWhitelist.Remove.Value`|
 |Description:|This setting allows you to specify one or more Weapons that will only be replaced in NPC Weapon Randomization. To add more weapons to the list, simply create a new line between the `<WeaponReplacerTargetWhitelist>` and `</WeaponReplacerTargetWhitelist>` tags and enter the following `<string>Value</string>` - Replace `Value` either the SubtypeName, DefinitionId, or ModID of the weapon(s) you want to Whitelist.
 
+|Setting:|ShieldProviderChance|
+|:----|:----|
+|XML:|`<ShieldProviderChance>Value</ShieldProviderChance>`|
+|Chat Command:|`/MES.Settings.Grids.ShieldProviderChance.Value`|
+|Description:|This setting allows you to control the odds (out of 100) that a spawned grid will receive Defense Shields blocks if using the `EnableGlobalNPCShieldProvider` option (or the NPC Defense Shields Provider mod). SpawnGroups that enable Defense Shields on their own do not use this value.|
+
 |Setting:|UseGlobalBlockReplacer|
 |:----|:----|
 |XML:|`<UseGlobalBlockReplacer>Value</UseGlobalBlockReplacer>`|
@@ -77,3 +89,22 @@ You can find the Grids Settings Configuration File in `MySaveWorldFolder\Storage
 |XML:|`<RemoveContainerInventoryFromNPCs>Value</RemoveContainerInventoryFromNPCs>`|
 |Chat Command:|`/MES.Settings.Grids.RemoveContainerInventoryFromNPCs.Value`|
 |Description:|This setting allows you to remove any inventory items in the containers of NPC grids when spawned. This can be useful for increasing the difficulty of your play-through.  `Value` can be replaced with `true` or `false`|
+
+|Setting:|UseMaxAmmoInventoryWeight|
+|:----|:----|
+|XML:|`<UseMaxAmmoInventoryWeight>Value</UseMaxAmmoInventoryWeight>`|
+|Chat Command:|`/MES.Settings.Grids.UseMaxAmmoInventoryWeight.Value`|
+|Description:|This setting allows you to control the maximum weight of all ammo added to a grid when it is being auto-replenished at spawn. This can help address issues where modded weapons using heavy ammo can weigh a ship down so much it cannot maintain flight.  `Value` can be replaced with `true` or `false`|
+
+|Setting:|MaxAmmoInventoryWeight|
+|:----|:----|
+|XML:|`<MaxAmmoInventoryWeight>Value</MaxAmmoInventoryWeight>`|
+|Chat Command:|`/MES.Settings.Grids.MaxAmmoInventoryWeight.Value`|
+|Description:|This setting allows you to determine the maximum weapon inventory mass that is allowed to be filled with ammo if using the `UseMaxAmmoInventoryWeight` option. `Value` should be any number greater than `0`|
+
+|Setting:|GlobalReplenishmentProfiles|
+|:----|:----|
+|XML:|`<GlobalReplenishmentProfiles>`<br />   `<string>Value1</string>`<br />   `<string>Value2</string>`<br />`</GlobalReplenishmentProfiles>`|
+|Chat Command (Add):|`/MES.Settings.Grids.GlobalReplenishmentProfiles.Add.Value`|
+|Chat Command (Remove):|`/MES.Settings.Grids.GlobalReplenishmentProfiles.Remove.Value`|
+|Description:|This setting allows you to specify one or more Global Replenishment Profile names that are used to restrict how much inventory a grid receives when its systems are replenished at spawn. `Value` should be replaced with any Replenishment Profile SubtypeId.
