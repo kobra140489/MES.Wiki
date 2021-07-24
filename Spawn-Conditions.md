@@ -238,6 +238,15 @@ Below are several types of condition tags you can include in your Spawn Conditio
 |Default Value(s):|`100`|
 |Multiple Tag Allowed:|No|
 
+<!-- SkipTerrainCheck-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SkipTerrainCheck|
+|:----|:----|
+|Tag Format:|`[SkipTerrainCheck:Value]`|
+|Description:|This tag specifies if the SpawnGroup should skip checks related to terrain height variance. If used, this may result in stations spawning on uneven terrain.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
 <!-- RotateInstallations  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RotateInstallations|
 |:----|:----|
