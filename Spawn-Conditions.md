@@ -564,10 +564,10 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
-<!-- StaticEncounterUsePlanetDirectionAndAltitude-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterUsePlanetDirectionAndAltitude|
+<!-- StaticEncounterPlanet-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterPlanet|
 |:----|:----|
-|Tag Format:|`[StaticEncounterUsePlanetDirectionAndAltitude:Value]`|
+|Tag Format:|`[StaticEncounterPlanet:Value]`|
 |Description:|This tag specifies the name of the Planet that the static encounter will appear on if calculating the spawning coords dynamically. This tag is only used if `StaticEncounterUsePlanetDirectionAndAltitude` is `true`|
 |Allowed Values:|Any Planet SubtypeId|
 |Default Value(s):|`N/A`|
@@ -576,7 +576,7 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 <!-- StaticEncounterPlanetDirection-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StaticEncounterPlanetDirection|
 |:----|:----|
-|Tag Format:|`[StaticEncounterForward:Value]`|
+|Tag Format:|`[StaticEncounterPlanetDirection:Value]`|
 |Description:|This tag specifies the Direction from the center of the planet that will be used to calculate the spawning coordinates of the Static Encounter. This tag is only used if `StaticEncounterUsePlanetDirectionAndAltitude` is `true`|
 |Allowed Values:|Vector3D Format Coordinates<br>eg: `{X:0 Y:0 Z:1}`|
 |Default Value(s):|`{X:0 Y:0 Z:0}`|
