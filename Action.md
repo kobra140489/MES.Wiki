@@ -53,6 +53,22 @@ Below are the tags you are able to use in your Action Profiles. They are divided
 
 This section contains actions that relate to changes that can be made to the behavior and auto-pilot.
 
+<!--ChangeBehaviorSubclass-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeBehaviorSubclass|
+|:----|:----|
+|Tag Format:|`[ChangeBehaviorSubclass:Value]`|
+|Description:|This tag specifies if the Sub-Class of the behavior should be switched to another (eg: change from `Fighter` to `Strike`).|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--NewBehaviorSubclass-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|NewBehaviorSubclass|
+|:----|:----|
+|Tag Format:|`[NewBehaviorSubclass:Value]`|
+|Description:|This tag specifies the new Behavior Sub-Class that is used if `ChangeBehaviorSubclass` is set to `true`.|
+|Allowed Values:|Any Behavior Type<br>[Click Here For Eligible Types](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Core-Behavior)|
+|Multiple Tag Allowed:|No|
+
 <!--ChangeAutopilotSpeed  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeAutopilotSpeed|
 |:----|:----|
