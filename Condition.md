@@ -370,3 +370,27 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|Specifies the name(s) to check against the NPC CubeGrid name.|
 |Allowed Values:|Any Grid Name|
 |Multiple Tag Allowed:|Yes|
+
+<!--AltitudeCheck-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AltitudeCheck|
+|:----|:----|
+|Tag Format:|`[AltitudeCheck:Value]`|
+|Description:|Specifies if the Altitude of the NPC should be checked for min/max values.|
+|Allowed Values:|`true`<br />`false`|
+|Multiple Tag Allowed:|No|
+
+<!--MinAltitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinAltitude|
+|:----|:----|
+|Tag Format:|`[MinAltitude:Value]`|
+|Description:|The minimum NPC altitude that must be met if `AltitudeCheck` is `true`.|
+|Allowed Values:|Any number equal or greater than `0`<br />Must be lower than `MaxAltitude`|
+|Multiple Tag Allowed:|No|
+
+<!--MaxAltitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxAltitude|
+|:----|:----|
+|Tag Format:|`[MaxAltitude:Value]`|
+|Description:|The maximum NPC altitude that must be met if `AltitudeCheck` is `true`.|
+|Allowed Values:|Any number equal or greater than `0`<br />Must be higher than `MinAltitude`|
+|Multiple Tag Allowed:|No|
