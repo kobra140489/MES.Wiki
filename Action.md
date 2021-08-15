@@ -483,6 +483,22 @@ This section contains actions that affect the state of blocks on the NPC grid.
 |Allowed Values:|Any Integer higher than `-1`|
 |Multiple Tag Allowed:|No|
 
+<!--SetWeaponsToMinRange-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetWeaponsToMinRange|
+|:----|:----|
+|Tag Format:|`[SetWeaponsToMinRange:Value]`|
+|Description:|This tag specifies if all auto-firing weapons (turrets, weapon core homing weapons, etc) should be limited to 800m.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--SetWeaponsToMaxRange-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetWeaponsToMaxRange|
+|:----|:----|
+|Tag Format:|`[SetWeaponsToMaxRange:Value]`|
+|Description:|This tag specifies if all auto-firing weapons (turrets, weapon core homing weapons, etc) should be set to their maximum range.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
 ***
 
 # Communication
