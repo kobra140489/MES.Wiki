@@ -122,6 +122,12 @@ Here is a list of command categories:
 |Chat Command:|`/MES.Info.GetColorsFromGrid`|
 |Description:|This chat command will gather a list of all colors from blocks on a particular grid and save it to your clipboard. You must be sitting in a seat of the grid you want to collect data from.|
 
+|Setting:|Get Diagnostics|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetDiagnostics`|
+|Description:|This chat command will gather a collection of information about the current session that may be related to the operation of the mod and save it to the Clipboard.|
+
 |Setting:|Get Eligible Spawns At Position|
 |:----|:----|
 |XML:|`N/A`|
