@@ -167,9 +167,9 @@ Below are the types of tags you can include in your Zone Profile:
 |Multiple Tag Allowed:|No|
 
 <!--AllowedSpawnGroups-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseAllowedSpawnGroups|
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowedSpawnGroups|
 |:----|:----|
-|Tag Format:|`[UseAllowedSpawnGroups:Value]`|
+|Tag Format:|`[AllowedSpawnGroups:Value]`|
 |Description:|This tag determines which SpawnGroups are allowed to spawn inside this Zone.|
 |Allowed Values:|Any SpawnGroup SubtypeID|
 |Default Value(s):|`N/A`|
