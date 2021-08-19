@@ -112,8 +112,8 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
-<!-- ManipulationThreatMinimum-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationThreatMinimum|
+<!-- ManipulationMinBlockCount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationMinBlockCount|
 |:----|:----|
 |Tag Format:|`[ManipulationMinBlockCount:Value]`|
 |Description:|This tag allows you to specify a minimum prefab block count for this Manipulation Profile to be applied to the pending spawn. If this tag is not provided, then no minimum is used.|
@@ -121,8 +121,8 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
-<!-- ManipulationThreatMaximum-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationThreatMaximum|
+<!-- ManipulationMaxBlockCount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationMaxBlockCount|
 |:----|:----|
 |Tag Format:|`[ManipulationMaxBlockCount:Value]`|
 |Description:|This tag allows you to specify a maximum prefab block count for this Manipulation Profile to be applied to the pending spawn. If this tag is not provided, then no maximum is used.|
