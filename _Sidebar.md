@@ -28,6 +28,8 @@
       * [Manipulation](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Manipulation)
         * [Block Replacement]()
         * [Dereliction]()
+        * [Loot](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Loot)  
+        * [Loot Profile Group](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Loot-Profile-Group)  
         * [Weapon Mod Rules](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Weapon-Mod-Rules)  
       * [Manipulation Groups](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Manipulation-Groups)
       * [Replenishment]()
