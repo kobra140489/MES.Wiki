@@ -55,6 +55,7 @@
   * [Block Replacement Profiles](https://gist.github.com/MeridiusIX/415b45b53174c608c6486ce06bb58e2c)
   * [NPC Grid Setup Guidelines](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Modding:-Tutorial-&-Guidelines:-NPC-Grid-Setup-Guidelines)
   * [Random Name Generator Guide](https://gist.github.com/MeridiusIX/8888bbc06a623cac90f8362dd948033c)
+  * [Scripting API](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Scripting-API)
   * [Troubleshooting Tips](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Troubleshooting-Tips)
   * [Threat Score Guide](https://gist.github.com/MeridiusIX/52fbf5679e67107a8cf37706205b5812)
 
