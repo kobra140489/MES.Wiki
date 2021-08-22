@@ -3,7 +3,31 @@ Loot Profiles in the Modular Encounter Systems mod allow you to define rules for
 Here is an example of how a Loot Profile is setup:
 
 ```
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>MES-ExampleLoot</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerTypes:SomeContainerTypeId]
+      [MinBlocks:2]
+      [MaxBlocks:4]
+      [AppendNameToBlock:true]
+      [AppendedName: (Loot)]
+      
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
 ```
 
 It's worth noting that these profiles will only target Cargo blocks that do not have a ContainerType already defined, so if you've already defined them manually, then those blocks will be unchanged.
