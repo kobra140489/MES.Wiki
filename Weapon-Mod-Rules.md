@@ -37,7 +37,7 @@ Below are the tags you are able to use in your Weapon Mod Rules Profiles.
 |:----|:----|
 |Tag Format:|`[WeaponBlock:Value]`|
 |Description:|This tag specifies the weapon that you want to apply the profile rules to.|
-|Allowed Values:|Any Weapon Block MyDefinitionId<br />eg: `MyObjectBuilder_LargeInteriorTurret/SomeModdedWeapon`|
+|Allowed Values:|Any Weapon Block MyDefinitionId<br />eg: `MyObjectBuilder_InteriorTurret/SomeModdedWeapon`|
 |Multiple Tag Allowed:|No|
 
 <!--AllowInRandomization-->
@@ -69,7 +69,7 @@ Below are the tags you are able to use in your Weapon Mod Rules Profiles.
 |:----|:----|
 |Tag Format:|`[AllowedTargetBlocks:Value]`|
 |Description:|This tag specifies one or more types of blocks that the specified weapon is only allowed to replace.|
-|Allowed Values:|Any Weapon Block MyDefinitionId<br />eg: `MyObjectBuilder_LargeInteriorTurret/LargeInteriorTurret`|
+|Allowed Values:|Any Weapon Block MyDefinitionId<br />eg: `MyObjectBuilder_InteriorTurret/LargeInteriorTurret`|
 |Multiple Tag Allowed:|Yes|
 
 <!--RestrictedTargetBlocks-->
@@ -77,7 +77,7 @@ Below are the tags you are able to use in your Weapon Mod Rules Profiles.
 |:----|:----|
 |Tag Format:|`[RestrictedTargetBlocks:Value]`|
 |Description:|This tag specifies one or more types of blocks that the specified weapon are never allowed to replace.|
-|Allowed Values:|Any Weapon Block MyDefinitionId<br />eg: `MyObjectBuilder_LargeInteriorTurret/LargeInteriorTurret`|
+|Allowed Values:|Any Weapon Block MyDefinitionId<br />eg: `MyObjectBuilder_InteriorTurret/LargeInteriorTurret`|
 |Multiple Tag Allowed:|Yes|
 
 <!--  -->
