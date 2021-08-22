@@ -28,7 +28,7 @@
       * [Manipulation](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Manipulation)
         * [Block Replacement]()
         * [Dereliction]()
-        * [Weapon Mod Restrictions]()
+        * [Weapon Mod Rules](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Weapon-Mod-Rules)  
       * [Manipulation Groups](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Manipulation-Groups)
       * [Replenishment]()
     * [Zone](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Zone-Profile)
