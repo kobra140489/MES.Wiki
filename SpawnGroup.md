@@ -44,45 +44,6 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 |Multiple Tag Allowed:|No|
 
 
-# Faction
-
-<!-- FactionOwner  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|FactionOwner|
-|:----|:----|
-|Tag Format:|`[FactionOwner:Value]`|
-|Description:|This tag allows you to assign a SpawnGroup to be owned by a specific NPC faction. Factions with human players cannot be assigned. To assign a faction, replace Value with the Faction Tag you want to use. Eg: `SPRT`, `SPID`, etc. You can also remove ownership all together by providing `Nobody` as your value. If your provided tag cannot be found (IE: there's no NPC faction with that tag), the SpawnGroup will be set to be owned by `Nobody`. Default value is `SPRT` if tag is not included.|
-|Allowed Values:|Any Valid FactionTag or `Nobody`|
-|Default Value(s):|`SPRT`|
-|Multiple Tag Allowed:|No|
-
-<!-- UseRandomMinerFaction  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRandomMinerFaction|
-|:----|:----|
-|Tag Format:|`[UseRandomMinerFaction:Value]`|
-|Description:|If set to `true`, the spawned prefabs in this SpawnGroup will use a random NPC faction that is designated as a Miner Faction.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
-<!-- UseRandomBuilderFaction  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRandomBuilderFaction|
-|:----|:----|
-|Tag Format:|`[UseRandomBuilderFaction:Value]`|
-|Description:|If set to `true`, the spawned prefabs in this SpawnGroup will use a random NPC faction that is designated as a Builder Faction.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
-<!-- UseRandomTraderFaction  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRandomTraderFaction|
-|:----|:----|
-|Tag Format:|`[UseRandomTraderFaction:Value]`|
-|Description:|If set to `true`, the spawned prefabs in this SpawnGroup will use a random NPC faction that is designated as a Trader Faction.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
-
 # Manipulations  
 
 <!-- ManipulationProfiles-->
