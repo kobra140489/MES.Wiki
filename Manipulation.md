@@ -209,7 +209,7 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Description:|This tag allows you to specify profile names of Blocks to replace if `UseBlockReplacerProfile` is set to `true`.|
 |Allowed Values:|Any Block Replacer Profile Name<br>If providing multiple values, use comma with no spaces as shown in `Tag Format`|
 |Default Value(s):|`none`|
-|Multiple Tag Allowed:|No|
+|Multiple Tag Allowed:|Yes|
 
 <!-- RelaxReplacedBlocksSize  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RelaxReplacedBlocksSize|
