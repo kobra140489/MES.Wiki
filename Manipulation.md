@@ -701,7 +701,7 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ConfigureSpecialNpcThrusters|
 |:----|:----|
 |Tag Format:|`[ConfigureSpecialNpcThrusters:Value]`|
-|Description:|This tag allows you to specify if special NPC thrusters (added to prefab via the spawner built-in block replacement profiles) should be configured with extra parameters.|
+|Description:|This tag allows you to specify if special NPC thrusters (added to prefab via the spawner built-in block replacement profiles) should be configured with extra parameters. Please note you must ensure that the NPC Thrusters are added to your grid either by Block Replacement or manually, since this tag does not add them automatically.|
 |Allowed Values:|`true`<br>`false`|
 |Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
