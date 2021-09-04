@@ -111,3 +111,11 @@ Below are the tags you are able to use in your Command Profiles.
 |Description:|This tag specifies the SubtypeId of a Waypoint Profile that you want to generate and include with your command when using `SendWaypoint`.|
 |Allowed Values:|Any Waypoint Profile SubtypeId|
 |Multiple Tag Allowed:|No|
+
+<!--SendGridValue-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SendGridValue|
+|:----|:----|
+|Tag Format:|`[SendGridValue:Value]`|
+|Description:|This tag specifies if the Grid Value (aka Threat Score) of the broadcasting NPC should be sent with the command.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
