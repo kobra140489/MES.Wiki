@@ -52,6 +52,18 @@ You can find the Grids Settings Configuration File in `MySaveWorldFolder\Storage
 |Chat Command (Remove):|`/MES.Settings.Grids.WeaponReplacerTargetWhitelist.Remove.Value`|
 |Description:|This setting allows you to specify one or more Weapons that will only be replaced in NPC Weapon Randomization. To add more weapons to the list, simply create a new line between the `<WeaponReplacerTargetWhitelist>` and `</WeaponReplacerTargetWhitelist>` tags and enter the following `<string>Value</string>` - Replace `Value` either the SubtypeName, DefinitionId, or ModID of the weapon(s) you want to Whitelist.
 
+|Setting:|WeaponReplacerUseTotalGridMassMultiplier|
+|:----|:----|
+|XML:|`<WeaponReplacerUseTotalGridMassMultiplier>Value</WeaponReplacerUseTotalGridMassMultiplier>`|
+|Chat Command:|`/MES.Settings.Grids.WeaponReplacerUseTotalGridMassMultiplier.Value`|
+|Description:|This setting allows you to specify if randomized weapons should be limited by weight based on the total extra weight added to the grid. `Value` can be replaced with `true` or `false`|
+
+|Setting:|WeaponReplacerTotalGridMassMultiplier|
+|:----|:----|
+|XML:|`<WeaponReplacerTotalGridMassMultiplier>Value</WeaponReplacerTotalGridMassMultiplier>`|
+|Chat Command:|`/MES.Settings.Grids.WeaponReplacerTotalGridMassMultiplier.Value`|
+|Description:|This setting allows you to specify the multiplier of weight that randomized weapons are allowed to increase the grid mass by if using `WeaponReplacerUseTotalGridMassMultiplier`. Example: If set to `1.5`, then the total grid mass would be allowed to be increased to no higher than 150% of its original weight. You can provide any number for this value.|
+
 |Setting:|ShieldProviderChance|
 |:----|:----|
 |XML:|`<ShieldProviderChance>Value</ShieldProviderChance>`|
