@@ -60,7 +60,7 @@ Below are several types of tags you can include in your Manipulation Profile:
 [Profiles](#Profiles)  
 [Renaming](#Renaming)  
 [Shields](#Shields)  
-[Thrusters](#Thrusters)  
+[Propulsion](#Propulsion)  
 [Turrets](#Turrets)  
 [Weapon-Randomization](#Weapon-Randomization)  
 
@@ -608,94 +608,7 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Multiple Tag Allowed:|Yes|
 
 
-# Renaming
-
-<!-- UseRandomNameGenerator  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRandomNameGenerator|
-|:----|:----|
-|Tag Format:|`[UseRandomNameGenerator:Value]`|
-|Description:|This tag will allow you to utilize the Random Name Generator built into the Spawner for your SpawnGroup. Keep in mind that this will affect all prefabs in your SpawnGroup, and they may all have different naming as a result.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
-<!-- RandomGridNamePrefix  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RandomGridNamePrefix|
-|:----|:----|
-|Tag Format:|`[RandomGridNamePrefix:Value]`|
-|Description:|This tag allows you to specify a prefix that is added to the beginning of the grid name, mostly to identify your grid after it's been renamed (eg, `(NPC-CPC)` , `etc`).|
-|Allowed Values:|Any String Value|
-|Default Value(s):|`none`|
-|Multiple Tag Allowed:|No|
-
-<!-- RandomGridNamePattern  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RandomGridNamePattern|
-|:----|:----|
-|Tag Format:|`[RandomGridNamePattern:Value]`|
-|Description:|This tag allows you to specify a pattern that the Random Name Generator should follow. [Please click here for a guide to these patterns](https://gist.github.com/MeridiusIX/8888bbc06a623cac90f8362dd948033c).|
-|Allowed Values:|Any Grid Name Pattern|
-|Default Value(s):|`none`|
-|Multiple Tag Allowed:|No|
-
-<!-- ReplaceAntennaNameWithRandomizedName  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReplaceAntennaNameWithRandomizedName|
-|:----|:----|
-|Tag Format:|`[ReplaceAntennaNameWithRandomizedName:Value]`|
-|Description:|This tag gives you the option to replace the Block Name of an antenna with the newly generated Random Name (without the Prefix, if specified). Value is replaced with the name of the Antenna Block you want to change.|
-|Allowed Values:|Existing Antenna Block Name|
-|Default Value(s):|`none`|
-|Multiple Tag Allowed:|No|
-
-<!-- UseBlockNameReplacer  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseBlockNameReplacer|
-|:----|:----|
-|Tag Format:|`[UseBlockNameReplacer:Value]`|
-|Description:|This tag allows you to enable whether or not block names should be replaced with the reference specified in the `BlockNameReplacerReference` tag.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`none`|
-|Multiple Tag Allowed:|No|
-
-<!-- ReplaceBlockNameOld  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReplaceBlockNameOld|
-|:----|:----|
-|Tag Format:|`[ReplaceBlockNameOld:Value]`|
-|Description:|This tag allows you to specify the name of block(s) that will be renamed to something else if `UseBlockNameReplacer` is enabled. If using this tag, you must also provide a `ReplaceBlockNameNew` tag that specifies the new name the block(s) will use|
-|Allowed Values:|Any Block Name|
-|Default Value(s):|`none`|
-|Multiple Tag Allowed:|Yes|
-
-<!-- ReplaceBlockNameNew  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReplaceBlockNameNew|
-|:----|:----|
-|Tag Format:|`[ReplaceBlockNameNew:Value]`|
-|Description:|This tag allows you to specify the name that block(s) will be renamed to if `UseBlockNameReplacer` is enabled. If using this tag, you must also provide a `ReplaceBlockNameOld` tag that specifies the name of block(s) that will be renamed.|
-|Allowed Values:|Any Block Name|
-|Default Value(s):|`none`|
-|Multiple Tag Allowed:|Yes|
-
-
-# Shields
-
-<!-- AddDefenseShieldBlocks  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddDefenseShieldBlocks|
-|:----|:----|
-|Tag Format:|`[AddDefenseShieldBlocks:Value]`|
-|Description:|This tag let's you add Defense Shield Blocks to the prefabs if the Defense Shields mod is loaded.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
-<!-- IgnoreShieldProviderMod  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IgnoreShieldProviderMod|
-|:----|:----|
-|Tag Format:|`[IgnoreShieldProviderMod:Value]`|
-|Description:|This tag let's you lets you specify if the grid should not receive Defense Shields if the `NPC Defense Shields Provider` Mod or the `EnableGlobalNPCShieldProvider` config option is enabled.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
-
-# Thrusters
+# Propulsion
 
 <!-- ConfigureSpecialNpcThrusters  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ConfigureSpecialNpcThrusters|
@@ -785,6 +698,111 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Description:|This tag allows you to specify the Power Multiplier of NPC Hydrogen Thrusters (added via built-in block replacement) if the `ConfigureSpecialNpcThrusters` tag is used. Eg: '2' would double required power, while `0.5` would cut it in half.|
 |Allowed Values:|Any Number Equal or Greater Than `0`|
 |Default Value(s):|`1`|
+|Multiple Tag Allowed:|No|
+
+<!-- SetNpcGyroscopeMultiplier-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetNpcGyroscopeMultiplier|
+|:----|:----|
+|Tag Format:|`[SetNpcGyroscopeMultiplier:Value]`|
+|Description:|This tag allows you to specify if Gyroscopes on the NPC Grid should have a custom force multiplier applied to them.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- NpcGyroscopeMultiplier-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|NpcGyroscopeMultiplier|
+|:----|:----|
+|Tag Format:|`[NpcGyroscopeMultiplier:Value]`|
+|Description:|This tag allows you to specify the force multipler that is applied to Gyroscopes if using the `SetNpcGyroscopeMultiplier` tag.|
+|Allowed Values:|Any Number Greater Than `0`|
+|Default Value(s):|`1`|
+|Multiple Tag Allowed:|No|
+
+
+# Renaming
+
+<!-- UseRandomNameGenerator  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRandomNameGenerator|
+|:----|:----|
+|Tag Format:|`[UseRandomNameGenerator:Value]`|
+|Description:|This tag will allow you to utilize the Random Name Generator built into the Spawner for your SpawnGroup. Keep in mind that this will affect all prefabs in your SpawnGroup, and they may all have different naming as a result.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- RandomGridNamePrefix  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RandomGridNamePrefix|
+|:----|:----|
+|Tag Format:|`[RandomGridNamePrefix:Value]`|
+|Description:|This tag allows you to specify a prefix that is added to the beginning of the grid name, mostly to identify your grid after it's been renamed (eg, `(NPC-CPC)` , `etc`).|
+|Allowed Values:|Any String Value|
+|Default Value(s):|`none`|
+|Multiple Tag Allowed:|No|
+
+<!-- RandomGridNamePattern  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RandomGridNamePattern|
+|:----|:----|
+|Tag Format:|`[RandomGridNamePattern:Value]`|
+|Description:|This tag allows you to specify a pattern that the Random Name Generator should follow. [Please click here for a guide to these patterns](https://gist.github.com/MeridiusIX/8888bbc06a623cac90f8362dd948033c).|
+|Allowed Values:|Any Grid Name Pattern|
+|Default Value(s):|`none`|
+|Multiple Tag Allowed:|No|
+
+<!-- ReplaceAntennaNameWithRandomizedName  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReplaceAntennaNameWithRandomizedName|
+|:----|:----|
+|Tag Format:|`[ReplaceAntennaNameWithRandomizedName:Value]`|
+|Description:|This tag gives you the option to replace the Block Name of an antenna with the newly generated Random Name (without the Prefix, if specified). Value is replaced with the name of the Antenna Block you want to change.|
+|Allowed Values:|Existing Antenna Block Name|
+|Default Value(s):|`none`|
+|Multiple Tag Allowed:|No|
+
+<!-- UseBlockNameReplacer  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseBlockNameReplacer|
+|:----|:----|
+|Tag Format:|`[UseBlockNameReplacer:Value]`|
+|Description:|This tag allows you to enable whether or not block names should be replaced with the reference specified in the `BlockNameReplacerReference` tag.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`none`|
+|Multiple Tag Allowed:|No|
+
+<!-- ReplaceBlockNameOld  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReplaceBlockNameOld|
+|:----|:----|
+|Tag Format:|`[ReplaceBlockNameOld:Value]`|
+|Description:|This tag allows you to specify the name of block(s) that will be renamed to something else if `UseBlockNameReplacer` is enabled. If using this tag, you must also provide a `ReplaceBlockNameNew` tag that specifies the new name the block(s) will use|
+|Allowed Values:|Any Block Name|
+|Default Value(s):|`none`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- ReplaceBlockNameNew  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReplaceBlockNameNew|
+|:----|:----|
+|Tag Format:|`[ReplaceBlockNameNew:Value]`|
+|Description:|This tag allows you to specify the name that block(s) will be renamed to if `UseBlockNameReplacer` is enabled. If using this tag, you must also provide a `ReplaceBlockNameOld` tag that specifies the name of block(s) that will be renamed.|
+|Allowed Values:|Any Block Name|
+|Default Value(s):|`none`|
+|Multiple Tag Allowed:|Yes|
+
+
+# Shields
+
+<!-- AddDefenseShieldBlocks  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddDefenseShieldBlocks|
+|:----|:----|
+|Tag Format:|`[AddDefenseShieldBlocks:Value]`|
+|Description:|This tag let's you add Defense Shield Blocks to the prefabs if the Defense Shields mod is loaded.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- IgnoreShieldProviderMod  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IgnoreShieldProviderMod|
+|:----|:----|
+|Tag Format:|`[IgnoreShieldProviderMod:Value]`|
+|Description:|This tag let's you lets you specify if the grid should not receive Defense Shields if the `NPC Defense Shields Provider` Mod or the `EnableGlobalNPCShieldProvider` config option is enabled.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
 
