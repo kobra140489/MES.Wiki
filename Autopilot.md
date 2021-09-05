@@ -358,10 +358,25 @@ This section contains tags that control rotation of the NPC grid.
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RotationMultiplier|
 |:----|:----|
 |Tag Format:|`[RotationMultiplier:Value]`|
-|Description:|This tag specifies a multiplier that is applied to gyro rotation calculations for some behaviors. `2` would be double, while `0.5` would be half.|
+|Description:|This tag specifies a multiplier that is applied to gyro rotation calculations for some behaviors. `2` would be double, while `0.5` would be half. Keep in mind this does multiply the gyro force, only the strength or rotation in each direction.|
 |Allowed Values:|Any Number Greater Than `0`|
 |Multiple Tag Allowed:|No|
 
+<!--LimitRotationSpeed-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|LimitRotationSpeed|
+|:----|:----|
+|Tag Format:|`[LimitRotationSpeed:Value]`|
+|Description:|This tag specifies if the NPC ship should limit rotation magnitude on each of its rotation axis to the amount specified in `MaxRotationMagnitude`. This tag is useful for reducing 'targeting wobble' with grids that have stronger gyro rotation.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--MaxRotationMagnitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxRotationMagnitude|
+|:----|:----|
+|Tag Format:|`[MaxRotationMagnitude:Value]`|
+|Description:|This tag specifies the maximum magnitude (in radians) that each rotation axis is allowed to rotate at if `LimitRotationSpeed` is true.|
+|Allowed Values:|Any Number Greater Than `0`|
+|Multiple Tag Allowed:|No|
 
 # Special
 
