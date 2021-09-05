@@ -394,3 +394,83 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|The maximum NPC altitude that must be met if `AltitudeCheck` is `true`.|
 |Allowed Values:|Any number equal or greater than `0`<br />Must be higher than `MinAltitude`|
 |Multiple Tag Allowed:|No|
+
+<!--CheckIfDamagerIsPlayer-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckIfDamagerIsPlayer|
+|:----|:----|
+|Tag Format:|`[CheckIfDamagerIsPlayer:Value]`|
+|Description:|If trigger was activated by a Damage event, this tag specifies if the Damager should be a Player Identity.|
+|Allowed Values:|`true`<br />`false`|
+|Multiple Tag Allowed:|No|
+
+<!--CheckIfDamagerIsNpc-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckIfDamagerIsNpc|
+|:----|:----|
+|Tag Format:|`[CheckIfDamagerIsNpc:Value]`|
+|Description:|If trigger was activated by a Damage event, this tag specifies if the Damager should be an NPC Identity.|
+|Allowed Values:|`true`<br />`false`|
+|Multiple Tag Allowed:|No|
+
+<!--CheckIfTargetIsPlayerOwned-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckIfTargetIsPlayerOwned|
+|:----|:----|
+|Tag Format:|`[CheckIfTargetIsPlayerOwned:Value]`|
+|Description:|Specifies if the current NPC targer should be a Player Owned entity.|
+|Allowed Values:|`true`<br />`false`|
+|Multiple Tag Allowed:|No|
+
+<!--CheckIfTargetIsNpcOwned-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckIfTargetIsNpcOwned|
+|:----|:----|
+|Tag Format:|`[CheckIfTargetIsNpcOwned:Value]`|
+|Description:|Specifies if the current NPC targer should be an NPC Owned entity.|
+|Allowed Values:|`true`<br />`false`|
+|Multiple Tag Allowed:|No|
+
+<!--CheckCommandGridValue-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckCommandGridValue|
+|:----|:----|
+|Tag Format:|`[CheckCommandGridValue:Value]`|
+|Description:|If trigger was activated by a Command event, this tag specifies if a check should be performed on the Grid Value (aka Threat Score) of the NPC that sent the command.|
+|Allowed Values:|`true`<br />`false`|
+|Multiple Tag Allowed:|No|
+
+<!--CommandGridValue-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CommandGridValue|
+|:----|:----|
+|Tag Format:|`[CommandGridValue:Value]`|
+|Description:|If using `CheckCommandGridValue`, this tag specifies the Grid Value that the received Grid Value from the command should be compared against.|
+|Allowed Values:|Any Number Greater Than `0`|
+|Multiple Tag Allowed:|No|
+
+<!--CheckCommandGridValueCompare-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckCommandGridValueCompare|
+|:----|:----|
+|Tag Format:|`[CheckCommandGridValueCompare:Value]`|
+|Description:|If using `CheckCommandGridValue`, this tag specifies how the Received Grid Value is compared against the value provided in `CommandGridValue`.|
+|Allowed Values:|`Equal`<br />`NotEqual`<br />`Greater`<br />`GreaterOrEqual`<br />`Less`<br />`LessOrEqual`|
+|Multiple Tag Allowed:|No|
+
+<!--CompareCommandGridValue-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CompareCommandGridValue|
+|:----|:----|
+|Tag Format:|`[CompareCommandGridValue:Value]`|
+|Description:|If trigger was activated by a Command event, this tag specifies if a check should be performed on the Grid Value (aka Threat Score) of the NPC that sent the command. This check compares the received Grid Value directly against the value of the NPC that received the command / activated the trigger.|
+|Allowed Values:|`true`<br />`false`|
+|Multiple Tag Allowed:|No|
+
+<!--CompareCommandGridValueMode-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CompareCommandGridValueMode|
+|:----|:----|
+|Tag Format:|`[CompareCommandGridValueMode:Value]`|
+|Description:|If using `CompareCommandGridValue`, this tag specifies how the Received Grid Value is compared against the Grid Value of the NPC.|
+|Allowed Values:|`Equal`<br />`NotEqual`<br />`Greater`<br />`GreaterOrEqual`<br />`Less`<br />`LessOrEqual`|
+|Multiple Tag Allowed:|No|
+
+<!--CompareCommandGridValueSelfMultiplier-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CompareCommandGridValueSelfMultiplier|
+|:----|:----|
+|Tag Format:|`[CompareCommandGridValueSelfMultiplier:Value]`|
+|Description:|If using `CompareCommandGridValue`, this tag specifies a multiplier that is applied to the Grid Value of this NPC before the comparing of values is completed.|
+|Allowed Values:|Any Number Greater Than `0`|
+|Multiple Tag Allowed:|No|
