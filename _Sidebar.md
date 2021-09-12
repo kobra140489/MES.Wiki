@@ -43,6 +43,7 @@
       * [Trigger](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Trigger)
         * [Condition](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Condition)
         * [Action](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Action)
+          * [Bot Spawn](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Bot-Spawn)
           * [Chat](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Chat)
           * [Spawn](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Spawn)
       * [Trigger Group](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Trigger-Group)
