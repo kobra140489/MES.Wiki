@@ -984,6 +984,38 @@ This section contains actions that allow NPCs to Spawn other NPCs, along with ot
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
+<!--AddBotsToGrid-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddBotsToGrid|
+|:----|:----|
+|Tag Format:|`[AddBotsToGrid:Value]`|
+|Description:|This tag specifies if a number of AiEnabled (External Mod) Bots should be spawned onto the NPC Grid.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--BotCount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|BotCount|
+|:----|:----|
+|Tag Format:|`[BotCount:Value]`|
+|Description:|This tag specifies the number of AiEnabled bots that should be spawned onto the grid.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--BotSpawnProfileNames-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|BotCount|
+|:----|:----|
+|Tag Format:|`[BotCount:Value]`|
+|Description:|This tag specifies the name(s) of the Spawn Bot Profiles that you want to use to spawn the bots. If multiple values are provided, then each spawn will select one at random.|
+|Allowed Values:|Any `Spawn Bot Profile` SubtypeId|
+|Multiple Tag Allowed:|Yes|
+
+<!--OnlySpawnBotsInPressurizedRooms-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|OnlySpawnBotsInPressurizedRooms|
+|:----|:----|
+|Tag Format:|`[OnlySpawnBotsInPressurizedRooms:Value]`|
+|Description:|This tag specifies if AiEnabled bots should only be spawned in pressurized spaces on the NPC grid. The location cannot be directly controlled from RivalAI, since the AiEnabled mod is what calculates the safe placement nodes. If you need them to appear in a specific room, you may want to arrange it so that room is the only air-tight space on the grid at the time of spawning.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
 ***
 
 # Targeting
