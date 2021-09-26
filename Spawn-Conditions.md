@@ -53,6 +53,7 @@ Below are several types of condition tags you can include in your Spawn Conditio
 [**Economy**](#Economy)  
 [**Faction**](#Faction)  
 [**Known-Player-Location**](#Known-Player-Location)  
+[**Misc**](#Misc)  
 [**Mods**](#Mods)  
 [**Planetary**](#Planetary)  
 [**Players**](#Players)  
@@ -903,6 +904,27 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Description:|This tag allows you to specify the Maximum number of spawns that are allowed to have occured in a Known Player Location before this SpawnGroup is allowed to spawn.|
 |Allowed Values:|Any Number Equal or Greater Than `0`<br>Value should be higher than `KnownPlayerLocationMinSpawnedEncounters` if tag is used.|
 |Default Value(s):|`-1`|
+|Multiple Tag Allowed:|No|
+
+
+# Misc
+
+<!-- PlaySoundAtSpawnTriggerPosition-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlaySoundAtSpawnTriggerPosition|
+|:----|:----|
+|Tag Format:|`[PlaySoundAtSpawnTriggerPosition:Value]`|
+|Description:|This tag specifies if a sound effect should play at the spawn location when the spawn is completed using this condition profile.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- SpawnTriggerPositionSoundId-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnTriggerPositionSoundId|
+|:----|:----|
+|Tag Format:|`[SpawnTriggerPositionSoundId:Value]`|
+|Description:|This tag specifies the Audio Definition SubtypeId of the sound you want to play if using `PlaySoundAtSpawnTriggerPosition`.|
+|Allowed Values:|Any Sound Definition SubtypeId|
+|Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|No|
 
 
