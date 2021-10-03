@@ -1,5 +1,11 @@
 You can find the Planetary Installations Settings Configuration File in `MySaveWorldFolder\Storage\1521905890.sbm_ModularEncountersSpawner\Config-PlanetaryInstallations.xml`. The settings you can modify are listed below:
 
+|Setting:|EnableSpawns|
+|:----|:----|
+|XML:|`<EnableSpawns>Value</EnableSpawns>`|
+|Chat Command:|`/MES.Settings.PlanetaryInstallations.EnableSpawns.Value`|
+|Description:|This setting allows you to Enable or Disable All Encounters from this Spawn Type.|
+
 |Setting:|PlayerSpawnCooldown|
 |:----|:----|
 |XML:|`<PlayerSpawnCooldown>Value</PlayerSpawnCooldown>`|
