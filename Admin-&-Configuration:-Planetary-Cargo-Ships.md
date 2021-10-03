@@ -1,5 +1,11 @@
 You can find the Planetary Cargo Ships Settings Configuration File in `MySaveWorldFolder\Storage\1521905890.sbm_ModularEncountersSpawner\Config-PlanetaryCargoShips.xml`. The settings you can modify are listed below:
 
+|Setting:|EnableSpawns|
+|:----|:----|
+|XML:|`<EnableSpawns>Value</EnableSpawns>`|
+|Chat Command:|`/MES.Settings.PlanetaryCargoShips.EnableSpawns.Value`|
+|Description:|This setting allows you to Enable or Disable All Encounters from this Spawn Type.|
+
 |Setting:|FirstSpawnTime|
 |:----|:----|
 |XML:|`<FirstSpawnTime>Value</FirstSpawnTime>`|
