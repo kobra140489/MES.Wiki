@@ -45,6 +45,7 @@ Below are several types of condition tags you can include in your Spawn Conditio
 [**Planetary-Installations**](#Planetary-Installations)  
 [**Boss-Encounters**](#Boss-Encounters)  
 [**Creatures**](#Creatures)  
+[**Drone-Encounters**](#Drone-Encounters)  
 [**Static-Encounters**](#Static-Encounters)  
 [**Other-NPCs**](#Other-NPCs)  
   
@@ -536,7 +537,7 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Multiple Tag Allowed:|No|
 
 
-# Drone Encounters
+# Drone-Encounters
 
 <!-- DroneEncounter-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DroneEncounter|
@@ -1616,6 +1617,23 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
+<!-- SkipVoxelSpawnChecks-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SkipVoxelSpawnChecks|
+|:----|:----|
+|Tag Format:|`[SkipVoxelSpawnChecks:Value]`|
+|Description:|This tag allows you to skip the voxel collision checks that are done before the encounter is spawned.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- SkipGridSpawnChecks-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SkipGridSpawnChecks|
+|:----|:----|
+|Tag Format:|`[SkipGridSpawnChecks:Value]`|
+|Description:|This tag allows you to skip the grid collision checks that are done before the encounter is spawned.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
 
 # Zone
 
