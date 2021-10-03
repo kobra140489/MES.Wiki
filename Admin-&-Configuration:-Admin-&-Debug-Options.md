@@ -245,5 +245,5 @@ Here is a list of command categories:
 |XML:|`N/A`|
 |Chat Command:|`/MES.SpawnDebug.Value1.Value2`|
 |Description:|This chat command allows you to enable various forms of logging for Spawner Related events. This can help you troubleshoot issues.|
-|Allowed Value1:|`API`<br />`BlockLogic`<br />`CleanUp`<br />`Dev`<br />`Entity`<br />`Error`<br />`GameLog`<br />`Manipulation`<br />`Pathing`<br />`PostSpawn`<br />`Settings`<br />`SpawnGroup`<br />`Spawning`<br />`Startup`<br />`Zone`|
+|Allowed Value1:|`API`<br />`BlockLogic`<br />`CleanUp`<br />`Dev`<br />`Entity`<br />`Error`<br />`GameLog`<br />`Manipulation`<br />`Pathing`<br />`PostSpawn`<br />`Settings`<br />`SpawnGroup`<br />`Spawning`<br />`SpawnRecord`<br />`Startup`<br />`Zone`|
 |Allowed Value2:|`true`<br />`false`|
