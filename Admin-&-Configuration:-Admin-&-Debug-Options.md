@@ -155,7 +155,9 @@ Here is a list of command categories:
 |Setting:|Get Logging|
 |:----|:----|
 |XML:|`N/A`|
-|Chat Command:|`/MES.Info.GetLogging.Value1.Value2`|
+|Chat Command (Regular):|`/MES.Info.GetLogging.Value1.Value2`|
+|Chat Command (SpawnDebug):|`/MES.IGLSD.Value2`|
+|Chat Command (BehaviorDebug):|`/MES.IGLBD.Value2`|
 |Description:|This chat command will copy logged data from a particular logging type and save it to your clipboard. `Value1` is replaced with `BehaviorDebug` or `SpawnDebug`. `Value2` is replaced with any of the logging types from the respective logging types in `Value1`. |
 
 |Setting:|Get Players|
