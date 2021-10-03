@@ -22,6 +22,24 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|Yes|
 
+<!-- SpawnConditionGroups-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnConditionGroups|
+|:----|:----|
+|Tag Format:|`[SpawnConditionGroups:Value]`|
+|Description:|This tag allows you to provide one or more sets of Spawn Condition Groups to the SpawnGroup.|
+|Allowed Values:|Any Spawn Condition Group Profile SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- PersistentConditions-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PersistentConditions|
+|:----|:----|
+|Tag Format:|`[PersistentConditions:Value]`|
+|Description:|This tag allows you to provide a single Spawn Condition Profile that is used as a persistent set of conditions IN ADDITION to the existing spawn conditions defined in `SpawnConditionsProfiles`. If the conditions in this profile are not satisfied, the spawn will not be eligible even if other Spawn Conditions are. Some tags may not work properly if used in this profile (eg: Spawn Type related tags, Faction, etc), so try to avoid using those.|
+|Allowed Values:|Any Spawn Condition Profile SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
+
 
 # Economy
 
