@@ -1,5 +1,11 @@
 You can find the Random Encounters Settings Configuration File in `MySaveWorldFolder\Storage\1521905890.sbm_ModularEncountersSpawner\Config-RandomEncounters.xml`. The settings you can modify are listed below:
 
+|Setting:|EnableSpawns|
+|:----|:----|
+|XML:|`<EnableSpawns>Value</EnableSpawns>`|
+|Chat Command:|`/MES.Settings.RandomEncounters.EnableSpawns.Value`|
+|Description:|This setting allows you to Enable or Disable All Encounters from this Spawn Type.|
+
 |Setting:|PlayerSpawnCooldown|
 |:----|:----|
 |XML:|`<PlayerSpawnCooldown>Value</PlayerSpawnCooldown>`|
