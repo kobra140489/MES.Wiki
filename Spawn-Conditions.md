@@ -311,6 +311,15 @@ Below are several types of condition tags you can include in your Spawn Conditio
 |Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- CutVoxelSize-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CutVoxelSize|
+|:----|:----|
+|Tag Format:|`[CutVoxelSize:Value]`|
+|Description:|This tag specifies the size of the voxel cuts that should be used when cutting voxels with `CutVoxelsAtAirtightCells`.|
+|Allowed Values:|Any Number Greater Than `0`|
+|Default Value(s):|`2.7`|
+|Multiple Tag Allowed:|No|
+
 
 # Boss-Encounters
 
@@ -524,6 +533,90 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Description:|This tag specifies the chance (out of 100) this spawngroup has of being selected as eligible if being spawned as a Creature Spawn.|
 |Allowed Values:|`0` - `100`|
 |Default Value(s):|`100`|
+|Multiple Tag Allowed:|No|
+
+
+# Drone Encounters
+
+<!-- DroneEncounter-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DroneEncounter|
+|:----|:----|
+|Tag Format:|`[DroneEncounter:Value]`|
+|Description:|This tag specifies if the SpawnGroup should spawn as a Drone Encounter. These types of encounters spawn based on the rules in the tags below. They use their own timers and distances, and all conditions are determined by other other tags used in the Spawn Conditions Profile.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- MinimumPlayerTime-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinimumPlayerTime|
+|:----|:----|
+|Tag Format:|`[MinimumPlayerTime:Value]`|
+|Description:|This tag specifies the Minimum Time in Seconds it takes for this encounter to be able to spawn near a player.|
+|Allowed Values:|Any Integer Greater Than `0`<br />Value must be less than `MaximumPlayerTime`|
+|Default Value(s):|`-1`|
+|Multiple Tag Allowed:|No|
+
+<!-- MaximumPlayerTime-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaximumPlayerTime|
+|:----|:----|
+|Tag Format:|`[MaximumPlayerTime:Value]`|
+|Description:|This tag specifies the Maximum Time in Seconds it takes for this encounter to be able to spawn near a player.|
+|Allowed Values:|Any Integer Greater Than `0`<br />Value must be greater than `MinimumPlayerTime`|
+|Default Value(s):|`0`|
+|Multiple Tag Allowed:|No|
+
+<!-- FailedDroneSpawnResetsPlayerTime-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|FailedDroneSpawnResetsPlayerTime|
+|:----|:----|
+|Tag Format:|`[FailedDroneSpawnResetsPlayerTime:Value]`|
+|Description:|This tag specifies if the SpawnGroup timer should be reset if the encounter cannot spawn for some other reason (other conditions, pathing, etc). This only happens if the timer has already reached the end.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- MinDroneDistance-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDroneDistance|
+|:----|:----|
+|Tag Format:|`[MinDroneDistance:Value]`|
+|Description:|This tag specifies the Minimum Distance in Meters that the encounter should spawn from the player.|
+|Allowed Values:|Any Number Greater Than `0`<br />Value must be less than `MaxDroneDistance`|
+|Default Value(s):|`1000`|
+|Multiple Tag Allowed:|No|
+
+<!-- MaxDroneDistance-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxDroneDistance|
+|:----|:----|
+|Tag Format:|`[MaxDroneDistance:Value]`|
+|Description:|This tag specifies the Maximum Distance in Meters that the encounter should spawn from the player.|
+|Allowed Values:|Any Number Greater Than `0`<br />Value must be greater than `MinDroneDistance`|
+|Default Value(s):|`1000`|
+|Multiple Tag Allowed:|No|
+
+<!-- MinDroneAltitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDroneAltitude|
+|:----|:----|
+|Tag Format:|`[MinDroneAltitude:Value]`|
+|Description:|This tag specifies the Minimum Altitude (if on a planet) in Meters that the encounter should spawn from the player.|
+|Allowed Values:|Any Number Greater Than `0`<br />Value must be less than `MaxDroneAltitude`|
+|Default Value(s):|`1000`|
+|Multiple Tag Allowed:|No|
+
+<!-- MaxDroneAltitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxDroneAltitude|
+|:----|:----|
+|Tag Format:|`[MaxDroneAltitude:Value]`|
+|Description:|This tag specifies the Maximum Altitude (if on a planet) in Meters that the encounter should spawn from the player.|
+|Allowed Values:|Any Number Greater Than `0`<br />Value must be greater than `MinDroneAltitude`|
+|Default Value(s):|`1000`|
+|Multiple Tag Allowed:|No|
+
+<!-- DroneInheritsSourceAltitude-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DroneInheritsSourceAltitude|
+|:----|:----|
+|Tag Format:|`[DroneInheritsSourceAltitude:Value]`|
+|Description:|This tag specifies if the SpawnGroup should inherit the player altitude when spawning (eg take player existing altitude and add the altitude from the tags). This only happens on Planets.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
 
