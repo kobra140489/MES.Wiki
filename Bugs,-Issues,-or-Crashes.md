@@ -12,6 +12,8 @@ If you need a quick way to test mods in a Standard Dedicated Server, I recommend
 
 If you are seeing a situation where one of my mods is causing the game/server to crash (either to the desktop or the main menu), **you MUST provide a complete log file before I will investigate**. Without the log file, I cannot see what method/process is responsible for the crash and cannot fix it.
 
+A snippet of the stack trace is often not sufficient, please provide the entire log.
+
 If you are playing in Single Player or Hosting Local Multiplayer, you can find the most recent logs by doing the following:
 
  - Press `Windows Key + R`  
@@ -58,13 +60,13 @@ If you are experiencing issues, try the following steps first:
 
 Below is a list of some common issues you may run into, and some potential solutions:
 
- - **Issues With The Modular Encounters Spawner:** If you are having issues with the modular encounters spawner, [try following the steps in this guide](https://github.com/MeridiusIX/ModularEncountersSpawner/wiki/FAQ-and-Resources:-Encounter-Guide-and-Troubleshooting), specifically in the *Troubleshooting Encounters and Other Issues* section. Many issues can be resolved with the advice found in that section.  
+ - **Issues With The Modular Encounters Systems:** If you are having issues with Modular Encounters Systems, [try following the steps in this guide](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Encounter-Guide-and-Troubleshooting), specifically in the *Troubleshooting Encounters and Other Issues* section. Many issues can be resolved with the advice found in that section.  
 
  - **Logs Showing a Critical Error:** Anytime a mod is reporting a Critical Error, it's almost always the result of a corrupted download from Steam. Try unsubscribing from the mod, restarting Steam, and then resubscribing to the mod. If that doesn't fix it, then follow the steps above regarding clearing your mod cache.  
 
  - **Logs Show Mod Errors With Several `Resource not found, setting to null` messages:** This typically means that your server cannot resolve the path directory for some icon files used by some modded definitions. This is typically not going to cause any real issues with the mod, despite how many times it can appear in the log.  
 
- - **Logs Show Message Stating `Reference issue detected (circular reference or wrong order) for mod` one or more times:** This message will often appear if you are using any mods that have other mods listed as dependencies. In reality there's no issue, it's just a poorly worded message by the devs to indicate that dependency mods are being loaded. You will often see this with mods using the Modular Encounters Spawner, WeaponCore, and TextHudAPI - since they are some of the most common mods that other mods will use as dependencies.  
+ - **Logs Show Message Stating `Reference issue detected (circular reference or wrong order) for mod` one or more times:** This message will often appear if you are using any mods that have other mods listed as dependencies. In reality there's no issue, it's just a poorly worded message by the devs to indicate that dependency mods are being loaded. You will often see this with mods using the Modular Encounters Systems, WeaponCore, and TextHudAPI - since they are some of the most common mods that other mods will use as dependencies.  
 
 # Steam Discussions
 
