@@ -60,3 +60,7 @@ Here are some of the most common reasons you may not see encounters when you exp
 * **Circular Reference in Game Log:** This message can appear sometimes in your game log. It's something that often appears when mods use another mod as a dependency (many encounter mods use the framework). The message is harmless and can be ignored.
 
 * **Still Seeing Spawns After Removing The Framework:** If you have removed the Modular Encounters Systems mod, but have left any mods that use it as a dependency, then it is likely those mods are causing it to continue loading. You would need to remove any mod using the framework as a dependency from your mod list.
+
+# Advanced Encounters Troubleshooting
+
+Coming Soon™
