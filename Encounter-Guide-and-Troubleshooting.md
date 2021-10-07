@@ -27,6 +27,12 @@ There are a handful of ways that encounters can spawn using Modular Encounters S
 
 * **Boss Encounters:** These encounters can appear in both Space and on Planets. They initially appear as a purple colored GPS marker, usually accompanied by a message that is broadcast to near-by player using the in-game chat system. The encounter will not physically spawn into the world until a player approaches the GPS signal (getting within about 300m of the signal). These signals will appear on a timer (approx 20min, and will remain visible for about another 20min). You should not approach one of these encounters unless you are well armed and ready for a difficult encounter.  
 
+* **Drone Encounters:** These encounters will spawn near players using a timer and distance system that is set in their individual SpawnGroups. The behavior of these encounters is entirely dependent on how the mod author has configured them. This encounter type could be considered a miscellaneous one.  
+
+* **Static Encounters:** These encounters are designed to always appear at a specific location in the game world once a player gets within a certain range of it. Typically, they will only spawn once, since they are locked to specific locations.  
+
+* **Creature:** These encounters are not grid-based NPCs, but rather character-based. Common examples of these encounters would include the vanilla Wolves and Spiders. These encounters can sometimes use the **AiEnabled** mod to govern their behaviors as well.
+
 # Troubleshooting Encounters and Other Issues
 
 Here are some of the most common reasons you may not see encounters when you expect to, or why some encounters might not work properly:  
