@@ -63,4 +63,12 @@ Here are some of the most common reasons you may not see encounters when you exp
 
 # Advanced Encounters Troubleshooting
 
-Coming Soon™
+If you are still not seeing any encounters after following the above advice, then you can try some of these advanced steps:
+
+* **Checking The Spawn Record**: Using the chat command `/MES.IGLSD.SpawnRecord` will generate a report that gets saved to your clipboard. You can paste this report into a program like Notepad and see what the result of various spawn attempts have been, and where they may be failing.  
+
+* **Enabling and Checking Debugs**: If the above did not provide any useful answers, you should next try to enable some of the extended monitoring. Enter the chat commands `/MES.SpawnDebug.Spawning.true` and `/MES.SpawnDebug.SpawnGroup.true`. Continue to play the game for a while (maybe about 1 hour). After the game has run for some time, use the chat command `/MES.IGLSD.Spawning` to generate a report that saves to your clipboard. Paste into Notepad or another app and check for messages that may indicate where the Spawning is getting stuck. Below I will cover some of the more common scenarios.  
+
+  * **Message: Eligible SpawnGroup Count 0**: If you get this message in the Spawn Report, then it usually means that there are currently no eligible encounters for the area you're currently in. You can get more details on this by entering the chat command `/MES.IGLSD.SpawnGroup` and seeing the provided reason that each SpawnGroup cannot spawn. If you do not see any results, then there are no SpawnGroups of the specified type (eg: no Planetary Cargo Ship encounters while on a planet) currently loaded.  
+
+  * **Message: SpawnGroup Path/Placement Invalid**: If you get this message in the Spawn Report, then it usually means that while there are potential SpawnGroups that can spawn, they are currently unable to because of the surrounding environment. This could be due to a number of factors such as Planetary Cargo Ship encounters not having sufficient Air Density to fly (ie, atmosphere too shallow at position), terrain being too coarse / ragged for proper Planetary Installation placement, and more. Many of these reasons are covered in better detail earlier in this troubleshooting guide.  
