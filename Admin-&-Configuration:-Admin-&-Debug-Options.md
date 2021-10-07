@@ -244,7 +244,7 @@ Here is a list of command categories:
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command 1:|`/MES.Spawn.ForceSpawnTimer.Value`|
-|Description:|This chat command allows you to immediately finish the internal timer for your player and a particular spawning type. This allows you to quickly test / simulate a spawn as it would occur naturally, without having to wait as long. `Value` can be replaced with any of the following: <br /> * `SpaceCargoShip`<br /> * `RandomEncounter`<br /> * `PlanetaryCargoShip`<br /> * `PlanetaryInstallation`<br /> * `BossEncounter`<br /> * `DroneEncounter`<br /> * `Creature`|
+|Description:|This chat command allows you to immediately finish the internal timer for your player and a particular spawning type. This allows you to quickly test / simulate a spawn as it would occur naturally, without having to wait as long. `Value` can be replaced with any of the following: <br /><br />`SpaceCargoShip`<br />`RandomEncounter`<br />`PlanetaryCargoShip`<br />`PlanetaryInstallation`<br />`BossEncounter`<br /> `DroneEncounter`<br />`Creature`|
 
 
 # SpawnDebug
