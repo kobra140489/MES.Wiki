@@ -240,6 +240,13 @@ Here is a list of command categories:
 |Chat Command 3:|`/MES.Spawn.WaveSpawner.Creature`|
 |Description:|This chat command allows you to immediately start a Wave Spawning Event for all players in the current session, regardless of whether or not the specific Wave Spawner is enabled in the world. Depending on the chat command you use, you can start Wave Spawning events for Space Cargo Ships, Planetary Cargo Ships, or Creatures/Bots. These events will honor whatever Wave Spawner settings are currently in place in your config files.|
 
+|Setting:|Force Spawn Timer|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Spawn.ForceSpawnTimer.Value`|
+|Description:|This chat command allows you to immediately finish the internal timer for your player and a particular spawning type. This allows you to quickly test / simulate a spawn as it would occur naturally, without having to wait as long. `Value` can be replaced with any of the following: <br /> * `SpaceCargoShip`<br /> * `RandomEncounter`<br /> * `PlanetaryCargoShip`<br /> * `PlanetaryInstallation`<br /> * `BossEncounter`<br /> * `DroneEncounter`<br /> * `Creature`|
+
+
 # SpawnDebug
 
 |Setting:|Enable or Disable Spawn Logging|
