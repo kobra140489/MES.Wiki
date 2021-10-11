@@ -455,6 +455,15 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|Yes|
 
+<!-- BotProfiles-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|BotProfiles|
+|:----|:----|
+|Tag Format:|`[BotProfiles:Value]`|
+|Description:|This tag specifies one or more Bot Spawn Profile SubtypeIDs that can be used to spawn bots with more customized parameters (model, role, color, etc). If you provide values to this tag, then `CreatureIds` values will not be used. Bots spawned with this method must use AiEnabled.|
+|Allowed Values:|Bot Spawn Profile SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
 <!-- AiEnabledReady-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AiEnabledReady|
 |:----|:----|
