@@ -1360,3 +1360,27 @@ This section contains actions that can change / manipulate Zones (formerly Terri
 |Description:|This tag specifies the amount that the counter specified by `ZoneCustomCounterChangeName` will be changed.|
 |Allowed Values:|Any Integer|
 |Multiple Tag Allowed:|Yes|
+
+<!--ZoneCustomBoolChange-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneCustomBoolChange|
+|:----|:----|
+|Tag Format:|`[ZoneCustomBoolChange:Value]`|
+|Description:|This tag specifies if the Custom Bools of the zone (at NPC position and matching `ZoneName`) should be manipulated.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneCustomBoolChangeName-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneCustomBoolChangeName|
+|:----|:----|
+|Tag Format:|`[ZoneCustomBoolChangeName:Value]`|
+|Description:|This tag specifies the name of the zone's Custom Bool that will be changed.|
+|Allowed Values:|Any Bool Name|
+|Multiple Tag Allowed:|Yes|
+
+<!--ZoneCustomBoolChangeValue-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneCustomBoolChangeValue|
+|:----|:----|
+|Tag Format:|`[ZoneCustomBoolChangeValue:Value]`|
+|Description:|This tag specifies the value that the bool specified by `ZoneCustomBoolChangeName` will be changed.|
+|Allowed Values:|`true`<br />`false`|
+|Multiple Tag Allowed:|Yes|
