@@ -1328,3 +1328,35 @@ This section contains actions that can change / manipulate Zones (formerly Terri
 |Description:|This tag specifies how much the zone radius will be changed if using the `ZoneRadiusChangeType` tag.|
 |Allowed Values:|Any Number|
 |Multiple Tag Allowed:|No|
+
+<!--ZoneCustomCounterChange-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneCustomCounterChange|
+|:----|:----|
+|Tag Format:|`[ZoneToggleActiveAtPositionMode:Value]`|
+|Description:|This tag specifies if the Custom Counters of the zone (at NPC position and matching `ZoneName`) should be manipulated.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneCustomCounterChangeType-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneCustomCounterChangeType|
+|:----|:----|
+|Tag Format:|`[ZoneCustomCounterChangeType:Value]`|
+|Description:|This tag specifies how the value of a zone's Custom Counter will be changed.|
+|Allowed Values:|`None`<br>`Set`<br>`Add`<br>`Subtract`<br>`Multiply`<br>`Divide`|
+|Multiple Tag Allowed:|Yes|
+
+<!--ZoneCustomCounterChangeName-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneCustomCounterChangeName|
+|:----|:----|
+|Tag Format:|`[ZoneCustomCounterChangeName:Value]`|
+|Description:|This tag specifies the name of the zone's Custom Counter that will be changed.|
+|Allowed Values:|Any Counter Name|
+|Multiple Tag Allowed:|Yes|
+
+<!--ZoneCustomCounterChangeAmount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneCustomCounterChangeAmount|
+|:----|:----|
+|Tag Format:|`[ZoneCustomCounterChangeAmount:Value]`|
+|Description:|This tag specifies the amount that the counter specified by `ZoneCustomCounterChangeName` will be changed.|
+|Allowed Values:|Any Integer|
+|Multiple Tag Allowed:|Yes|
