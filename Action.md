@@ -46,6 +46,7 @@ Below are the tags you are able to use in your Action Profiles. They are divided
 **[Targeting](#Targeting)**  
 **[Trigger](#Trigger)**  
 **[Variables](#Variables)**  
+**[Zone](#Zone)**  
 
 ***
 
@@ -1257,3 +1258,73 @@ This section contains actions that change local or global variables that can be 
 |Description:|This tag specifies a name of an Integer Variable that you want to set to a value of `0` within the Save File. If a provided name does not exist in the Save File, it will be created and saved with a `0` value|
 |Allowed Values:|Any text/string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|Yes|
+
+***
+
+# Zones
+
+This section contains actions that can change / manipulate Zones (formerly Territories) in the game world.
+
+<!--ChangeZoneAtPosition-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeZoneAtPosition|
+|:----|:----|
+|Tag Format:|`[ChangeZoneAtPosition:Value]`|
+|Description:|This tag specifies if a zone at the NPCs current position should be manipulated.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneName-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneName|
+|:----|:----|
+|Tag Format:|`[ZoneName:Value]`|
+|Description:|This tag specifies the name of the specific zone that should be manipulated.|
+|Allowed Values:|Any Zone PublicName value|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneToggleActive-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneToggleActive|
+|:----|:----|
+|Tag Format:|`[ZoneToggleActive:Value]`|
+|Description:|This tag specifies if the named zone in `ZoneName` should have its `Active` status changed. The NPC does not need to be inside the zone for this to be functional.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneToggleActiveMode-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneToggleActiveMode|
+|:----|:----|
+|Tag Format:|`[ZoneToggleActive:Value]`|
+|Description:|This tag specifies what the `Active` status of a zone should be set to if using `ZoneToggleActive`. The NPC does not need to be inside the zone for this to be functional.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneToggleActiveAtPosition-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneToggleActiveAtPosition|
+|:----|:----|
+|Tag Format:|`[ZoneToggleActiveAtPosition:Value]`|
+|Description:|This tag specifies if the named zone in `ZoneName` should have its `Active` status changed. The NPC needs to be inside the zone for this to be functional.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneToggleActiveAtPositionMode-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneToggleActiveAtPositionMode|
+|:----|:----|
+|Tag Format:|`[ZoneToggleActiveAtPositionMode:Value]`|
+|Description:|This tag specifies what the `Active` status of a zone should be set to if using `ZoneToggleActiveAtPosition`. The NPC needs to be inside the zone for this to be functional.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneRadiusChangeType-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneRadiusChangeType|
+|:----|:----|
+|Tag Format:|`[ZoneRadiusChangeType:Value]`|
+|Description:|This tag specifies if the zone that the NPC is inside (also matching `ZoneName`) should have its `Radius` changed. You can choose a modifier in this tag that will be used in combination with `ZoneRadiusChangeType`|
+|Allowed Values:|`None`<br>`Set`<br>`Add`<br>`Subtract`<br>`Multiply`<br>`Divide`|
+|Multiple Tag Allowed:|No|
+
+<!--ZoneRadiusChangeAmount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneRadiusChangeAmount|
+|:----|:----|
+|Tag Format:|`[ZoneRadiusChangeAmount:Value]`|
+|Description:|This tag specifies how much the zone radius will be changed if using the `ZoneRadiusChangeType` tag.|
+|Allowed Values:|Any Number|
+|Multiple Tag Allowed:|No|
