@@ -1261,6 +1261,32 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
+<!-- DirectionFromPlanetCenter-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DirectionFromPlanetCenter|
+|:----|:----|
+|Tag Format:|`[DirectionFromPlanetCenter:Value]`|
+|Description:|This tag allows you to specify one or more Directional Vectors that are used as a reference point to measure the spawn coordinate angle if using the `MinAngleFromPlanetCenterDirection` or `MaxAngleFromPlanetCenterDirection` tags. This Check only fails if all direction/angle checks have failed.|
+|Allowed Values:|Direction Vector In Following Format:<br />{X:0 Y:0 Z:1}|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- MinAngleFromPlanetCenterDirection-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinAngleFromPlanetCenterDirection|
+|:----|:----|
+|Tag Format:|`[MinAngleFromPlanetCenterDirection:Value]`|
+|Description:|This tag specifies the minimum angle from an angle provided by `DirectionFromPlanetCenter` that must be satisfied in order to be spawned.|
+|Allowed Values:|Any Number Greater Than `0`<br>Value Should Be Lower Than `MaxAngleFromPlanetCenterDirection` If Tag is Provided|
+|Default Value(s):|`-1`|
+|Multiple Tag Allowed:|No|
+
+<!-- MaxAngleFromPlanetCenterDirection-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxAngleFromPlanetCenterDirection|
+|:----|:----|
+|Tag Format:|`[MaxAngleFromPlanetCenterDirection:Value]`|
+|Description:|This tag specifies the maximum angle from an angle provided by `DirectionFromPlanetCenter` that must be satisfied in order to be spawned.|
+|Allowed Values:|Any Number Greater Than `0`<br>Value Should Be Higher Than `MinAngleFromPlanetCenterDirection` If Tag is Provided|
+|Default Value(s):|`-1`|
+|Multiple Tag Allowed:|No|
 
 # Players
 
