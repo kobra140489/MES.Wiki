@@ -499,6 +499,22 @@ This section contains actions that affect the state of blocks on the NPC grid.
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
+<!--EnableHighestRangeAntennas-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|EnableHighestRangeAntennas|
+|:----|:----|
+|Tag Format:|`[EnableHighestRangeAntennas:Value]`|
+|Description:|This tag specifies if all antennas on the current grid that have the highest range should be turned on.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--DisableHighestRangeAntennas-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DisableHighestRangeAntennas|
+|:----|:----|
+|Tag Format:|`[DisableHighestRangeAntennas:Value]`|
+|Description:|This tag specifies if all antennas on the current grid that have the highest range should be turned off.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
 ***
 
 # Communication
