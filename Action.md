@@ -1261,7 +1261,7 @@ This section contains actions that change local or global variables that can be 
 
 ***
 
-# Zones
+# Zone
 
 This section contains actions that can change / manipulate Zones (formerly Territories) in the game world.
 
