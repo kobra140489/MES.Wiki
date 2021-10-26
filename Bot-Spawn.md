@@ -57,6 +57,6 @@ Below are all of the eligible tags you can use in your Bot Spawn Profiles:
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Color|
 |:----|:----|
 |Tag Format:|`[Color:Value]`|
-|Description:|Specifies the ColorMaskHSV of the spawned bot character.|
+|Description:|Specifies the Color (RGB 0-255) of the spawned bot character.|
 |Allowed Values:|Any Vector3 Value using this format<br />`{X:0 Y:0 Z:0}`|
 |Multiple Tag Allowed:|No|
