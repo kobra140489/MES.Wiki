@@ -350,6 +350,15 @@ This section contains tags that control how behaviors react to planetary terrain
 |Allowed Values:|Any Number Greater or Equal to `0`|
 |Multiple Tag Allowed:|No|
 
+<!--UseWaterPatrolMode-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseWaterPatrolMode|
+|:----|:----|
+|Tag Format:|`[UseWaterPatrolMode:Value]`|
+|Description:|This tag specifies if a ship should use water related navigation similar to what is found in the `Nautical` behavior. This only works with certain behavior subclasses.|
+|Allowed Values:|`true`<br>`false`|
+|Behaviors:|`Escort`<br>`Patrol`|
+|Multiple Tag Allowed:|No|
+
 # Rotation
 
 This section contains tags that control rotation of the NPC grid.  
