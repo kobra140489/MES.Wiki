@@ -307,6 +307,11 @@ The CargoShip behavior type also has some custom Trigger Types as well. Below th
 |`BehaviorTriggerD`|This trigger is activated when the CargoShip switches from a non-despawn waypoint to a despawn waypoint.|
 
 
+# Escort
+
+**Behavior Description:** This behavior is used in conjunction with the Trigger/Action/Command system to allow a ship to request escorting another ship (eg: small drone escorting a cargo ship). Once the behavior sends the request, nearby potential 'parent' ships will receive the request. If the parent ship has a trigger configured to receive the command and process the escort request, it will attempt to designate an available escort offset to the requestor (offsets need to be defined in the parent behavior). If an escort offset is successfully designated, then the requestor will travel to the offset and continue to travel to it as long as the ship exists.
+
+
 # Fighter
 
 **Behavior Description:** The fighter behavior is designed primarily for small grid drones or fighter craft. It utilizes Forward Facing Static Weapons to engage targets. The behavior will approach the target, and then once it reaches a specified distance, it will switch to another mode where it will rotate towards the target to engage with weapons, while occasionally strafing.
@@ -512,6 +517,11 @@ See the AutoPilot Profile guide for compatible tags with this behavior.
 ***
 
 The Passive Behavior Type has not behavior exclusive tags at this time.
+
+
+# Patrol
+
+**Behavior Description:** This behavior allows the ship using it to patrol a random area from where the ship first spawned. The distances for this are governed by the same Offset tags that Horsefly and other behaviors use.
 
 
 # Scout
