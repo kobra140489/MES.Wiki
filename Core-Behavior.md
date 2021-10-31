@@ -37,6 +37,7 @@ Below are the tags you are able to use in your Behavior Profiles. They are divid
 **[Damage](#Damage)**  
 **[Despawn](#Despawn)**  
 **[Damage](#Damage)**   
+**[EscortSystem](#EscortSystem)**  
 **[Weapons](#Weapons)**  
 
 **[CargoShip](#CargoShip)**  
@@ -145,7 +146,7 @@ The Damage System in Rival AI is used to monitor when damage is taken and how to
 
 # Despawn
 
-The Despawn System in Rival AI is used to control when an NPC ship should either Retreat and/or Despawn.
+The Despawn System in Modular Encounters Systems is used to control when an NPC ship should either Retreat and/or Despawn.
 
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UsePlayerDistanceTimer|
 |:----|:----|
@@ -202,6 +203,18 @@ The Despawn System in Rival AI is used to control when an NPC ship should either
 |Description:|Specifies the max distance a player can be from the NPC after it begins retreating before the NPC depsawns.|
 |Allowed Values:|Any Number Higher Than `0`|
 |Multiple Tag Allowed:|No|
+
+
+# EscortSystem
+
+The Escort System in Modular Encounters Systems is used to assist other ships following an NPC in a formation.
+
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|EscortOffsets|
+|:----|:----|
+|Tag Format:|`[EscortOffsets:Value]`|
+|Description:|This tag specifies an offset location from the NPC Remote Control block that will be assigned to other NPCs requesting to escort this NPC.|
+|Allowed Values:|Any Vector3D String<br />`eg {X:100 Y:0 Z:0}`|
+|Multiple Tag Allowed:|Yes|
 
 
 # Weapons
