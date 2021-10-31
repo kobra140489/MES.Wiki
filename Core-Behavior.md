@@ -40,12 +40,14 @@ Below are the tags you are able to use in your Behavior Profiles. They are divid
 **[Weapons](#Weapons)**  
 
 **[CargoShip](#CargoShip)**  
+**[Escort](#Escort)**  
 **[Fighter](#Fighter)**  
 **[HorseFighter](#HorseFighter)**  
 **[Horsefly](#Horsefly)**  
 **[Hunter](#Hunter)**  
 **[Nautical](#Nautical)**  
 **[Passive](#Passive)**  
+**[Patrol](#Patrol)**  
 **[Scout](#Scout)**  
 **[Sniper](#Sniper)**  
 **[Strike](#Strike)**  
