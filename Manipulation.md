@@ -81,7 +81,7 @@ Below are several types of tags you can include in your Manipulation Profile:
 |:----|:----|
 |Tag Format:|`[RequiredManipulationSpawnType:Value]`|
 |Description:|This tag allows you to specify one or more Spawn Types. If any of the provided Spawn Types match the Type of the encounter that is being spawned, then this condition is considered satisfied.|
-|Allowed Values:|`SpaceCargoShip`<br />`LunarCargoShip`<br />`RandomEncounter`<br />`PlanetaryCargoShip`<br />`GravityCargoShip`<br />`PlanetaryInstallation`<br />`WaterSurfaceStation`<br />`UnderWaterStation`<br />`BossSpace`<br />`BossAtmo`<br />`BossGravity`<br />`Creature`<br />`OtherNPC`<br />`StaticEncounter`<br />`DryLandInstallation`|
+|Allowed Values:|`SpaceCargoShip`<br />`LunarCargoShip`<br />`RandomEncounter`<br />`PlanetaryCargoShip`<br />`GravityCargoShip`<br />`PlanetaryInstallation`<br />`WaterSurfaceStation`<br />`UnderWaterStation`<br />`BossSpace`<br />`BossAtmo`<br />`BossGravity`<br />`Creature`<br />`OtherNPC`<br />`DroneEncounter`<br />`StaticEncounter`<br />`DryLandInstallation`|
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|Yes|
 
@@ -129,6 +129,42 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Allowed Values:|Any Number|
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
+
+<!-- ManipulationAllowedPrefabNames-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationAllowedPrefabNames|
+|:----|:----|
+|Tag Format:|`[ManipulationAllowedPrefabNames:Value]`|
+|Description:|This tag allows you to specify one or more Prefab Names that must match the current Prefab that is being manipulated in order to run the Manipulation Profile.|
+|Allowed Values:|Any Prefab SubtypeID|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- ManipulationRestrictedPrefabNames-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationRestrictedPrefabNames|
+|:----|:----|
+|Tag Format:|`[ManipulationRestrictedPrefabNames:Value]`|
+|Description:|This tag allows you to specify one or more Prefab Names that cannot match the current Prefab that is being manipulated in order to run the Manipulation Profile.|
+|Allowed Values:|Any Prefab SubtypeID|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- ManipulationAllowedPrefabIndexes-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationAllowedPrefabIndexes|
+|:----|:----|
+|Tag Format:|`[ManipulationAllowedPrefabIndexes:Value]`|
+|Description:|This tag allows you to specify one or more Prefab Indexes (eg: 0, 1, 2, etc) that must match the current Prefab that is being manipulated in order to run the Manipulation Profile.|
+|Allowed Values:|Any Integer Matching a Prefab Index|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- ManipulationRestrictedPrefabIndexes-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationRestrictedPrefabIndexes|
+|:----|:----|
+|Tag Format:|`[ManipulationRestrictedPrefabIndexes:Value]`|
+|Description:|This tag allows you to specify one or more Prefab Indexes (eg: 0, 1, 2, etc) that cannot match the current Prefab that is being manipulated in order to run the Manipulation Profile.|
+|Allowed Values:|Any Integer Matching a Prefab Index|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
 
 
 # General
