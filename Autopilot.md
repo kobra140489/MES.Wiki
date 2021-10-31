@@ -177,6 +177,14 @@ This section contains tags that don't quite fit in the other categories.
 |Allowed Values:|Any Number Greater Than `0`|
 |Multiple Tag Allowed:|No|
 
+<!--UseVerticalRetreat-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseVerticalRetreat|
+|:----|:----|
+|Tag Format:|`[UseVerticalRetreat:Value]`|
+|Description:|This tag specifies if the Despawn coordinates should be calculated in an upward direction when an NPC is retreating.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
 
 # Leading
 
