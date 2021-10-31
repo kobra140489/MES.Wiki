@@ -107,6 +107,13 @@ Here's an example of how a Target Profile Definition is setup:
 |Allowed Values:|Any Number Greater Than `0`|
 |Multiple Tag Allowed:|No|
 
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxExistingTargetDistance|
+|:----|:----|
+|Tag Format:|`[MaxExistingTargetDistance:Value]`|
+|Description:|This tag allows you to specify the distance that an existing valid target must be outside before a new target is selected. If this value is not provided, then it uses the same value as `MaxDistance`|
+|Allowed Values:|Any Number Greater Than `0`|
+|Multiple Tag Allowed:|No|
+
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MatchAllFilters|
 |:----|:----|
 |Tag Format:|`[MatchAllFilters:Value]`|
