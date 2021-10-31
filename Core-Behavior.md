@@ -60,7 +60,7 @@ These tags are the main building blocks of your behavior. You can specify the ty
 |:----|:----|
 |Tag Format:|`[BehaviorName:Value]`|
 |Description:|This tag specifies the type of preset behavior that you NPC should use. Depending on what type you choose, additional tags become available for use (see Behavior Specific Tags section for more details)|
-|Allowed Values:|`Fighter`<br>`HorseFighter`<br>`Horsefly`<br>`Passive`<br>`Strike`|
+|Allowed Values:|`CargoShip`<br />`Escort`<br />`Fighter`<br>`HorseFighter`<br>`Horsefly`<br>`Hunter`<br />`Nautical`<br />`Passive`<br>`Patrol`<br />`Strike`|
 |Multiple Tag Allowed:|No|
 
 <!--AutopilotData-->
