@@ -742,42 +742,6 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
-<!-- UseRivalAi  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRivalAi|
-|:----|:----|
-|Tag Format:|`[UseRivalAi:Value]`|
-|Description:|This tag allows you to specify if a RivalAI Behavior Profile should be used in the prefabs included in your SpawnGroup. With this tag being set to `true`, the spawner will look for a RivalAI Behavior with a SubtypeId matching what was provided in the Prefab `<Behaviour>` tags, and will automatically add it to a valid RivalAI Remote Control block.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
-<!-- RivalAiReplaceRemoteControl  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RivalAiReplaceRemoteControl|
-|:----|:----|
-|Tag Format:|`[RivalAiReplaceRemoteControl:Value]`|
-|Description:|This tag allows you to specify if the first valid Vanilla Remote Control block in each Prefab should be replaced with a RivalAI Remote Control.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
-<!-- ApplyBehaviorToNamedBlock  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ApplyBehaviorToNamedBlock|
-|:----|:----|
-|Tag Format:|`[ApplyBehaviorToNamedBlock:Value]`|
-|Description:|This tag allows you to specify the specific block name of a Remote Control block that you want to have used/replaced with a RivalAI control block.|
-|Allowed Values:|Any Remote Control Block Name|
-|Default Value(s):|`none`|
-|Multiple Tag Allowed:|No|
-
-<!-- ConvertAllRemoteControlBlocks  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ConvertAllRemoteControlBlocks|
-|:----|:----|
-|Tag Format:|`[ConvertAllRemoteControlBlocks:Value]`|
-|Description:|This tag allows you to specify if all remote control blocks should be converted to RivalAI control blocks. Only the first or primary (or named, if you use the option above) block will receive the behavior specified in your prefab, other blocks will need to use RivalAI Trigger/Action to assign behaviors to them.|
-|Allowed Values:|`true`<br>`false`|
-|Default Value(s):|`false`|
-|Multiple Tag Allowed:|No|
-
 
 # General
 
