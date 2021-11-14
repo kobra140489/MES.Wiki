@@ -166,46 +166,6 @@ This section contains actions that relate to changes that can be made to the beh
 |Allowed Values:|`Forward`<br>`Backward`<br>`Up`<br>`Down`<br>`Left`<br>`Right`|
 |Multiple Tag Allowed:|No|
 
-<!--SwitchToBehavior  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SwitchToBehavior|
-|:----|:----|
-|Tag Format:|`[SwitchToBehavior:Value]`|
-|Description:|This tag specifies if the Behavior should switch to a new behavior profile. |
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|No|
-
-<!--NewBehavior  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|NewBehavior|
-|:----|:----|
-|Tag Format:|`[NewBehavior:Value]`|
-|Description:|This tag specifies the ID of the new Behavior Profile that will be used if `SwitchToBehavior` is `true`. |
-|Allowed Values:|SubtypeId of New Behavior Profile|
-|Multiple Tag Allowed:|No|
-
-<!--PreserveSettingsOnBehaviorSwitch  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PreserveSettingsOnBehaviorSwitch|
-|:----|:----|
-|Tag Format:|`[PreserveSettingsOnBehaviorSwitch:Value]`|
-|Description:|This tag specifies if the settings from a behavior (stored booleans, counters, etc) should be preserved and used in the new behavior if `SwitchToBehavior` is `true`. |
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|No|
-
-<!--PreserveTriggersOnBehaviorSwitch  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PreserveTriggersOnBehaviorSwitch|
-|:----|:----|
-|Tag Format:|`[PreserveTriggersOnBehaviorSwitch:Value]`|
-|Description:|This tag specifies if the trigger profiles from a behavior should be preserved and used in the new behavior if `SwitchToBehavior` is `true`. |
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|No|
-
-<!--PreserveTargetDataOnBehaviorSwitch  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PreserveTargetDataOnBehaviorSwitch|
-|:----|:----|
-|Tag Format:|`[PreserveTargetDataOnBehaviorSwitch:Value]`|
-|Description:|This tag specifies if the target profile from a behavior should be preserved and used in the new behavior if `SwitchToBehavior` is `true`. |
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|No|
-
 <!--ChangeAutopilotProfile-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeAutopilotProfile|
 |:----|:----|
