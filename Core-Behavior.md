@@ -322,8 +322,7 @@ The CargoShip behavior type also has some custom Trigger Types as well. Below th
 
 # Escort
 
-**Behavior Description:** This behavior is used in conjunction with the Trigger/Action/Command system to allow a ship to request escorting another ship (eg: small drone escorting a cargo ship). Once the behavior sends the request, nearby potential 'parent' ships will receive the request. If the parent ship has a trigger configured to receive the command and process the escort request, it will attempt to designate an available escort offset to the requestor (offsets need to be defined in the parent behavior). If an escort offset is successfully designated, then the requestor will travel to the offset and continue to travel to it as long as the ship exists.
-
+**Behavior Description:** This behavior is used in conjunction with the Trigger/Action/Command system to allow a ship to request escorting another ship (eg: small drone escorting a cargo ship). Once the behavior sends the request, nearby potential 'parent' ships will receive the request. If the parent ship has a trigger configured to receive the command and process the escort request, it will attempt to designate an available escort offset to the requestor (offsets need to be defined in the parent behavior). If an escort offset is successfully designated, then the requestor will travel to the offset and continue to travel to it as long as the ship exists. If an escort cannot acquire a parent grid to follow, then it will trigger a despawn based on time set in `WaypointWaitTimeTrigger` of the current Autopilot Profile (this only happens while `UseNoTargetTimer` is true).
 
 ***
 
