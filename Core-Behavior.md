@@ -325,6 +325,20 @@ The CargoShip behavior type also has some custom Trigger Types as well. Below th
 **Behavior Description:** This behavior is used in conjunction with the Trigger/Action/Command system to allow a ship to request escorting another ship (eg: small drone escorting a cargo ship). Once the behavior sends the request, nearby potential 'parent' ships will receive the request. If the parent ship has a trigger configured to receive the command and process the escort request, it will attempt to designate an available escort offset to the requestor (offsets need to be defined in the parent behavior). If an escort offset is successfully designated, then the requestor will travel to the offset and continue to travel to it as long as the ship exists.
 
 
+***
+
+**Core System Tag Defaults:**
+
+|System:|Tag:|Value:|
+|:----|:----|:----|
+|AutoPilot|Default Primary Profile|[Click Here](https://github.com/MeridiusIX/RivalAI/blob/master/Data/GenericProfiles/Autopilot/Escort.sbc)|
+|Despawn|UseNoTargetTimer|`true`|
+|Target Profile|TargetType|`Player`|
+|Target Profile|TargetRelation |`Enemy`|
+|Target Profile|TargetOwner|`Player`|
+|Weapons|UseStaticGuns|`true`|
+
+
 # Fighter
 
 **Behavior Description:** The fighter behavior is designed primarily for small grid drones or fighter craft. It utilizes Forward Facing Static Weapons to engage targets. The behavior will approach the target, and then once it reaches a specified distance, it will switch to another mode where it will rotate towards the target to engage with weapons, while occasionally strafing.
