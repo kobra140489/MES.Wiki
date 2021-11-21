@@ -64,6 +64,14 @@ Below are the tags you are able to use in your Command Profiles.
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
+<!--IgnoreReceiverAntennaRequirement-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IgnoreReceiverAntennaRequirement|
+|:----|:----|
+|Tag Format:|`[IgnoreReceiverAntennaRequirement:Value]`|
+|Description:|This tag specifies if the command should be able to reach other grids that may not have an active antenna to receive the code with.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
 <!--Radius-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Radius|
 |:----|:----|
