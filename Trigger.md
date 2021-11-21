@@ -93,6 +93,15 @@ Below are the tags you are able to use in your Trigger Profiles. Please note tha
 |Compatible Types:|`PlayerNear`<br>`PlayerFar`<br>`TargetNear`<br>`TargetFar`|
 |Multiple Tag Allowed:|No|
 
+<!--AllowTargetFarWithoutTarget-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowTargetFarWithoutTarget|
+|:----|:----|
+|Tag Format:|`[AllowTargetFarWithoutTarget:Value]`|
+|Description:|Determines if the Trigger type `TargetFar` can activate if the behavior does not currently have a target.|
+|Allowed Values:|`true`<br>`false`|
+|Compatible Types:|`TargetFar`|
+|Multiple Tag Allowed:|No|
+
 <!--InsideAntenna  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|InsideAntenna|
 |:----|:----|
