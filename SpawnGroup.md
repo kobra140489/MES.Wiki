@@ -73,6 +73,15 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|Yes|
 
+<!-- WeaponRandomizationOverrideProfile-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|WeaponRandomizationOverrideProfile|
+|:----|:----|
+|Tag Format:|`[WeaponRandomizationOverrideProfile:Value]`|
+|Description:|This tag allows you to provide a Manipulation Profile that is used exclusively for defining rules related to Weapon Randomization. If you use this profile, then all other manipulation profiles are not used for anything Weapon Randomization related. Any tags included in this profile that are not related to Weapon Randomization are also not used.|
+|Allowed Values:|Any Manipulation Profile SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
+
 
 # Misc
 
