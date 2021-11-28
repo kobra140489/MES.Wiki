@@ -1320,6 +1320,15 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`All`|
 |Multiple Tag Allowed:|No|
 
+<!-- AllowPrefabIndexReuse-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowPrefabIndexReuse|
+|:----|:----|
+|Tag Format:|`[AllowPrefabIndexReuse:Value]`|
+|Description:|This tag specifies if prefab indexes can be used more than once when using SelectedIndexes or RandomSelectedIndexes (eg, 0 can be used twice). This should only be used if you are also using `PrefabOffsetOverrides`, otherwise prefabs would spawn on top of eachother and cause clang and other violent explosions.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
 <!-- PrefabIndexes-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PrefabIndexes|
 |:----|:----|
