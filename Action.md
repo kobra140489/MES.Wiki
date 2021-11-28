@@ -33,6 +33,7 @@ Here is an example of how an Action Profile definition is setup:
 
 Below are the tags you are able to use in your Action Profiles. They are divided into several categories based on what they affect.
 
+**[Abilities](#Abilities)** 
 **[Behavior](#Behavior)**  
 **[Blocks](#Blocks)**  
 **[Communication](#Communication)**  
@@ -49,6 +50,50 @@ Below are the tags you are able to use in your Action Profiles. They are divided
 **[Zone](#Zone)**  
 
 ***
+
+# Abilities
+
+This section contains actions that enable/disable special abilities for the behavior.
+
+<!--UseJetpackInhibitorEffect-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseJetpackInhibitorEffect|
+|:----|:----|
+|Tag Format:|`[UseJetpackInhibitorEffect:Value]`|
+|Description:|This tag specifies if the behavior should enable or disable an internalized Jetpack Inhibitor effect. Since this effect only lasts for the session, it's recommended to use it in combination with a Session Trigger when possible. `true` enables the effect, while `false` disables it.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--UseDrillInhibitorEffect-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseDrillInhibitorEffect|
+|:----|:----|
+|Tag Format:|`[UseDrillInhibitorEffect:Value]`|
+|Description:|This tag specifies if the behavior should enable or disable an internalized Hand Drill Inhibitor effect. Since this effect only lasts for the session, it's recommended to use it in combination with a Session Trigger when possible. `true` enables the effect, while `false` disables it.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--UseNanobotInhibitorEffect-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseNanobotInhibitorEffect|
+|:----|:----|
+|Tag Format:|`[UseNanobotInhibitorEffect:Value]`|
+|Description:|This tag specifies if the behavior should enable or disable an internalized Nanobot Inhibitor effect. Since this effect only lasts for the session, it's recommended to use it in combination with a Session Trigger when possible. `true` enables the effect, while `false` disables it.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--UseJumpInhibitorEffect-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseJumpInhibitorEffect|
+|:----|:----|
+|Tag Format:|`[UseJumpInhibitorEffect:Value]`|
+|Description:|This tag specifies if the behavior should enable or disable an internalized Jump Drive Inhibitor effect. Since this effect only lasts for the session, it's recommended to use it in combination with a Session Trigger when possible. `true` enables the effect, while `false` disables it.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--UsePlayerInhibitorEffect-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UsePlayerInhibitorEffect|
+|:----|:----|
+|Tag Format:|`[UsePlayerInhibitorEffect:Value]`|
+|Description:|This tag specifies if the behavior should enable or disable an internalized Player Inhibitor effect. Since this effect only lasts for the session, it's recommended to use it in combination with a Session Trigger when possible. `true` enables the effect, while `false` disables it.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
 
 # Behavior
 
