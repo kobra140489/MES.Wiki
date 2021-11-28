@@ -332,7 +332,7 @@ Below are the tags you are able to use in your Trigger Profiles. Please note tha
 <!--ElseActions-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ElseActions|
 |:----|:----|
-|Tag Format:|`[Actions:Value]`|
+|Tag Format:|`[ElseActions:Value]`|
 |Description:|This tag specifies which Action Profiles will be executed when the Trigger Profile conditions are NOT satisfied if also using the `UseElseActions` tag.|
 |Allowed Values:|Any Action Profile SubtypeId|
 |Compatible Types:|`All`|
