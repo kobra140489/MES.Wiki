@@ -33,7 +33,7 @@ Here is an example of how an Action Profile definition is setup:
 
 Below are the tags you are able to use in your Action Profiles. They are divided into several categories based on what they affect.
 
-**[Abilities](#Abilities)** 
+**[Abilities](#Abilities)**  
 **[Behavior](#Behavior)**  
 **[Blocks](#Blocks)**  
 **[Communication](#Communication)**  
@@ -256,6 +256,22 @@ This section contains actions that relate to changes that can be made to the beh
 |:----|:----|
 |Tag Format:|`[RandomThrustDirection:Value]`|
 |Description:|This tag will set a random Thruster Override Strength and Direction, and apply it to the NPC grid. This is useful when paired with a `Compromised` trigger.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--UseCurrentPositionAsPatrolReference-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseCurrentPositionAsPatrolReference|
+|:----|:----|
+|Tag Format:|`[UseCurrentPositionAsPatrolReference:Value]`|
+|Description:|This tag sets the current position of the NPC as its Patrol Reference so it will calculate offsets starting from that position instead of using its initial spawn coordinates.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ClearCustomPatrolReference-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ClearCustomPatrolReference|
+|:----|:----|
+|Tag Format:|`[ClearCustomPatrolReference:Value]`|
+|Description:|This tag removes any saved coordinates that may have been set using `UseCurrentPositionAsPatrolReference` so behaviors using patrol will revert to using their initial spawn coordinates to calculate patrol offsets.|
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
