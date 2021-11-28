@@ -55,6 +55,7 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 |`Retreat`|A trigger that will activate if the Retreat BehaviorMode is activated on an NPC.|
 |`SensorActive`|A proximity watcher that executes actions if a named Sensor Block is currently Activated.|
 |`SensorIdle`|A proximity watcher that executes actions if a named Sensor Block is currently Idle.|
+|`Session`|A trigger that only activates once per session (ie: when the encounter spawns or when the game loads/reloads).|
 |`TargetFar`|A proximity watcher that executes actions if a target is outside a certain range.|
 |`TargetInSafezone`|A target watcher that executes actions if a target moves into a SafeZone|
 |`TargetNear`|A proximity watcher that executes actions if a target come within a certain range.|
@@ -290,4 +291,49 @@ Below are the tags you are able to use in your Trigger Profiles. Please note tha
 |Description:|This tag specifies the types of Weather that are allowed to activate a Trigger using the `Weather` type.|
 |Allowed Values:|Any Weather SubtypeId|
 |Compatible Types:|`Weather`|
+|Multiple Tag Allowed:|Yes|
+
+<!--ToggleWithTriggerProfile-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleWithTriggerProfile|
+|:----|:----|
+|Tag Format:|`[ToggleWithTriggerProfile:Value]`|
+|Description:|Specifies the name of another attached trigger profile that will have its `UseTrigger` value turned on when this trigger activates. The `UseTrigger` value of this trigger is simultanously turned off.|
+|Allowed Values:|Any Trigger Profile SubtypeId|
+|Compatible Types:|`All`|
+|Multiple Tag Allowed:|No|
+
+<!--ToggledProfileResetsCooldown-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggledProfileResetsCooldown|
+|:----|:----|
+|Tag Format:|`[ToggledProfileResetsCooldown:Value]`|
+|Description:|Specifies if the trigger that is enabled while using `ToggleWithTriggerProfile` should have its cooldown timer reset at the same time.|
+|Allowed Values:|`true`<br>`false`|
+|Compatible Types:|`All`|
+|Multiple Tag Allowed:|No|
+
+<!--UseFailCondition-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseFailCondition|
+|:----|:----|
+|Tag Format:|`[UseFailCondition:Value]`|
+|Description:|Specifies if the trigger should instead activate only when its `Type` condition (any any attached Condition Profiles) do not pass their checks. This does not apply to the trigger Cooldown as a fail condition.|
+|Allowed Values:|`true`<br>`false`|
+|Compatible Types:|`All`|
+|Multiple Tag Allowed:|No|
+
+<!--UseElseActions-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseElseActions|
+|:----|:----|
+|Tag Format:|`[UseElseActions:Value]`|
+|Description:|Specifies if the trigger should instead execute a separate set of Actions when its `Type` condition (any any attached Condition Profiles) do not pass their checks. This does not apply to the trigger Cooldown as a fail condition.|
+|Allowed Values:|`true`<br>`false`|
+|Compatible Types:|`All`|
+|Multiple Tag Allowed:|No|
+
+<!--ElseActions-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ElseActions|
+|:----|:----|
+|Tag Format:|`[Actions:Value]`|
+|Description:|This tag specifies which Action Profiles will be executed when the Trigger Profile conditions are NOT satisfied if also using the `UseElseActions` tag.|
+|Allowed Values:|Any Action Profile SubtypeId|
+|Compatible Types:|`All`|
 |Multiple Tag Allowed:|Yes|
