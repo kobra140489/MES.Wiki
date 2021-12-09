@@ -9,7 +9,7 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 [**Faction**](#Faction)  
 [**Manipulations**](#)  
 [**Misc**](#Misc)  
-[**Replenishment**](#)  
+[**Replenishment**](#Replenishment)  
 
 # Conditions
 
