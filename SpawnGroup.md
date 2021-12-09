@@ -4,10 +4,9 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 
 
 
-[**Conditions**](#)  
-[**Economy**](#Economy)  
-[**Faction**](#Faction)  
-[**Manipulations**](#)  
+[**Conditions**](#Conditions)  
+[**Economy**](#Economy)   
+[**Manipulations**](#Manipulations  )  
 [**Misc**](#Misc)  
 [**Replenishment**](#Replenishment)  
 
