@@ -130,6 +130,13 @@ These tags are the main building blocks of your behavior. You can specify the ty
 |Allowed Values:|Any String Value|
 |Multiple Tag Allowed:|No|
 
+<!--WeaponSystem-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|WeaponSystem|
+|:----|:----|
+|Tag Format:|`[WeaponSystem:Value]`|
+|Description:|This tag specifies a Weapon System Profile that you want your behavior to use.|
+|Allowed Values:|Any Weapon System Profile SubtypeId|
+|Multiple Tag Allowed:|No|
 
 # Damage
 
@@ -215,83 +222,6 @@ The Escort System in Modular Encounters Systems is used to assist other ships fo
 |Description:|This tag specifies an offset location from the NPC Remote Control block that will be assigned to other NPCs requesting to escort this NPC.|
 |Allowed Values:|Any Vector3D String<br />`eg {X:100 Y:0 Z:0}`|
 |Multiple Tag Allowed:|Yes|
-
-
-# Weapons
-
-The Weapons System in RivalAI is used to manage how/when weapons should be activated when engaging targets.
-
-<!--UseStaticGuns-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseStaticGuns|
-|:----|:----|
-|Tag Format:|`[UseStaticGuns:Value]`|
-|Description:|This tag specifies if an NPC grid should fire Static Weapons when engaging targets. Only works on behaviors that can rotate towards their target.|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|No|
-
-<!--UseTurrets-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseTurrets|
-|:----|:----|
-|Tag Format:|`[UseTurrets:Value]`|
-|Description:|This tag specifies if an NPC grid should manage turret weapons using extra features in RivalAI. This tag does NOT diable turrets (use MES to do that)|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|No|
-
-<!--MaxStaticWeaponRange-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxStaticWeaponRange|
-|:----|:----|
-|Tag Format:|`[MaxStaticWeaponRange:Value]`|
-|Description:|Specifies the maximum distance from a target before an NPC can fire Static Weapons.|
-|Allowed Values:|Any number higher than `0`<br />`-1 is No Limit`|
-|Multiple Tag Allowed:|No|
-
-<!--WeaponMaxAngleFromTarget-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|WeaponMaxAngleFromTarget|
-|:----|:----|
-|Tag Format:|`[WeaponMaxAngleFromTarget:Value]`|
-|Description:|Specifies the maximum angle from a target before an NPC can fire Static Weapons.|
-|Allowed Values:|Any number higher than `0`|
-|Multiple Tag Allowed:|No|
-
-<!--UseBarrageFire-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseBarrageFire|
-|:----|:----|
-|Tag Format:|`[UseBarrageFire:Value]`|
-|Description:|This tag specifies static weapons should be fired sequentially, instead of all at once.|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|No|
-
-<!--MaxFireRateForBarrageWeapons-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxFireRateForBarrageWeapons|
-|:----|:----|
-|Tag Format:|`[MaxFireRateForBarrageWeapons:Value]`|
-|Description:|Specifies the max fire rate of a weapon to be considered usable for barrage fire. This is used to allow weapons that have a higher fire rate (eg Gatling Guns) to fire constantly instead of in a barrage sequence.|
-|Allowed Values:|Any number higher than `0`|
-|Multiple Tag Allowed:|No|
-
-<!--UseAmmoReplenish-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseAmmoReplenish|
-|:----|:----|
-|Tag Format:|`[UseAmmoReplenish:Value]`|
-|Description:|This tag specifies if weapons should automatically be kept loaded (ie Infinite Ammo).|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|No|
-
-<!--AmmoReplenishClipAmount-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AmmoReplenishClipAmount|
-|:----|:----|
-|Tag Format:|`[AmmoReplenishClipAmount:Value]`|
-|Description:|This tag specifies how many Ammo Magazine Clips should be added to a weapon block when Ammo Replenish happens.|
-|Allowed Values:|Any Integer Greater Than `0`|
-|Multiple Tag Allowed:|No|
-
-<!--MaxAmmoReplenishments-->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxAmmoReplenishments|
-|:----|:----|
-|Tag Format:|`[MaxAmmoReplenishments:Value]`|
-|Description:|This tag specifies how many times Ammo Replenishment will run on a weapon block.|
-|Allowed Values:|Any Integer Greater Than `0`|
-|Multiple Tag Allowed:|No|
 
 
 # CargoShip
