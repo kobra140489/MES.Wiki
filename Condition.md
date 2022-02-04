@@ -474,3 +474,27 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|If using `CompareCommandGridValue`, this tag specifies a multiplier that is applied to the Grid Value of this NPC before the comparing of values is completed.|
 |Allowed Values:|Any Number Greater Than `0`|
 |Multiple Tag Allowed:|No|
+
+<!-- UseFailCondition -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseFailCondition|
+|:----|:----|
+|Tag Format:|`[UseFailCondition:Value]`|
+|Description:|This tag specifies if the Condition Profile should pass if the conditions fail. Should all conditions pass, then the profile would evalate as failed.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- CheckForBlocksOfType -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckForBlocksOfType|
+|:----|:----|
+|Tag Format:|`[CheckForBlocksOfType:Value]`|
+|Description:|This tag specifies if certain working/functional block types should be searched for on the grid. If all provided types are found (at least one block of each type), then this condition passes.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- BlocksOfType -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|BlocksOfType|
+|:----|:----|
+|Tag Format:|`[BlocksOfType:Value]`|
+|Description:|This tag specifies the types of blocks that are searched for on the grid.|
+|Allowed Value(s):|Any Block TypeId<br />eg: `MyObjectBuilder_BatteryBlock`|
+|Multiple Tags Allowed:|Yes|
