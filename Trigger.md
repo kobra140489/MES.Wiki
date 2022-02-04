@@ -45,10 +45,14 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 |`Despawn`|A trigger that is activated when the NPC is despawned by RivalAI.|
 |`DespawnMES`|A trigger that is activated when the NPC is despawned by the Modular Encounters Spawner.|
 |`HasTarget`|A trigger that will activate while NPC has a valid target.|
+|`InsideZone`|A trigger that will activate while NPC is inside a specified zone.|
+|`JumpCompleted`|A trigger that will activate when a Jump Drive completes its jump.|
+|`JumpRequested`|A trigger that will activate when a nearby Jump Drive is activated.|
 |`LostTarget`|A trigger that activates when the NPC has lost a target.|
 |`Manual`|A trigger that activates when specifically called from another Action Profile.|
 |`NoTarget`|A trigger that will activate while NPC has no valid target.|
 |`NoWeapon`|A block watcher that executes actions if all weapons on the NPC grid becomes non-fireable|
+|`OutsideZone`|A trigger that will activate while NPC is outside a specified zone.|
 |`PlayerFar`|A proximity watcher that executes actions if players are outside a certain range.|
 |`PlayerKnownLocation`|A trigger that will activate if the NPC is inside a Known Player Location belonging to its own faction.|
 |`PlayerNear`|A proximity watcher that executes actions if players come within a certain range.|
