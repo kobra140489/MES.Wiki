@@ -95,6 +95,31 @@ This section contains actions that enable/disable special abilities for the beha
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- JumpToTarget -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|JumpToTarget|
+|:----|:----|
+|Tag Format:|`[JumpToTarget:Value]`|
+|Description:|This tag allows you to activate the NPC Jump Drive (if present / ready) and jump to the current target.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- JumpToJumpedEntity -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|JumpToJumpedEntity|
+|:----|:----|
+|Tag Format:|`[JumpToJumpedEntity:Value]`|
+|Description:|This tag allows you to activate the NPC Jump Drive (if present / ready) and jump to a grid that recently jumped away. This needs to be used with a `JumpCompleted` trigger|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- JumpedEntityMustBeTarget -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|JumpedEntityMustBeTarget|
+|:----|:----|
+|Tag Format:|`[JumpedEntityMustBeTarget:Value]`|
+|Description:|This tag specifies whether or not an entity that jumps away (detected by `JumpCompleted` trigger) must also be the current target of the NPC in order to Jump / Follow it.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+
 # Behavior
 
 This section contains actions that relate to changes that can be made to the behavior and auto-pilot.
@@ -599,6 +624,14 @@ This section contains actions for NPC to NPC communication.
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- AssignEscortFromCommand -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AssignEscortFromCommand|
+|:----|:----|
+|Tag Format:|`[AssignEscortFromCommand:Value]`|
+|Description:|This tag allows you to assign any potential Escort Requests to an empty escort slot (if available) for this NPC. The Escort Requests are received by Command Profile related Triggers.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
 ***
 
 # Damage
@@ -745,22 +778,22 @@ This section contains actions for damaging other entities.
 
 This section contains actions for playing audio and visual effects.
 
-<!--PlayParticleEffectAtRemote  -->
 
+<!-- PlaySoundAtPosition -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlaySoundAtPosition|
+|:----|:----|
+|Tag Format:|`[PlaySoundAtPosition:Value]`|
+|Description:|This tag specifies if a single sound effect should be played at the NPC current position. This does not require a sound block, or any additional grid configuration.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
 
-<!--ParticleEffectId  -->
-
-
-<!--ParticleEffectOffset  -->
-
-
-<!--ParticleEffectScale  -->
-
-
-<!--ParticleEffectMaxTime  -->
-
-
-<!--ParticleEffectColor  -->
+<!-- SoundAtPosition -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SoundAtPosition|
+|:----|:----|
+|Tag Format:|`[SoundAtPosition:Value]`|
+|Description:|This tag specifies the name of the sound effect you want to play if using `PlaySoundAtPosition`|
+|Allowed Value(s):||
+|Multiple Tags Allowed:|No|
 
 # General
 
@@ -773,6 +806,23 @@ This section contains actions that don't quite fit the other sections.
 |Description:|Specifies the Chance (out of 100) that this action will be run.|
 |Allowed Values:|Any Number `0` to `100`|
 |Multiple Tag Allowed:|No|
+
+<!-- SetGridCleanupExempt -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetGridCleanupExempt|
+|:----|:----|
+|Tag Format:|`[SetGridCleanupExempt:Value]`|
+|Description:|This tag specifies if the NPC grid should be temporarily exempt from MES cleanup processes.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- GridCleanupExemptDuration -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|GridCleanupExemptDuration|
+|:----|:----|
+|Tag Format:|`[GridCleanupExemptDuration:Value]`|
+|Description:|This tag specifies the length of time (in seconds) that the NPC will be exempt from cleanup if used with the `SetGridCleanupExempt` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`|
+|Multiple Tags Allowed:|No|
+
 
 # Grid
 
@@ -1053,6 +1103,54 @@ This section contains actions that allow NPCs to Spawn other NPCs, along with ot
 |Description:|This tag specifies if AiEnabled bots should only be spawned in pressurized spaces on the NPC grid. The location cannot be directly controlled from RivalAI, since the AiEnabled mod is what calculates the safe placement nodes. If you need them to appear in a specific room, you may want to arrange it so that room is the only air-tight space on the grid at the time of spawning.|
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
+
+<!-- SpawnPlanet -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnPlanet|
+|:----|:----|
+|Tag Format:|`[SpawnPlanet:Value]`|
+|Description:|This tag specifies if the NPC should spawn an entire freakin planet.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- PlanetName -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetName|
+|:----|:----|
+|Tag Format:|`[PlanetName:Value]`|
+|Description:|This tag specifies the name of the planet being spawned if using `SpawnPlanet`|
+|Allowed Value(s):|Any Planet SubtypeId|
+|Multiple Tags Allowed:|No|
+
+<!-- PlanetSize -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetSize|
+|:----|:----|
+|Tag Format:|`[PlanetSize:Value]`|
+|Description:|This tag specifies the size (diameter, in meters) of the planet that will be spawned if using `SpawnPlanet`|
+|Allowed Value(s):|Any Number Greater/Equal To `100`|
+|Multiple Tags Allowed:|No|
+
+<!-- PlanetWaypointProfile -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetWaypointProfile|
+|:----|:----|
+|Tag Format:|`[PlanetWaypointProfile:Value]`|
+|Description:|This tag specifies the name of a Waypoint Profile that will be used to govern the spawning position of the planet if using `SpawnPlanet`|
+|Allowed Value(s):|Any Waypoint Profile SubtypeId|
+|Multiple Tags Allowed:|No|
+
+<!-- TemporaryPlanet -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|TemporaryPlanet|
+|:----|:----|
+|Tag Format:|`[TemporaryPlanet:Value]`|
+|Description:|This tag specifies if the spawned planet should be deleted after a set amount of time if using `SpawnPlanet`|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- PlanetTimeLimit -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetTimeLimit|
+|:----|:----|
+|Tag Format:|`[PlanetTimeLimit:Value]`|
+|Description:|This tag specifies the time (in seconds) before the planet is despawned if using `SpawnPlanet` and `TemporaryPlanet`|
+|Allowed Value(s):|Any Integer Greater/Equal To `1`|
+|Multiple Tags Allowed:|No|
 
 ***
 
