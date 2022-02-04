@@ -895,6 +895,24 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
+<!-- ChargeNpcFactionForSpawn -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChargeNpcFactionForSpawn|
+|:----|:----|
+|Tag Format:|`[ChargeNpcFactionForSpawn:Value]`|
+|Description:|This tag allows you to specify if an encounter should only spawn if the NPC faction has enough credits, which are then depleted from the faction balance on successful spawning.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- ChargeForSpawning -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChargeForSpawning|
+|:----|:----|
+|Tag Format:|`[ChargeForSpawning:Value]`|
+|Description:|This tag specifies the amount of credits that is depleted from the NPC bank account if using the `ChargeNpcFactionForSpawn` tag.|
+|Allowed Value(s):|Any Integer Greater/Equal To `0'|
+|Default Value(s):|`0`|
+|Multiple Tags Allowed:|No|
+
 
 # Faction
 
