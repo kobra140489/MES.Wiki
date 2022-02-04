@@ -1706,6 +1706,52 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- UseSignalRequirement -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseSignalRequirement|
+|:----|:----|
+|Tag Format:|`[UseSignalRequirement:Value]`|
+|Description:|This tag allows you to specify if your encounter should only spawn if there is a valid Antenna and/or Beacon signal active in the area where the spawn takes place.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- MinSignalRadius -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinSignalRadius|
+|:----|:----|
+|Tag Format:|`[MinSignalRadius:Value]`|
+|Description:|This tag allows you to specify the minimum broadcast strength of the Antenna/Beacon that must be met for `UseSignalRequirement` to be satisfied. If this tag is not provided, then no minimum will be used.|
+|Allowed Value(s):|Any Number Value'<br />`Value` must be Less Than or Equal to `MaxSignalRadius` if provided.|
+|Default Value(s):|`-1`|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxSignalRadius -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxSignalRadius|
+|:----|:----|
+|Tag Format:|`[MaxSignalRadius:Value]`|
+|Description:|This tag allows you to specify the maximum broadcast strength of the Antenna/Beacon that must be met for `UseSignalRequirement` to be satisfied. If this tag is not provided, then no maximum will be used.|
+|Allowed Value(s):|Any Number Value'<br />`Value` must be Greater Than or Equal to `MinSignalRadius` if provided.|
+|Default Value(s):|`-1`|
+|Multiple Tags Allowed:|No|
+
+<!-- AllowNpcSignals -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowNpcSignals|
+|:----|:----|
+|Tag Format:|`[AllowNpcSignals:Value]`|
+|Description:|This tag allows NPC Antenna/Beacon signals to be considered while using the `UseSignalRequirement` tag|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- UseOnlySelfOwnedSignals -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseOnlySelfOwnedSignals|
+|:----|:----|
+|Tag Format:|`[UseOnlySelfOwnedSignals:Value]`|
+|Description:|This tag restricts Antenna/Beacon signals to only be valid if they're owned by the same NPC while using the `UseSignalRequirement` tag.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|`false`|
+|Multiple Tags Allowed:|No|
+
+
 # Zone
 
 
