@@ -1625,6 +1625,42 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
+<!-- CustomWorldCenter -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomWorldCenter|
+|:----|:----|
+|Tag Format:|[CustomWorldCenter:Value]|
+|Description:|This tag allows you to define a custom set of coordinates that are used as a reference point instead of `0,0,0` if you are using the `MinSpawnFromWorldCenter` or `MaxSpawnFromWorldCenter` tags.|
+|Allowed Value(s):|Vector Coordinates Formatted As:<br />`{X:0.0 Y:0.0 Z:0.0}`|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|No|
+
+<!-- DirectionFromWorldCenter -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DirectionFromWorldCenter|
+|:----|:----|
+|Tag Format:|[DirectionFromWorldCenter:Value]|
+|Description:|This tag allows you to define a direction vector that is checked against while using `MinSpawnFromWorldCenter` and/or `MaxSpawnFromWorldCenter`. The direction is checked against tags `MinAngleFromDirection` and/or `MinAngleFromDirection` while checking the players angle from World Center.|
+|Allowed Value(s):|Vector Coordinates Formatted As:<br />`{X:0.0 Y:0.0 Z:0.0}`|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|No|
+
+<!-- MinAngleFromDirection -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinAngleFromDirection|
+|:----|:----|
+|Tag Format:|[MinAngleFromDirection:Value]|
+|Description:|This tag defines the minimum angle allowed from the direction specified in `DirectionFromWorldCenter` while using `MinSpawnFromWorldCenter` and/or `MaxSpawnFromWorldCenter`. The direction is checked against tags `MinAngleFromDirection` and/or `MinAngleFromDirection` while checking the players angle from World Center.|
+|Allowed Value(s):|Any Number Value'<br />`Value` must be Less Than `MaxAngleFromDirection` if provided.|
+|Default Value(s):|`-1`|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxAngleFromDirection -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxAngleFromDirection|
+|:----|:----|
+|Tag Format:|[MaxAngleFromDirection:Value]|
+|Description:|This tag defines the maximum angle allowed from the direction specified in `DirectionFromWorldCenter` while using `MinSpawnFromWorldCenter` and/or `MaxSpawnFromWorldCenter`. The direction is checked against tags `MinAngleFromDirection` and/or `MinAngleFromDirection` while checking the players angle from World Center.|
+|Allowed Value(s):|Any Number Value'<br />`Value` must be Greater Than `MinAngleFromDirection` if provided.|
+|Default Value(s):|`-1`|
+|Multiple Tags Allowed:|No|
+
 <!-- SkipVoxelSpawnChecks-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SkipVoxelSpawnChecks|
 |:----|:----|
