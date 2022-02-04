@@ -10,6 +10,12 @@ The settings you can modify are listed below:
 |Chat Command:|`/MES.Settings.EncounterType.UseCleanupSettings.Value`|
 |Description:|This setting allows you to specify if the clean-up process should include encounters from this configuration file type. `Value` can be `true` or `false`|
 
+|Setting:|OnlyCleanNpcsFromMes|
+|:----|:----|
+|XML:|`<OnlyCleanNpcsFromMes>Value</OnlyCleanNpcsFromMes>`|
+|Chat Command:|`/MES.Settings.EncounterType.OnlyCleanNpcsFromMes.Value`|
+|Description:|This setting allows you to specify if the clean-up process should only target grids that were spawned by Modular Encounters Systems. `Value` can be `true` or `false`|
+
 |Setting:|CleanupUseDistance|
 |:----|:----|
 |XML:|`<CleanupUseDistance>Value</CleanupUseDistance>`|
