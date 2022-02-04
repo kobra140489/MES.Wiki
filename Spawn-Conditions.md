@@ -396,6 +396,15 @@ Below are several types of condition tags you can include in your Spawn Conditio
 |Default Value(s):|`Dangerous Encounter`|
 |Multiple Tag Allowed:|No|
 
+<!-- BossCustomGPSColor -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|BossCustomGPSColor|
+|:----|:----|
+|Tag Format:|`[BossCustomGPSColor:Value]`|
+|Description:|This tag allows you to specify a custom color (in RGB) that will be used for the Boss Encounter GPS.|
+|Allowed Value(s):|Vector Coordinates Formatted As:<br /> eg: `{X:0 Y:0 Z:0}`|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|No|
+
 
 # Creatures
 
