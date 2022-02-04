@@ -256,6 +256,24 @@ Below are the types of tags you can include in your Zone Profile:
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|No|
 
+<!-- RequiredSandboxBool -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RequiredSandboxBool|
+|:----|:----|
+|Tag Format:|`[RequiredSandboxBool:Value]`|
+|Description:|This tag allows you to specify the name of a Sandbox Boolean that must be `true` in order for this zone to be Active.|
+|Allowed Value(s):|Any Sandbox Boolean Name|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|No|
+
+<!-- RequiredFalseSandboxBool -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RequiredFalseSandboxBool|
+|:----|:----|
+|Tag Format:|`[RequiredFalseSandboxBool:Value]`|
+|Description:|This tag allows you to specify the name of a Sandbox Boolean that must be `false` in order for this zone to be Active.|
+|Allowed Value(s):|Any Sandbox Boolean Name|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|No|
+
 <!--FlashZoneRadius NOT YET-->
 
 
