@@ -1772,7 +1772,14 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 
 # Zone
 
-
+<!-- ZoneConditions-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneConditions|
+|:----|:----|
+|Tag Format:|`[ZoneConditions:Value]`|
+|Description:|This tag allows you to specify one or more Zone Conditions profile that will be used to validate spawning within zones.|
+|Allowed Value(s):|Any Zone Condition Profile SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|Yes|
 
 
 
