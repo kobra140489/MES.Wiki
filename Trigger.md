@@ -341,3 +341,57 @@ Below are the tags you are able to use in your Trigger Profiles. Please note tha
 |Allowed Values:|Any Action Profile SubtypeId|
 |Compatible Types:|`All`|
 |Multiple Tag Allowed:|Yes|
+
+<!-- ZoneName -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneName|
+|:----|:----|
+|Tag Format:|`[ZoneName:Value]`|
+|Description:|This tag specifies the name of a zone the NPC must be inside/outside for the trigger to activate|
+|Allowed Value(s):|Any Zone Name|
+|Compatible Types:|`InsideZone`<br />`OutsideZone`|
+|Multiple Tags Allowed:|No|
+
+<!-- EnableNamedTriggerOnSuccess -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|EnableNamedTriggerOnSuccess|
+|:----|:----|
+|Tag Format:|`[EnableNamedTriggerOnSuccess:Value]`|
+|Description:|This tag specifies the name of a trigger profile that will become enabled if this trigger is activated successfully.|
+|Allowed Value(s):|Any Trigger Profile SubtypeId|
+|Compatible Types:|`All`|
+|Multiple Tags Allowed:|No|
+
+<!-- DisableNamedTriggerOnSuccess -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DisableNamedTriggerOnSuccess|
+|:----|:----|
+|Tag Format:|`[DisableNamedTriggerOnSuccess:Value]`|
+|Description:|This tag specifies the name of a trigger profile that will become disabled if this trigger is activated successfully.|
+|Allowed Value(s):|Any Trigger Profile SubtypeId|
+|Compatible Types:|`All`|
+|Multiple Tags Allowed:|No|
+
+<!-- JumpedGridActivationDistance -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|JumpedGridActivationDistance|
+|:----|:----|
+|Tag Format:|`[JumpedGridActivationDistance:Value]`|
+|Description:|This tag specifies the max distance from a jump drive activation or jump starting position that is allowed for the trigger to activate.|
+|Allowed Value(s):|Any Number Greater/Equal To `0'|
+|Compatible Types:|`JumpRequested`<br />`JumpCompleted`|
+|Multiple Tags Allowed:|No|
+
+<!-- JumpedGridsCanBeNonHostile -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|JumpedGridsCanBeNonHostile|
+|:----|:----|
+|Tag Format:|`[JumpedGridsCanBeNonHostile:Value]`|
+|Description:|This tag specifies if Jumping/Jumped entity is allowed to be non-hostile to the NPC.|
+|Allowed Value(s):|`true`<br />`false`|
+|Compatible Types:|`JumpRequested`<br />`JumpCompleted`|
+|Multiple Tags Allowed:|No|
+
+<!-- DetectSelfAsJumpedGrid -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DetectSelfAsJumpedGrid|
+|:----|:----|
+|Tag Format:|`[DetectSelfAsJumpedGrid:Value]`|
+|Description:|This tag specifies if the NPC using this trigger is allowed to be the Jumping/Jumped entity.|
+|Allowed Value(s):|`true`<br />`false`|
+|Compatible Types:|`JumpRequested`<br />`JumpCompleted`|
+|Multiple Tags Allowed:|No|
