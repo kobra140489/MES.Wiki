@@ -1556,6 +1556,33 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
+<!-- UseDifficulty -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseDifficulty|
+|:----|:----|
+|Tag Format:|`[UseDifficulty:Value]`|
+|Description:|This tag allows your spawngroup to check the `Difficulty` value in the `General` config when considering spawn eligibility.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- MinDifficulty -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDifficulty|
+|:----|:----|
+|Tag Format:|`[MinDifficulty:Value]`|
+|Description:|This tag specifies the minimum difficulty required to spawn an encounter if using the `UseDifficulty` tag. |
+|Allowed Value(s):|Any Integer Value<br />`Value` must be Less Than or Equal to `MaxDifficulty` if provided.|
+|Default Value(s):|`-1`|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxDifficulty -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxDifficulty|
+|:----|:----|
+|Tag Format:|`[MaxDifficulty:Value]`|
+|Description:|This tag specifies the maximum difficulty required to spawn an encounter if using the `UseDifficulty` tag. |
+|Allowed Value(s):|Any Integer Value<br />`Value` must be Greater Than or Equal to `MinDifficulty` if provided.|
+|Default Value(s):|`-1`|
+|Multiple Tags Allowed:|No|
+
 
 # Variables
 
@@ -1628,7 +1655,7 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 <!-- CustomWorldCenter -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomWorldCenter|
 |:----|:----|
-|Tag Format:|[CustomWorldCenter:Value]|
+|Tag Format:|`[CustomWorldCenter:Value]`|
 |Description:|This tag allows you to define a custom set of coordinates that are used as a reference point instead of `0,0,0` if you are using the `MinSpawnFromWorldCenter` or `MaxSpawnFromWorldCenter` tags.|
 |Allowed Value(s):|Vector Coordinates Formatted As:<br />`{X:0.0 Y:0.0 Z:0.0}`|
 |Default Value(s):|`N/A`|
@@ -1637,7 +1664,7 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 <!-- DirectionFromWorldCenter -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DirectionFromWorldCenter|
 |:----|:----|
-|Tag Format:|[DirectionFromWorldCenter:Value]|
+|Tag Format:|`[DirectionFromWorldCenter:Value]`|
 |Description:|This tag allows you to define a direction vector that is checked against while using `MinSpawnFromWorldCenter` and/or `MaxSpawnFromWorldCenter`. The direction is checked against tags `MinAngleFromDirection` and/or `MinAngleFromDirection` while checking the players angle from World Center.|
 |Allowed Value(s):|Vector Coordinates Formatted As:<br />`{X:0.0 Y:0.0 Z:0.0}`|
 |Default Value(s):|`N/A`|
@@ -1646,7 +1673,7 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 <!-- MinAngleFromDirection -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinAngleFromDirection|
 |:----|:----|
-|Tag Format:|[MinAngleFromDirection:Value]|
+|Tag Format:|`[MinAngleFromDirection:Value]`|
 |Description:|This tag defines the minimum angle allowed from the direction specified in `DirectionFromWorldCenter` while using `MinSpawnFromWorldCenter` and/or `MaxSpawnFromWorldCenter`. The direction is checked against tags `MinAngleFromDirection` and/or `MinAngleFromDirection` while checking the players angle from World Center.|
 |Allowed Value(s):|Any Number Value'<br />`Value` must be Less Than `MaxAngleFromDirection` if provided.|
 |Default Value(s):|`-1`|
@@ -1655,7 +1682,7 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 <!-- MaxAngleFromDirection -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxAngleFromDirection|
 |:----|:----|
-|Tag Format:|[MaxAngleFromDirection:Value]|
+|Tag Format:|`[MaxAngleFromDirection:Value]`|
 |Description:|This tag defines the maximum angle allowed from the direction specified in `DirectionFromWorldCenter` while using `MinSpawnFromWorldCenter` and/or `MaxSpawnFromWorldCenter`. The direction is checked against tags `MinAngleFromDirection` and/or `MinAngleFromDirection` while checking the players angle from World Center.|
 |Allowed Value(s):|Any Number Value'<br />`Value` must be Greater Than `MinAngleFromDirection` if provided.|
 |Default Value(s):|`-1`|
