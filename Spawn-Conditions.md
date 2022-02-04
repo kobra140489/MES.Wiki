@@ -1649,6 +1649,15 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`none`|
 |Multiple Tag Allowed:|No|
 
+<!-- CustomApiConditions -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomApiConditions|
+|:----|:----|
+|Tag Format:|`[CustomApiConditions:Value]`|
+|Description:|This tag allows you to specify the name of a custom method that is executed when this encounter tries to spawn. The custom method is defined in the MES API. Click [here](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Scripting-API) to learn more about the API and how to register your custom method.|
+|Allowed Value(s):|Any Registered Custom Method Name|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|Yes|
+
 
 # World
 
