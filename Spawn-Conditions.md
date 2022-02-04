@@ -135,6 +135,24 @@ Below are several types of condition tags you can include in your Spawn Conditio
 |Default Value(s):|`100`|
 |Multiple Tag Allowed:|No|
 
+<!-- UseOptimizedVoxelSpawning -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseOptimizedVoxelSpawning|
+|:----|:----|
+|Tag Format:|`[UseOptimizedVoxelSpawning:Value]`|
+|Description:|This tag allows you to specify if Voxels attached to the SpawnGroup should be spawned using a newer voxel spawner system that is a bit more performance friendly.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- CustomVoxelMaterial -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomVoxelMaterial|
+|:----|:----|
+|Tag Format:|`[CustomVoxelMaterial:Value]`|
+|Description:|This tag allows you to specify one or more voxel material names that will be used for the voxel spawn (entire voxel will use this material). If multiple values are provided, then 1 will be selected randomly for each voxel.|
+|Allowed Value(s):|Any Voxel Material SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|Yes|
+
 
 # Planetary-Cargo-Ships
 
