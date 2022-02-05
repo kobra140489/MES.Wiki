@@ -821,6 +821,15 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Default Value(s):|`none`|
 |Multiple Tag Allowed:|Yes|
 
+<!-- ProcessBlocksForCustomGridName -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ProcessBlocksForCustomGridName|
+|:----|:----|
+|Tag Format:|`[ProcessBlocksForCustomGridName:Value]`|
+|Description:|This tag allows you to specify if the blocks on the grid should be scanned for `{GridName}` in their name and have it replaced with the randomized name generated if using `UseRandomNameGenerator`.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|`false`|
+|Multiple Tags Allowed:|No|
+
 
 #RivalAI
 
