@@ -173,3 +173,11 @@ Below are the tags you are able to use in your Chat Profiles:
 |Allowed Values:|Any String Excluding Character `:`.|
 |Multiple Tag Allowed:|No|
 
+<!-- AllowDuplicatedMessages -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowDuplicatedMessages|
+|:----|:----|
+|Tag Format:|`[AllowDuplicatedMessages:Value]`|
+|Description:|This tag allows you to specify if a chat/notification can be broadcast again if the previous message was the same.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
