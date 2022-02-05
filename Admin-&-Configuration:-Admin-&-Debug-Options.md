@@ -20,13 +20,21 @@ Here is a list of command categories:
 
 # Debug
 
+|Setting:|Change Bool|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ChangeBool.Value1.Value2`|
+|Description:|This chat command allows you to manually set or adjust the value of a Sandbox Boolean.|
+|Allowed `Value1`|Name of Sandbox Boolean|
+|Allowed `Value2`|Any Bool Value (`true` / `false`) you want to Set the Sandbox Boolean to.|
+
 |Setting:|Change Counter|
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command:|`/MES.Debug.ChangeCounter.Value1.Value2`|
 |Description:|This chat command allows you to manually set or adjust the value of a Sandbox Counter.|
 |Allowed `Value1`|Name of Sandbox Counter|
-|Allowed `Value2`|Any Integer Value you want to Set the Sandbox Counter at|
+|Allowed `Value2`|Any Integer Value you want to Set the Sandbox Counter to.|
 
 |Setting:|Clear All Timeouts|
 |:----|:----|
@@ -70,6 +78,14 @@ Here is a list of command categories:
 |Allowed Value for `RadiusValue`:|Any Number Greater Than 0|
 |Allowed Value for `DurationValue`:|Any Integer Greater Than 0|
 |Allowed Value for `MaxEncounterValue`:|Any Integer Greater Than 0, or `-1` for Unused|
+
+|Setting:|Create Planet|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Debug.CreatePlanet.PlanetName.PlanetSize`|
+|Description:|This chat command allows you to spawn a custom sized planet, at sizes smaller than 19000m or greater than 120000m.|
+|Allowed Value for `PlanetName`:|Any Planet Name|
+|Allowed Value for `PlanetSize`:|Any Number Greater Than 100|
 
 |Setting:|Remove All Npcs|
 |:----|:----|
