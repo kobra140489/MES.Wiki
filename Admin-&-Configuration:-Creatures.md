@@ -35,3 +35,17 @@ You can find the Creatures Settings Configuration File in `MySaveWorldFolder\Sto
 |XML:|`<CoordsAttemptsPerCreature>Value</CoordsAttemptsPerCreature>`|
 |Chat Command:|`/MES.Settings.Creatures.CoordsAttemptsPerCreature.Value`|
 |Description:|This setting allows you to set the maximum amount of attempts that coordinate generation for creature spawning will be attempted for areas where they may have difficulty spawning.|
+
+|Setting:|SpawnTypeBlacklist|
+|:----|:----|
+|XML:|`<SpawnTypeBlacklist>Value</SpawnTypeBlacklist>`|
+|Chat Command (Add):   |`/MES.Settings.Creatures.SpawnTypeBlacklist.Add.Value`|
+|Chat Command (Remove):|`/MES.Settings.Creatures.SpawnTypeBlacklist.Remove.Value`|
+|Description:|This setting allows you to blacklist certain spawngroups from appearing when this encounter type is used for spawning.|
+
+|Setting:|SpawnTypePlanetBlacklist|
+|:----|:----|
+|XML:|`<SpawnTypePlanetBlacklist>Value</SpawnTypePlanetBlacklist>`|
+|Chat Command (Add):   |`/MES.Settings.Creatures.SpawnTypePlanetBlacklist.Add.Value`|
+|Chat Command (Remove):|`/MES.Settings.Creatures.SpawnTypePlanetBlacklist.Remove.Value`|
+|Description:|This setting allows you to blacklist certain planets from being able to spawn this type of encounter.|
