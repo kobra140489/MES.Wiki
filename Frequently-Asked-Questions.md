@@ -9,3 +9,6 @@ A: If you're in an area that has unfavorable environmental conditions (thin atmo
 **Q: How do I turn off Jetpack / Drill / etc Inhibitor blocks?**  
 A: Shoot them until they break. There are no config options to disable these blocks, nor are there any plans to introduce any. Since turrets seem to become more useless against character entities with each game update, I have no incentive to remove these systems. Only a small percentage of NPC mods use the inhibitor blocks, so you have other options available if you don't enjoy that play style.
 
+**Q: Is MES causing vanilla economy station stores to be empty?**  
+A: No. What causes that is older mods that re-implement vanilla ore. If they're re-implemented without minimal price data that the economy system requires to generate pricing, then store blocks will be empty because all other item pricing cannot be calculated (ore -> ingot -> component -> block).
+
