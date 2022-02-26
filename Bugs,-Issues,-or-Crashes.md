@@ -30,7 +30,7 @@ If you are playing on a Dedicated Server, then the logs are usually found in the
 
 # Issues
 
-If you are experiencing issues, try the following steps first:
+If you are experiencing issues that could not be resolved in the other troubleshooting pages, try the following steps first:
 
  - Remove any unrelated mods, and test to see if the issue persists.  
 
