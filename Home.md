@@ -1,3 +1,3 @@
 Welcome to the Modular Encounters Systems wiki! This mod is a combination of the Modular Encounters Spawner and RivalAI frameworks.
 
-If you are having trouble with the mod framework, or any of the mods that utilize it, I suggest you start with the Player Resources section of this wiki (see side menu on the right). This section answers several common questions and also provides troubleshooting steps for many of the more common issues people may encounter.
+If you are having trouble with the mod framework, or any of the mods that utilize it, I suggest you start with the **Player Support** section of this wiki (see side menu on the right). This section answers several common questions and also provides troubleshooting steps for many of the more common issues people may encounter.
