@@ -113,6 +113,24 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
+<!-- ManipulationMinDifficulty-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationMinDifficulty|
+|:----|:----|
+|Tag Format:|`[ManipulationMinDifficulty:Value]`|
+|Description:|This tag allows you to specify a minimum difficulty (which is set in the General Config of the world) that must be met for this Manipulation Profile to be applied to the pending spawn. If this tag is not provided, then no minimum is used.|
+|Allowed Values:|Any Integer|
+|Default Value(s):|`-1`|
+|Multiple Tag Allowed:|No|
+
+<!-- ManipulationMaxDifficulty-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationMaxDifficulty|
+|:----|:----|
+|Tag Format:|`[ManipulationMaxDifficulty:Value]`|
+|Description:|This tag allows you to specify a maximum difficulty (which is set in the General Config of the world) that must be met for this Manipulation Profile to be applied to the pending spawn. If this tag is not provided, then no maximum is used.|
+|Allowed Values:|Any Integer|
+|Default Value(s):|`-1`|
+|Multiple Tag Allowed:|No|
+
 <!-- ManipulationMinBlockCount-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationMinBlockCount|
 |:----|:----|
