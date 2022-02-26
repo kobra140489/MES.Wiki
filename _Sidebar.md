@@ -1,5 +1,5 @@
 # Player Support
-  * [Encounter Guide and Troubleshooting](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Encounter-Guide-and-Troubleshooting)
+  * [Encounter Guide and Troubleshooting](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Encounter-Guide)
   * [FAQs](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Frequently-Asked-Questions)
   * [Troubleshooting](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Troubleshooting)
   * [Bugs, Issues, or Crashes](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Bugs,-Issues,-or-Crashes)
