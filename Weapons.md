@@ -30,6 +30,9 @@ The Weapon System profile in RivalAI is used to manage how/when weapons should b
 
       </Description>
     </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
 ```
 
 The following tags can be used in your Weapon System Profiles:
