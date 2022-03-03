@@ -1,6 +1,10 @@
 The Weapon System profile in RivalAI is used to manage how/when weapons should be activated when engaging targets. You can add a Weapon System profile to your Behavior profile by using the `[WeaponSystem:ProfileSubtypeIdHere]` tag. Below is an example of how these profiles are setup:
 
 ```
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<EntityComponents>
+
 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
