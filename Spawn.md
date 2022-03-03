@@ -20,7 +20,7 @@ Here's an example of how a Spawn Profile Definition is setup:
       
       [StartsReady:true]
       [SpawnMinCooldown:30]
-      [SpawnMinCooldown:60]
+      [SpawnMaxCooldown:60]
       [MaxSpawns:3]
       
       [SpawnGroups:DefenseDrone]
