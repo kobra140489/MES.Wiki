@@ -498,3 +498,27 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|This tag specifies the types of blocks that are searched for on the grid.|
 |Allowed Value(s):|Any Block TypeId<br />eg: `MyObjectBuilder_BatteryBlock`|
 |Multiple Tags Allowed:|Yes|
+
+<!-- CheckHorizonAngle -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckHorizonAngle|
+|:----|:----|
+|Tag Format:|`[CheckHorizonAngle:Value]`|
+|Description:|This tag allows you to check the NPC current forward direction against the angle of the horizon (90 degree from 'up' on a planet)|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- MinHorizonAngle -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinHorizonAngle|
+|:----|:----|
+|Tag Format:|`[MinHorizonAngle:Value]`|
+|Description:|This tag allows you to specify the minimum angle that is checked against the horizon if using `CheckHorizonAngle`|
+|Allowed Value(s):|Any Number Greater/Equal To `0'<br />`Value` must be Less Than or Equal to `MaxHorizonAngle` if provided.|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxHorizonAngle -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxHorizonAngle|
+|:----|:----|
+|Tag Format:|`[MaxHorizonAngle:Value]`|
+|Description:|This tag allows you to specify the maximum angle that is checked against the horizon if using `CheckHorizonAngle`|
+|Allowed Value(s):|Any Number Greater/Equal To `0'<br />`Value` must be Less Than or Equal to `MinHorizonAngle` if provided.|
+|Multiple Tags Allowed:|No|
