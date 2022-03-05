@@ -521,6 +521,24 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- LootProfiles-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|LootProfiles|
+|:----|:----|
+|Tag Format:|`[LootProfiles:Value]`|
+|Description:|This tag allows you to specify one or more Loot Profiles that will be applied to the grid.|
+|Allowed Values:|Any Loot Profile SubtypeId|
+|Default Value(s):|`none`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- LootGroups-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|LootGroups|
+|:----|:----|
+|Tag Format:|`[LootGroups:Value]`|
+|Description:|This tag allows you to specify one or more Loot Profile Groups that will be applied to the grid.|
+|Allowed Values:|Any Loot Profile Group SubtypeId|
+|Default Value(s):|`none`|
+|Multiple Tag Allowed:|Yes|
+
 
 # Paint-and-Skins
 
