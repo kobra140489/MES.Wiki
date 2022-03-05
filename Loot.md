@@ -30,6 +30,8 @@ Here is an example of how a Loot Profile is setup:
 </Definitions>
 ```
 
+These profiles attach to Manipulation Profiles using the `[LootProfiles:YourLootProfileIdHere]` tag.
+
 It's worth noting that these profiles will only target Cargo blocks that do not have a ContainerType already defined, so if you've already defined them manually, then those blocks will be unchanged.
 
 Below you can find all the tags that can be used in your Loot Profile:
