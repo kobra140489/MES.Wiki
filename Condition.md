@@ -512,7 +512,7 @@ Here's an example of how a Condition Profile Definition is setup:
 |:----|:----|
 |Tag Format:|`[MinHorizonAngle:Value]`|
 |Description:|This tag allows you to specify the minimum angle that is checked against the horizon if using `CheckHorizonAngle`|
-|Allowed Value(s):|Any Number Greater/Equal To `0'<br />`Value` must be Less Than or Equal to `MaxHorizonAngle` if provided.|
+|Allowed Value(s):|Any Number Greater/Equal To `0`<br />`Value` must be Less Than or Equal to `MaxHorizonAngle` if provided.|
 |Multiple Tags Allowed:|No|
 
 <!-- MaxHorizonAngle -->
@@ -520,5 +520,5 @@ Here's an example of how a Condition Profile Definition is setup:
 |:----|:----|
 |Tag Format:|`[MaxHorizonAngle:Value]`|
 |Description:|This tag allows you to specify the maximum angle that is checked against the horizon if using `CheckHorizonAngle`|
-|Allowed Value(s):|Any Number Greater/Equal To `0'<br />`Value` must be Less Than or Equal to `MinHorizonAngle` if provided.|
+|Allowed Value(s):|Any Number Greater/Equal To `0`<br />`Value` must be Less Than or Equal to `MinHorizonAngle` if provided.|
 |Multiple Tags Allowed:|No|
