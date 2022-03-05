@@ -522,3 +522,19 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|This tag allows you to specify the maximum angle that is checked against the horizon if using `CheckHorizonAngle`|
 |Allowed Value(s):|Any Number Greater/Equal To `0`<br />`Value` must be Less Than or Equal to `MinHorizonAngle` if provided.|
 |Multiple Tags Allowed:|No|
+
+<!-- CheckForSpawnConditions -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckForSpawnConditions|
+|:----|:----|
+|Tag Format:|`[CheckForSpawnConditions:Value]`|
+|Description:|This tag allows you to check if the encounter was spawned using a specific SpawnCondition Profile.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- RequiredSpawnConditions -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RequiredSpawnConditions|
+|:----|:----|
+|Tag Format:|`[RequiredSpawnConditions:Value]`|
+|Description:|This tag allows you to specify one or more SpawnCondition Profile SubtypeIds that will be checked against if using `CheckForSpawnConditions`.|
+|Allowed Value(s):|Any String Value|
+|Multiple Tags Allowed:|Yes|
