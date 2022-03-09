@@ -1148,7 +1148,7 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinWaterDepth|
 |:----|:----|
 |Tag Format:|`[MinWaterDepth:Value]`|
-|Description:|This tag allows you to specify how deep underwater an encounter must spawn if eligible to spawn udnerwater. This is used with the [Water Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2200451495) by Jakaria|
+|Description:|This tag allows you to specify how deep underwater an encounter must spawn if eligible to spawn underwater. For grids that spawn on the water surface, this value is also used as the minimum water depth beneath the surface (so you don't end up with grids spawning in beached like CptArthur's boats) This is used with the [Water Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2200451495) by Jakaria|
 |Allowed Values:|Any Number Greater Than `0`|
 |Default Value(s):|`0`|
 |Multiple Tag Allowed:|No|
