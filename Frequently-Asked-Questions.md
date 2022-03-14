@@ -12,3 +12,5 @@ A: Shoot them until they break. There are no config options to disable these blo
 **Q: Is MES causing vanilla economy station stores to be empty?**  
 A: No. What causes that is older mods that re-implement vanilla ore. If they're re-implemented without minimal price data that the economy system requires to generate pricing, then store blocks will be empty because all other item pricing cannot be calculated (ore -> ingot -> component -> block).
 
+**Q: Does MES work the the Exploration Enhancement Mod (EEM)?**  
+A: Yes. While EEM was not designed to specifically use MES, the spawner is designed in a way that allows virtually all NPC mods to work with it.
