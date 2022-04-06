@@ -1,4 +1,4 @@
-Loot Profiles in the Modular Encounter Systems mod allow you to define rules for how Cargo Containers on your NPC Grids are assigned a Container Type definition. These profiles are attached to `Manipulation` profiles.
+Loot Profiles in the Modular Encounter Systems mod allow you to define rules for how Blocks Containing Inventory on your NPC Grids are assigned a Container Type definition. Container Type definitions are used to randomly fill inventories with items. Loot profiles are attached to `Manipulation` profiles.
 
 Here is an example of how a Loot Profile is setup:
 
