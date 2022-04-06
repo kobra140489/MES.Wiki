@@ -40,7 +40,7 @@ Below you can find all the tags that can be used in your Loot Profile:
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ContainerBlockTypes|
 |:----|:----|
 |Tag Format:|`[ContainerBlockTypes:Value]`|
-|Description:|This tag specifies the types of Cargo Container Blocks that should be targeted by the Loot Profile.|
+|Description:|This tag specifies the types of Blocks that should be targeted by the Loot Profile. These can be any block that contains an inventory.|
 |Allowed Values:|Any block MyDefinitionId<br />eg: `MyObjectBuilder_CargoContainer/LargeBlockSmallContainer`|
 |Multiple Tag Allowed:|Yes|
 
