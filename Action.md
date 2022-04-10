@@ -902,6 +902,30 @@ This section contains actions that affect the entire grid.
 
 # Inventory
 
+<!--ApplyContainerTypeToInventoryBlock-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ApplyContainerTypeToInventoryBlock|
+|:----|:----|
+|Tag Format:|`[ApplyContainerTypeToInventoryBlock:Value]`|
+|Description:|This tag specifies if one or more block should have their inventories filled using a specified ContainerType definition subtypeID.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--ContainerTypeBlockNames-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ContainerTypeBlockNames|
+|:----|:----|
+|Tag Format:|`[ContainerTypeBlockNames:Value]`|
+|Description:|This tag specifies one or more Block Names of blocks that will have inventory applied if using the `ApplyContainerTypeToInventoryBlock` tag. This tag should be paired with the `ContainerTypeSubtypeIds` tag.|
+|Allowed Values:|Any text/string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|Yes|
+
+<!--ContainerTypeSubtypeIds-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ContainerTypeSubtypeIds|
+|:----|:----|
+|Tag Format:|`[ContainerTypeSubtypeIds:Value]`|
+|Description:|This tag specifies one or more TextTemplate files that will be used to set block custom data if using the `ApplyContainerTypeToInventoryBlock` tag. This tag should be paired with the `ContainerTypeBlockNames` tag.|
+|Allowed Values:|ContainerType definition SubtypeId|
+|Multiple Tag Allowed:|Yes|
+
 <!--AddDatapadsToSeats-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddDatapadsToSeats|
 |:----|:----|
@@ -1346,6 +1370,14 @@ This section contains actions that change local or global variables that can be 
 |Allowed Values:|Any text/string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|Yes|
 
+<!--IncreaseSandboxCountersAmount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IncreaseSandboxCountersAmount|
+|:----|:----|
+|Tag Format:|`[IncreaseSandboxCountersAmount:Value]`|
+|Description:|This tag specifies the amount that all sandbox counters will be increased by if also using `IncreaseSandboxCounters` tags.|
+|Allowed Values:|Any Integer|
+|Multiple Tag Allowed:|No|
+
 <!--DecreaseSandboxCounters  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DecreaseSandboxCounters|
 |:----|:----|
@@ -1353,6 +1385,14 @@ This section contains actions that change local or global variables that can be 
 |Description:|This tag specifies a name of an Integer Variable that you want to decrease by `1` within the Save File. If a provided name does not exist in the Save File, it will be created and saved with a `-1` value|
 |Allowed Values:|Any text/string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|Yes|
+
+<!--DecreaseSandboxCountersAmount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DecreaseSandboxCountersAmount|
+|:----|:----|
+|Tag Format:|`[DecreaseSandboxCountersAmount:Value]`|
+|Description:|This tag specifies the amount that all sandbox counters will be decreased by if also using `DecreaseSandboxCounters` tags.|
+|Allowed Values:|Any Integer|
+|Multiple Tag Allowed:|No|
 
 <!--SetSandboxCounters  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetSandboxCounters|
@@ -1376,6 +1416,30 @@ This section contains actions that change local or global variables that can be 
 |Tag Format:|`[ResetSandboxCounters:Value]`|
 |Description:|This tag specifies a name of an Integer Variable that you want to set to a value of `0` within the Save File. If a provided name does not exist in the Save File, it will be created and saved with a `0` value|
 |Allowed Values:|Any text/string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|Yes|
+
+<!--AddCustomDataToBlocks-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddCustomDataToBlocks|
+|:----|:----|
+|Tag Format:|`[AddCustomDataToBlocks:Value]`|
+|Description:|This tag specifies if one or more block should have their CustomData set to a specified value using a TextTemplate xml file.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--CustomDataBlockNames-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomDataBlockNames|
+|:----|:----|
+|Tag Format:|`[CustomDataBlockNames:Value]`|
+|Description:|This tag specifies one or more Block Names of blocks that will have their CustomData changed if using the `AddCustomDataToBlocks` tag. This tag should be paired with the `CustomDataFiles` tag.|
+|Allowed Values:|Any text/string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|Yes|
+
+<!--CustomDataFiles-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomDataFiles|
+|:----|:----|
+|Tag Format:|`[CustomDataFiles:Value]`|
+|Description:|This tag specifies one or more TextTemplate files that will be used to set block custom data if using the `AddCustomDataToBlocks` tag. This tag should be paired with the `CustomDataBlockNames` tag.|
+|Allowed Values:|TextTemplate file name<br />eg: `SomeTextTemplate.xml`|
 |Multiple Tag Allowed:|Yes|
 
 ***
