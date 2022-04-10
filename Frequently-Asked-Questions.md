@@ -1,4 +1,7 @@
-Here are some common questions I receive for Modular Encounters Systems and its add-on mods:
+Here are some common questions I receive for Modular Encounters Systems (MES) and its add-on mods:
+
+**Q: What order do I need to add MES and other Encounter Mods in the mod list?**  
+A: MES and Encounter Mods utilizing it can be loaded in any order or position in your mod list. I do not build mods that require a specific load order, nor do I ever plan to - it adds needless complication otherwise.
 
 **Q: How do I decrease / increase the amount of spawns?**  
 A: You can use the configuration files listed in the **Admin & Configuration** section to control many aspects of spawn timing and frequency. Individual spawngroups can also be blacklisted by providing the spawngroup subtypeID (ie: its name). The configurations cannot change the spawn rates/frequencies of encounters from specific mods (eg: making Reavers less common, etc).
