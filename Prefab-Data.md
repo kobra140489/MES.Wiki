@@ -40,6 +40,15 @@ Below you can find all the tags that can be used in your Prefab Data Profile:
 |Default Value(s):|`N/A`|
 |Multiple Tags Allowed:|Yes|
 
+<!-- CustomTags -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomTags|
+|:----|:----|
+|Tag Format:|`[CustomTags:Value]`|
+|Description:|This tag allows you to specify one or more Custom Tags that will be added to the prefab. These are string values you can apply to your prefabs so other manipulation profiles can be allowed / restricted. Example: Add a `Miner` tag to a prefab and a manipulation profile that adds Ore related inventory can check for that tag and add it if found.|
+|Allowed Value(s):|Any String Value|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|Yes|
+
 <!-- ManipulationProfiles -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationProfiles|
 |:----|:----|
