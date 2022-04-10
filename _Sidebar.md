@@ -48,6 +48,7 @@
           * [Bot Spawn](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Bot-Spawn)
           * [Chat](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Chat)
           * [Spawn](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Spawn)
+          * [TextTemplate](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/TextTemplate)
       * [Trigger Group](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Trigger-Group)
       * [Waypoint](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Waypoint)
       * [Weapons](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Weapons)
