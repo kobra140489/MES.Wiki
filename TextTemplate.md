@@ -14,7 +14,7 @@ A single file should contain a single TextTemplate. You cannot store multiple Te
 
 `[SomeTagRequiringTextTemplate:SomeTextTemplateFile.xml]`
 
-#File Setup
+# File Setup
 
 Depending on what you're using the file for, you'll use one of the following data structures below:
 
