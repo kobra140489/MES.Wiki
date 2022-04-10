@@ -185,6 +185,15 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|Yes|
 
+<!-- ManipulationRequiredCustomTags-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ManipulationRequiredCustomTags|
+|:----|:----|
+|Tag Format:|`[ManipulationRequiredCustomTags:Value]`|
+|Description:|This tag allows you to specify one or more CustomTags that must be present in the prefab in order to run the Manipulation Profile.|
+|Allowed Values:|Any String Value|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
 
 # General
 
