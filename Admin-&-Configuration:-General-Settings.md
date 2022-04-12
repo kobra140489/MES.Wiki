@@ -132,10 +132,10 @@ You can find the General Settings Configuration File in `MySaveWorldFolder\Stora
 |Chat Command:|`/MES.Settings.General.SpawnedVoxelCheckTimerTrigger.Value`|
 |Description:|This setting specifies how often (in seconds) the mod will check to see if voxels spawned with the mod have grids nearby (Voxels are deleted if no grids are found nearby at the distance specified in `SpawnedVoxelMinimumGridDistance`). `Value` can be replaced with any integer (Eg: `5`, `10`, `42`, etc)|
 
-|Setting:|SpawnedVoxelCheckTimerTrigger|
+|Setting:|SpawnedVoxelMinimumGridDistance|
 |:----|:----|
-|XML:|`<SpawnedVoxelCheckTimerTrigger>Value</SpawnedVoxelCheckTimerTrigger>`|
-|Chat Command:|`/MES.Settings.General.SpawnedVoxelCheckTimerTrigger.Value`|
+|XML:|`<SpawnedVoxelMinimumGridDistance>Value</SpawnedVoxelMinimumGridDistance>`|
+|Chat Command:|`/MES.Settings.General.SpawnedVoxelMinimumGridDistance.Value`|
 |Description:|This setting specifies the minimum distance that any grid must be from a mod-spawned voxel, otherwise it is deleted in clean-up. `Value` can be replaced with any number (Eg: `1000`, `5000`, `42000`, etc). Value should not be lower than `0`|
 
 |Setting:|PlanetSpawnsDisableList|
