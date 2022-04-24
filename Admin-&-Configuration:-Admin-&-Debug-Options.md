@@ -87,6 +87,19 @@ Here is a list of command categories:
 |Allowed Value for `PlanetName`:|Any Planet Name|
 |Allowed Value for `PlanetSize`:|Any Number Greater Than 100|
 
+|Setting:|Draw Paths|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Debug.DrawPaths`|
+|Description:|This chat command allows you to enable/disable (this command toggles) debug draw on behavior autopilot. While autopilot is active, several lines may be drawn from ships/drones using MES Behavior Autopilot.<p />Green: Current Waypoint<br />Red: Collision<br />Orange: Evasion<br />Cyan: Offset Waypoint<br />Magenta: Planetary Pathing<br />Yellow: Weapon Prediction Waypoint<p />If using a behavior that has water pathing, a Green path may be drawn showing the various water nodes it is currently following.|
+
+|Setting:|Process Prefabs|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ProcessPrefabs.Value`|
+|Description:|This chat command will spawn all grids from a provided mod, and will collect data while running some tests on its performance. The results of this test are then printed to the user clipboard in a CSV format (can paste into spreadsheet apps such as excel, google sheets, etc). It is important that you only use this command on an empty world you only intend to use for this testing, because all grids are deleted between spawns of prefabs.|
+|Allowed Value:|Partial or Full string of a Mod's Name (eg: `Corruption`)|  
+
 |Setting:|Remove All Npcs|
 |:----|:----|
 |XML:|`N/A`|
