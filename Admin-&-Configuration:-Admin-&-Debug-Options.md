@@ -91,16 +91,7 @@ Here is a list of command categories:
 |:----|:----|
 |XML:|`N/A`|
 |Chat Command 1:|`/MES.Debug.DrawPaths`|
-|Description:|This chat command allows you to enable/disable (this command toggles) debug draw on behavior autopilot. While autopilot is active, several lines may be drawn from ships/drones using MES Behavior Autopilot.  
-
- - Green: Current Waypoint  
- - Red: Collision  
- - Orange: Evasion  
- - Cyan: Offset Waypoint  
- - Magenta: Planetary Pathing  
- - Yellow: Weapon Prediction Waypoint  
-
-If using a behavior that has water pathing, a Green path may be drawn showing the various water nodes it is currently following.|
+|Description:|This chat command allows you to enable/disable (this command toggles) debug draw on behavior autopilot. While autopilot is active, several lines may be drawn from ships/drones using MES Behavior Autopilot.<br /><br /> - Green: Current Waypoint<br /> - Red: Collision<br /> - Orange: Evasion<br /> - Cyan: Offset Waypoint<br /> - Magenta: Planetary Pathing<br /> - Yellow: Weapon Prediction Waypoint<br /><br />If using a behavior that has water pathing, a Green path may be drawn showing the various water nodes it is currently following.|
 
 |Setting:|Process Prefabs|
 |:----|:----|
