@@ -521,6 +521,15 @@ Below are several types of tags you can include in your Manipulation Profile:
 |Default Value(s):|`none`|
 |Multiple Tag Allowed:|Yes|
 
+<!-- UseLootProfiles:true-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseLootProfiles:true|
+|:----|:----|
+|Tag Format:|`[UseLootProfiles:true:Value]`|
+|Description:|This tag allows provided Loot Profiles and Loot Profile Groups to be run while using this manipulation.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
 <!-- ClearGridInventories-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ClearGridInventories|
 |:----|:----|
