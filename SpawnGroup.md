@@ -39,6 +39,15 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|No|
 
+<!-- UseFirstConditionsAsPersistent-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseFirstConditionsAsPersistent|
+|:----|:----|
+|Tag Format:|`[UseFirstConditionsAsPersistent:Value]`|
+|Description:|This tag allows you to specify if Spawn Conditions tags that are placed directly in the spawngroup should be used as the 'Persistent' Spawn Conditions. If you use this, then the profile in `PersistentConditions` is no longer used. This is useful if you have some properties you want to apply only to a single spawngroup, but don't want to create a separate spawn conditions profile. `MaxGravity` is a good example of a tag that works well here.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
 
 # Economy
 
@@ -83,6 +92,15 @@ The SpawnGroups that the Modular Encounters Systems uses utilize the `<Descripti
 
 
 # Misc
+
+<!-- FactionOverride-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|FactionOverride|
+|:----|:----|
+|Tag Format:|`[FactionOverride:Value]`|
+|Description:|This tag specifies if a SpawnGroup should use a specific Faction Tag for spawning/ownership, regardless of the tags being used in the SpawnConditions profiles.|
+|Allowed Values:|Any NPC faction tag|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
 
 <!-- IgnoreCleanupRules  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IgnoreCleanupRules|
