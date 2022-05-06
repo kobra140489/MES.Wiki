@@ -300,6 +300,30 @@ This section contains actions that relate to changes that can be made to the beh
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- ClearAllWaypoints -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ClearAllWaypoints|
+|:----|:----|
+|Tag Format:|`[ClearAllWaypoints:Value]`|
+|Description:|Specifies if all current waypoints should be erased when using the CargoShip behavior subclass. This will result in the behavior travelling to its generated despawn coordinates.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- AddWaypoints -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddWaypoints|
+|:----|:----|
+|Tag Format:|`[AddWaypoints:Value]`|
+|Description:|Specifies if one or more Waypoints should be created and added to a behavior if they are using the CargoShip subclass.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- WaypointsToAdd -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|WaypointsToAdd|
+|:----|:----|
+|Tag Format:|`[WaypointsToAdd:Value]`|
+|Description:|Specifies the name(s) of the waypoint profiles you want to add to a CargoShip subclass behavior if using the `AddWaypoints` tag|
+|Allowed Value(s):|Any String Value|
+|Multiple Tags Allowed:|Yes|
+
 ***
 
 # <a>Blocks</a>
