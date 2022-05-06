@@ -137,17 +137,3 @@ You can find the Space Cargo Ships Settings Configuration File in `MySaveWorldFo
 |XML:|`<MaxSpawnGroupFrequency>Value</MaxSpawnGroupFrequency>`|
 |Chat Command:|`/MES.Settings.SpaceCargoShips.MaxSpawnGroupFrequency.Value`|
 |Description:|This setting allows you to specify the spawning frequency of Space Cargo Ships if `UseMaxSpawnGroupFrequency` is set to `true`. `Value` can be replaced with any number (no lower than `0`).|
-
-|Setting:|SpawnTypeBlacklist|
-|:----|:----|
-|XML:|`<SpawnTypeBlacklist>Value</SpawnTypeBlacklist>`|
-|Chat Command (Add):   |`/MES.Settings.Creatures.SpawnTypeBlacklist.Add.Value`|
-|Chat Command (Remove):|`/MES.Settings.Creatures.SpawnTypeBlacklist.Remove.Value`|
-|Description:|This setting allows you to blacklist certain spawngroups from appearing when this encounter type is used for spawning.|
-
-|Setting:|SpawnTypePlanetBlacklist|
-|:----|:----|
-|XML:|`<SpawnTypePlanetBlacklist>Value</SpawnTypePlanetBlacklist>`|
-|Chat Command (Add):   |`/MES.Settings.Creatures.SpawnTypePlanetBlacklist.Add.Value`|
-|Chat Command (Remove):|`/MES.Settings.Creatures.SpawnTypePlanetBlacklist.Remove.Value`|
-|Description:|This setting allows you to blacklist certain planets from being able to spawn this type of encounter.|
