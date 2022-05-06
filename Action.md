@@ -324,6 +324,22 @@ This section contains actions that relate to changes that can be made to the beh
 |Allowed Value(s):|Any String Value|
 |Multiple Tags Allowed:|Yes|
 
+<!-- CancelWaitingAtWaypoint -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CancelWaitingAtWaypoint|
+|:----|:----|
+|Tag Format:|`[CancelWaitingAtWaypoint:Value]`|
+|Description:|Specifies if a CargoShip subclass behavior should stop waiting at a waypoint it reached and begin travelling to the next eligible waypoint.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- SwitchToNextWaypoint -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SwitchToNextWaypoint|
+|:----|:----|
+|Tag Format:|`[SwitchToNextWaypoint:Value]`|
+|Description:|Specifies if a CargoShip subclass behavior should have its current waypoint that is being travelled to cancelled so it can move onto the next eligible waypoint.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
 ***
 
 # <a>Blocks</a>
