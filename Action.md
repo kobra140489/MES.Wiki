@@ -119,6 +119,22 @@ This section contains actions that enable/disable special abilities for the beha
 |Allowed Value(s):|`true`<br />`false`|
 |Multiple Tags Allowed:|No|
 
+<!-- JumpToWaypoint -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|JumpToWaypoint|
+|:----|:----|
+|Tag Format:|`[JumpToWaypoint:Value]`|
+|Description:|Specifies if a ship should jump to a provided waypoint profile location.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- JumpWaypoint -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|JumpWaypoint|
+|:----|:----|
+|Tag Format:|`[JumpWaypoint:Value]`|
+|Description:|Specifies the waypoint profile id that the ship will use to calculate jump location while using the `JumpToWaypoint` tag.|
+|Allowed Value(s):|Any String Value|
+|Multiple Tags Allowed:|No|
+
 
 # Behavior
 
@@ -321,7 +337,7 @@ This section contains actions that relate to changes that can be made to the beh
 |:----|:----|
 |Tag Format:|`[WaypointsToAdd:Value]`|
 |Description:|Specifies the name(s) of the waypoint profiles you want to add to a CargoShip subclass behavior if using the `AddWaypoints` tag|
-|Allowed Value(s):|Any String Value|
+|Allowed Value(s):|Waypoint Profile SubtypeId|
 |Multiple Tags Allowed:|Yes|
 
 <!-- CancelWaitingAtWaypoint -->
