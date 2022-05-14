@@ -39,6 +39,7 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 |`BehaviorTriggerD`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
 |`BehaviorTriggerE`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
 |`BehaviorTriggerF`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
+|`ButtonPress`|A trigger that is activated when a button panel is pressed on the NPC grid.|
 |`CommandReceived`|A command listener that executes actions if another NPC Behavior broadcasts a correct Command Code|
 |`Compromised`|A trigger that is activated when the Remote Control block stops working.|
 |`Damage`|A damage watcher that executes actions when damage to the NPC is detected.|
@@ -394,4 +395,22 @@ Below are the tags you are able to use in your Trigger Profiles. Please note tha
 |Description:|This tag specifies if the NPC using this trigger is allowed to be the Jumping/Jumped entity.|
 |Allowed Value(s):|`true`<br />`false`|
 |Compatible Types:|`JumpRequested`<br />`JumpCompleted`|
+|Multiple Tags Allowed:|No|
+
+<!-- ButtonPanelName-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ButtonPanelName|
+|:----|:----|
+|Tag Format:|`[ButtonPanelName:Value]`|
+|Description:|This tag specifies the name of the ButtonPanel block is that monitored when using a `ButtonPress` trigger.|
+|Allowed Value(s):|Any ButtonPanel Block Name|
+|Compatible Types:|`ButtonPress`|
+|Multiple Tags Allowed:|No|
+
+<!-- ButtonPanelIndex-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ButtonPanelIndex|
+|:----|:----|
+|Tag Format:|`[ButtonPanelIndex:Value]`|
+|Description:|This tag specifies the button index that is monitored when using a `ButtonPress` trigger. For example, a 4 button block would have indexes 0, 1, 2, 3.|
+|Allowed Value(s):|Any ButtonPanel Index|
+|Compatible Types:|`ButtonPress`|
 |Multiple Tags Allowed:|No|
