@@ -52,7 +52,7 @@ Here's an example of how a Spawn Profile Definition is setup:
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawningType|
 |:----|:----|
 |Tag Format:|`[SpawningType:Value]`|
-|Description:|This tag specifies the type of spawn that this spawn profile will request from the Modular Encounters Spawner. Please note that all position tags are not used for tags other than `CustomSpawn`. Also, if using `CustomSpawn`, your SpawnGroup/Conditions must include the `[RivalAiSpawn:true] tag`|
+|Description:|This tag specifies the type of spawn that this spawn profile will request from the Modular Encounters Spawner. Please note that all position tags are not used for tags other than `CustomSpawn`. Also, if using `CustomSpawn`, your SpawnGroup/Conditions must include the `[RivalAiSpawn:true]` tag|
 |Allowed Values:|`CustomSpawn`<br>`SpaceCargoShip`<br>`RandomEncounter`<br>`PlanetaryCargoShip`<br>`PlanetaryInstallation`<br>`BossEncounter`|
 |Multiple Tag Allowed:|No|
 
