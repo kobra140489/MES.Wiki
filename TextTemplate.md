@@ -26,3 +26,23 @@ Depending on what you're using the file for, you'll use one of the following dat
   <CustomData>Some Sample Custom Data</CustomData>
 </TextTemplate>
 ```
+
+**LCD Contents**
+
+```
+<?xml version="1.0" encoding="utf-16"?>
+<TextTemplate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LcdEntries>
+    <LcdEntry>
+      <TextSurfaceIndex>0</TextSurfaceIndex>
+      <ApplyLcdText>false</ApplyLcdText>
+      <LcdText>Some Text For LCD</LcdText>
+      <ApplyLcdImage>false</ApplyLcdImage>
+      <LcdImages>SomeLcdImageSubtypeId</LcdImages>
+      <LcdImages>AnotherLcdImageSubtypeId</LcdImages>
+      <LcdImages>AndAnotherLcdImageSubtypeId</LcdImages>
+      <LcdImageChangeDelay>3</LcdImageChangeDelay>
+    </LcdEntry>
+  </LcdEntries>
+</TextTemplate>
+```
