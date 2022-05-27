@@ -618,6 +618,40 @@ This section contains actions that affect the state of blocks on the NPC grid.
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- ApplyLcdChanges -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ApplyLcdChanges|
+|:----|:----|
+|Tag Format:|`[ApplyLcdChanges:Value]`|
+|Description:|This tag allows you to specify if one or more blocks should have their LCD contents changed.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- LcdTextTemplateFile -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|LcdTextTemplateFile|
+|:----|:----|
+|Tag Format:|`[LcdTextTemplateFile:Value]`|
+|Description:|This tag allows you to specify the name of the TextTemplate file that is used for populating LCD content if using the `ApplyLcdChanges` tag|
+|Allowed Value(s):|Any String Value|
+|Multiple Tags Allowed:|No|
+
+<!-- LcdBlockNames -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|LcdBlockNames|
+|:----|:----|
+|Tag Format:|`[LcdBlockNames:Value]`|
+|Description:|This tag allows you to specify one or more block name that will have LCD contents changed if using the `ApplyLcdChanges` tag. Each instance of this tag should be paired with the `LcdTemplateIndexes` tag as well.|
+|Allowed Value(s):|Any String Value|
+|Multiple Tags Allowed:|Yes|
+
+<!-- LcdTemplateIndexes -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|LcdTemplateIndexes|
+|:----|:----|
+|Tag Format:|`[LcdTemplateIndexes:Value]`|
+|Description:|This tag allows you to specify one or more index that is used to select an Lcd Entry in the TextTemplate file if using the `ApplyLcdChanges` tag. Each instance of this tag should be paired with the `LcdBlockNames` tag as well.|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`|
+|Multiple Tags Allowed:|Yes|
+
+
+
 ***
 
 # Communication
