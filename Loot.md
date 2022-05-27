@@ -68,6 +68,38 @@ Below you can find all the tags that can be used in your Loot Profile:
 |Allowed Values:|Any Integer Greater Or Equal To `0`<br />Value must be greater than `MinBlocks`|
 |Multiple Tag Allowed:|No|
 
+<!-- AddDatapads-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddDatapads|
+|:----|:----|
+|Tag Format:|`[AddDatapads:Value]`|
+|Description:|This tag specifies if the Loot Profile should add Datapads to the inventory using text from a provided TextTemplate file.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- DatapadFileSource-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DatapadFileSource|
+|:----|:----|
+|Tag Format:|`[DatapadFileSource:Value]`|
+|Description:|This tag specifies the name of the TextTemplate file that you want to use to populate the datapad(s).|
+|Allowed Values:|Any TextTemplate File Name|
+|Multiple Tag Allowed:|No|
+
+<!-- DatapadIndex-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DatapadIndex|
+|:----|:----|
+|Tag Format:|`[DatapadIndex:Value]`|
+|Description:|This tag specifies the index of the datapad entry in the TextTemplate you want to use. If this tag is not provided, then a random entry will be selected for each datapad|
+|Allowed Values:|Any Integer Greater Or Equal To `0`|
+|Multiple Tag Allowed:|No|
+
+<!-- DatapadCount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DatapadCount|
+|:----|:----|
+|Tag Format:|`[DatapadCount:Value]`|
+|Description:|This tag specifies the number of datapad that will be created for this inventory|
+|Allowed Values:|Any Integer Greater Or Equal To `0`|
+|Multiple Tag Allowed:|No|
+
 <!-- AppendNameToBlock -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AppendNameToBlock|
 |:----|:----|
