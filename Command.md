@@ -40,6 +40,15 @@ Below are the tags you are able to use in your Command Profiles.
 |Allowed Values:|Any String Value|
 |Multiple Tag Allowed:|No|
 
+
+<!--CommandDelayTicks-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CommandDelayTicks|
+|:----|:----|
+|Tag Format:|`[CommandDelayTicks:Value]`|
+|Description:|This tag specifies if there should be a delay before the command code is sent out from the originating NPC. Delay value is in game ticks (60 ticks = 1 second)|
+|Allowed Values:|Any Integer Value|
+|Multiple Tag Allowed:|No|
+
 <!--SingleRecipient-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SingleRecipient|
 |:----|:----|
