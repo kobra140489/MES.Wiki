@@ -27,6 +27,20 @@ Depending on what you're using the file for, you'll use one of the following dat
 </TextTemplate>
 ```
 
+**Datapad**
+
+```
+<?xml version="1.0" encoding="utf-16"?>
+<TextTemplate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DataPadEntries>
+    <DataPadEntry>
+      <DataPadTitle>Some Title</DataPadTitle>
+      <DataPadBody>Lorem Ipsum Yaddy Yadda</DataPadBody>
+    </DataPadEntry>
+  </DataPadEntries>
+</TextTemplate>
+```
+
 **LCD Contents**
 
 ```
