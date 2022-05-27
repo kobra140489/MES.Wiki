@@ -51,6 +51,7 @@ Below are several types of condition tags you can include in your Spawn Conditio
   
 [**General**](#General)  
 [**Cost**](#Cost)  
+[**Date-Time**](#Date-Time)  
 [**Economy**](#Economy)  
 [**Faction**](#Faction)  
 [**Known-Player-Location**](#Known-Player-Location)  
@@ -864,6 +865,144 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Allowed Values:|Any Integer Greater or Equal to `0`|
 |Default Value(s):|`0`|
 |Multiple Tag Allowed:|Yes|
+
+
+# Date-Time
+
+<!-- UseDateTimeYearRange -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseDateTimeYearRange|
+|:----|:----|
+|Tag Format:|`[UseDateTimeYearRange:Value]`|
+|Description:|This tag allows you to specify if a range of Years should be used to determine if this encounter is allowed to spawn. Uses local/server time.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|false|
+|Multiple Tags Allowed:|No|
+
+<!-- MinDateTimeYear -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDateTimeYear|
+|:----|:----|
+|Tag Format:|`[MinDateTimeYear:Value]`|
+|Description:|This tag allows you to specify the minimum value for Years if using the `UseDateTimeYearRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Less Than or Equal to `MaxDateTimeYear` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxDateTimeYear -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxDateTimeYear|
+|:----|:----|
+|Tag Format:|`[MaxDateTimeYear:Value]`|
+|Description:|This tag allows you to specify the maximum value for Years if using the `UseDateTimeYearRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Greater Than or Equal to `MinDateTimeYear` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- UseDateTimeMonthRange -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseDateTimeMonthRange|
+|:----|:----|
+|Tag Format:|`[UseDateTimeMonthRange:Value]`|
+|Description:|This tag allows you to specify if a range of Months should be used to determine if this encounter is allowed to spawn. Uses local/server time.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|false|
+|Multiple Tags Allowed:|No|
+
+<!-- MinDateTimeMonth -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDateTimeMonth|
+|:----|:----|
+|Tag Format:|`[MinDateTimeMonth:Value]`|
+|Description:|This tag allows you to specify the minimum value for Months if using the `UseDateTimeMonthRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Less Than or Equal to `MaxDateTimeMonth` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxDateTimeMonth -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxDateTimeMonth|
+|:----|:----|
+|Tag Format:|`[MaxDateTimeMonth:Value]`|
+|Description:|This tag allows you to specify the maximum value for Months if using the `UseDateTimeMonthRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Greater Than or Equal to `MinDateTimeMonth` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- UseDateTimeDayRange -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseDateTimeDayRange|
+|:----|:----|
+|Tag Format:|`[UseDateTimeDayRange:Value]`|
+|Description:|This tag allows you to specify if a range of Days should be used to determine if this encounter is allowed to spawn. Uses local/server time.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|false|
+|Multiple Tags Allowed:|No|
+
+<!-- MinDateTimeDay -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDateTimeDay|
+|:----|:----|
+|Tag Format:|`[MinDateTimeDay:Value]`|
+|Description:|This tag allows you to specify the minimum value for Days if using the `UseDateTimeDayRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Less Than or Equal to `MaxDateTimeDay` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxDateTimeDay -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxDateTimeDay|
+|:----|:----|
+|Tag Format:|`[MaxDateTimeDay:Value]`|
+|Description:|This tag allows you to specify the maximum value for Days if using the `UseDateTimeDayRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Greater Than or Equal to `MinDateTimeDay` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- UseDateTimeHourRange -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseDateTimeHourRange|
+|:----|:----|
+|Tag Format:|`[UseDateTimeHourRange:Value]`|
+|Description:|This tag allows you to specify if a range of Hours should be used to determine if this encounter is allowed to spawn. Uses local/server time.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|false|
+|Multiple Tags Allowed:|No|
+
+<!-- MinDateTimeHour -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDateTimeHour|
+|:----|:----|
+|Tag Format:|`[MinDateTimeHour:Value]`|
+|Description:|This tag allows you to specify the minimum value for Hours if using the `UseDateTimeHourRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Less Than or Equal to `MaxDateTimeHour` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxDateTimeHour -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxDateTimeHour|
+|:----|:----|
+|Tag Format:|`[MaxDateTimeHour:Value]`|
+|Description:|This tag allows you to specify the maximum value for Hours if using the `UseDateTimeHourRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Greater Than or Equal to `MinDateTimeHour` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- UseDateTimeMinuteRange -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseDateTimeMinuteRange|
+|:----|:----|
+|Tag Format:|`[UseDateTimeMinuteRange:Value]`|
+|Description:|This tag allows you to specify if a range of Minutes should be used to determine if this encounter is allowed to spawn. Uses local/server time.|
+|Allowed Value(s):|`true`<br />`false`|
+|Default Value(s):|false|
+|Multiple Tags Allowed:|No|
+
+<!-- MinDateTimeMinute -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MinDateTimeMinute|
+|:----|:----|
+|Tag Format:|`[MinDateTimeMinute:Value]`|
+|Description:|This tag allows you to specify the minimum value for Minutes if using the `UseDateTimeMinuteRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Less Than or Equal to `MaxDateTimeMinute` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
+
+<!-- MaxDateTimeMinute -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxDateTimeMinute|
+|:----|:----|
+|Tag Format:|`[MaxDateTimeMinute:Value]`|
+|Description:|This tag allows you to specify the maximum value for Minutes if using the `UseDateTimeMinuteRange` tag|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`<br />`Value` must be Greater Than or Equal to `MinDateTimeMinute` if provided.|
+|Default Value(s):|0|
+|Multiple Tags Allowed:|No|
 
 
 # Economy
