@@ -538,3 +538,19 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|This tag allows you to specify one or more SpawnCondition Profile SubtypeIds that will be checked against if using `CheckForSpawnConditions`.|
 |Allowed Value(s):|Any String Value|
 |Multiple Tags Allowed:|Yes|
+
+<!-- CheckForPlanetaryLane-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckForPlanetaryLane|
+|:----|:----|
+|Tag Format:|`[CheckForPlanetaryLane:Value]`|
+|Description:|This tag allows you to check if the encounter is currently inside or outside of a Planetary Lane.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- PlanetaryLanePassValue-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetaryLanePassValue|
+|:----|:----|
+|Tag Format:|`[PlanetaryLanePassValue:Value]`|
+|Description:|This tag specifies whether the grid must be in a planetary lane in order for the `CheckForPlanetaryLane` check to pass.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
