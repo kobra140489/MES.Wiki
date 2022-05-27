@@ -1478,6 +1478,33 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- MustSpawnInPlanetaryLane-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MustSpawnInPlanetaryLane|
+|:----|:----|
+|Tag Format:|`[MustSpawnInPlanetaryLane:Value]`|
+|Description:|This tag specifies if a SpawnGroup should only be spawned inside of a planetary lane (ie, in the space directly between 2 planets).|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- PlanetaryLanePlanetNameA-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetaryLanePlanetNameA|
+|:----|:----|
+|Tag Format:|`[PlanetaryLanePlanetNameA:Value]`|
+|Description:|This tag specifies if a SpawnGroup should only be spawned inside of a planetary lane if one of the planet names matches the value of this tag. Requires the `MustSpawnInPlanetaryLane` tag.|
+|Allowed Values:|Any Planet Name|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
+
+<!-- PlanetaryLanePlanetNameB-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlanetaryLanePlanetNameB|
+|:----|:----|
+|Tag Format:|`[PlanetaryLanePlanetNameB:Value]`|
+|Description:|This tag specifies if a SpawnGroup should only be spawned inside of a planetary lane if one of the planet names matches the value of this tag. Requires the `MustSpawnInPlanetaryLane` tag.|
+|Allowed Values:|Any Planet Name|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|No|
+
 <!-- UseRemoteControlCodeRestrictions -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseRemoteControlCodeRestrictions|
 |:----|:----|
