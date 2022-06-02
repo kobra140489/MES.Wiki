@@ -1,6 +1,6 @@
 This page explains the difficulty rating system that some NPC encounter mods utilizing MES may include in their mod-page descriptions.
 
-|Rating|Title|Description|
+|Rating|Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|:-----|
 |★☆☆☆☆|No Challenge|Encounters Are Not Hostile|
 |★★☆☆☆|Minimal|Encounters are passively hostile, will only use turrets if you get close|
