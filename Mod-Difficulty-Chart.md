@@ -7,3 +7,32 @@ This page explains the difficulty rating system that some NPC encounter mods uti
 |★★★☆☆|Average|Encounters will likely not engage players unless provoked or approached|
 |★★★★☆|Hostile|Encounters will seek players and attack when conditions are met (visibility, signals, etc)|
 |★★★★★|Nightmare|Encounters are aware of all targets in the area and will relentlessly attack|
+
+***
+
+If you are an NPC modder and you'd like to use this rating system for your own encounters, simply copy one of the following blocks of code and paste it into your mod page description in steam:
+
+No Challenge:  
+```
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★☆☆☆☆ - No Challenge[/b][/url]
+```
+
+Minimal:  
+```
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★★☆☆☆ - Minimal[/b][/url]
+```
+
+Average:  
+```
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★★★☆☆ - Average[/b][/url]
+```
+
+Hostile:  
+```
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★★★★☆ - Hostile[/b][/url]
+```
+
+Nightmare:  
+```
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★★★★★ - Nightmare[/b][/url]
+```
