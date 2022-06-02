@@ -1,7 +1,7 @@
 This page explains the difficulty rating system that some NPC encounter mods utilizing MES may include in their mod-page descriptions.
 
 |Rating|Title|Description|
-|!-----|!-----|!-----|
+|:-----|:-----|:-----|
 |Rating|Title|Description|
 
 ★☆☆☆☆ No Challenge: Encounters Are Not Hostile.
