@@ -14,25 +14,25 @@ If you are an NPC modder and you'd like to use this rating system for your own e
 
 No Challenge:  
 ```
-[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★☆☆☆☆ - No Challenge[/b][/url]
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - [/b]★☆☆☆☆[b] - No Challenge[/b][/url]
 ```
 
 Minimal:  
 ```
-[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★★☆☆☆ - Minimal[/b][/url]
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - [/b]★★☆☆☆[b] - Minimal[/b][/url]
 ```
 
 Average:  
 ```
-[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★★★☆☆ - Average[/b][/url]
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - [/b]★★★☆☆[b] - Average[/b][/url]
 ```
 
 Hostile:  
 ```
-[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★★★★☆ - Hostile[/b][/url]
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - [/b]★★★★☆[b] - Hostile[/b][/url]
 ```
 
 Nightmare:  
 ```
-[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - ★★★★★ - Nightmare[/b][/url]
+[url=https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Mod-Difficulty-Chart][b]Encounter Difficulty - [/b]★★★★★[b] - Nightmare[/b][/url]
 ```
