@@ -169,6 +169,15 @@ Below are all of the eligible tags you can use in your Bot Spawn Profiles:
 |Default Value(s):|`N/A`|
 |Multiple Tags Allowed:|Yes|
 
+<!-- TauntSounds -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|TauntSounds|
+|:----|:----|
+|Tag Format:|`[TauntSounds:Value]`|
+|Description:|This tag allows you to specify one or more custom sound effects that are used when the bot is chasing a target.|
+|Allowed Value(s):|Any Audio SubtypeId|
+|Default Value(s):|`N/A`|
+|Multiple Tags Allowed:|Yes|
+
 <!-- EmoteActions -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|EmoteActions|
 |:----|:----|
