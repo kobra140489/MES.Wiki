@@ -169,6 +169,12 @@ Here is a list of command categories:
 |Chat Command:|`/MES.Info.GetGridBehavior`|
 |Description:|This chat command will collect behavior information from a grid your player/spectator camera is pointing at and will return it to your Clipboard.|
 
+|Setting:|Get Grid Data|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Info.GetGridData`|
+|Description:|This chat command will collect data about a grid that was spawned as an NPC from MES. The info in this command is already present in the `/MES.Info.GetGridBehavior` command, so this is intended to be used if the grid has no behavior.|
+
 |Setting:|Get Grid Matrix|
 |:----|:----|
 |XML:|`N/A`|
