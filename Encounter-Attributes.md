@@ -1,1 +1,9 @@
-# Difficulty
+# Behavior Difficulty
+
+|Rating|Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
+|:-----|:-----|:-----|
+|★☆☆☆☆|No Challenge|Encounters Are Not Hostile|
+|★★☆☆☆|Minimal|Encounters are passively hostile, will only use turrets if you get close|
+|★★★☆☆|Average|Encounters will likely not engage players unless provoked or approached|
+|★★★★☆|Hostile|Encounters will seek players and attack when conditions are met (visibility, signals, etc)|
+|★★★★★|Nightmare|Encounters are aware of all targets in the area and will relentlessly attack|
