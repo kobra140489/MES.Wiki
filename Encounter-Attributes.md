@@ -51,10 +51,10 @@
 
 # Special Abilities
 
-|Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
+|Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|
 |Defense Shields|Spawns with Defense Shields (if the Defense Shields mod is loaded).|
-|Energy Inhibitor|Drains suit energy from unsuited players while in the inhibitor block range (disable the inhibitor block to stop this effect).|
+|Energy Inhibitor|Drains suit energy from unseated players while in the inhibitor block range (disable the inhibitor block to stop this effect).|
 |Grinder Damage|Damages players that attack an encounter while using a grinder (disable the AI Control Module to stop this effect).|
 |Hand Drill Inhibitor|Disables Hand Drills while in the inhibitor block range (disable the inhibitor block to stop this effect).|
 |Jetpack Inhibitor|Disables Jetpack Dampeners while in the inhibitor block range, and disables Jetpack entirely at closer ranges (disable the inhibitor block to stop this effect).|
