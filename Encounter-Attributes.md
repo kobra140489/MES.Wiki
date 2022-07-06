@@ -53,7 +53,6 @@
 
 |Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|
-
 |Defense Shields|Spawns with Defense Shields (if the Defense Shields mod is loaded).|
 |Energy Inhibitor|Drains suit energy from unsuited players while in the inhibitor block range (disable the inhibitor block to stop this effect).|
 |Grinder Damage|Damages players that attack an encounter while using a grinder (disable the AI Control Module to stop this effect).|
