@@ -46,3 +46,21 @@
 |Boss Encounter|Difficult encounters the player can optionally engage by traveling to a designated GPS signal.|
 |Drone Encounter|Encounters that appear randomly on a timer near the player proximity.|
 |Creature|Animal or bot encounters that appear on a planet's surface near the player.|
+
+***
+
+# Special Abilities
+
+|Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
+|:-----|:-----|
+
+|Defense Shields|Spawns with Defense Shields (if the Defense Shields mod is loaded).|
+|Energy Inhibitor|Drains suit energy from unsuited players while in the inhibitor block range (disable the inhibitor block to stop this effect).|
+|Grinder Damage|Damages players that attack an encounter while using a grinder (disable the AI Control Module to stop this effect).|
+|Hand Drill Inhibitor|Disables Hand Drills while in the inhibitor block range (disable the inhibitor block to stop this effect).|
+|Jetpack Inhibitor|Disables Jetpack Dampeners while in the inhibitor block range, and disables Jetpack entirely at closer ranges (disable the inhibitor block to stop this effect).|
+|Jump Drive Inhibitor|Disables Jump Drive blocks while in the inhibitor block range (disable the inhibitor block to stop this effect).|
+|Nanobot Inhibitor|Disables Nanobot blocks while in the inhibitor block range (disable the inhibitor block to stop this effect).|
+|Personnel Inhibitor|Damages unseated players while in the inhibitor block range (disable the inhibitor block to stop this effect).|
+|Reinforcements|Calls for additional support / spawns drones to assist.|
+|Randomized Weapons|Spawns with randomized weapons, which also includes weapons from mods you may have loaded.|
