@@ -2,11 +2,23 @@
 
 |Rating|Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|:-----|
-|★☆☆☆☆|No Challenge|Encounters are not hostile|
-|★★☆☆☆|Minimal|Encounters are passively hostile, will only use turrets if you get close|
-|★★★☆☆|Average|Encounters will likely not engage players unless provoked or approached|
-|★★★★☆|Hostile|Encounters will seek players and attack when conditions are met (visibility, signals, etc)|
-|★★★★★|Nightmare|Encounters are aware of all targets in the area and will relentlessly attack|
+|★☆☆☆☆|No Challenge|Encounters are not hostile.|
+|★★☆☆☆|Minimal|Encounters are passively hostile, will only use turrets if you get close.|
+|★★★☆☆|Average|Encounters will likely not engage players unless provoked or approached.|
+|★★★★☆|Hostile|Encounters will seek players and attack when conditions are met (visibility, signals, etc).|
+|★★★★★|Nightmare|Encounters are easily aware of targets in the area and will relentlessly attack.|
+
+***
+
+# Grid Difficulty
+
+|Rating|Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
+|:-----|:-----|:-----|
+|★☆☆☆☆|No Challenge|Grids are not significantly armed and/or armored.|
+|★★☆☆☆|Minimal|Smaller grids that are lightly armed and/or armored.|
+|★★★☆☆|Average|Average sized grids that are moderately armed and/or armored.|
+|★★★★☆|Difficult|Larger sized grids that are heavily armed and/or armored.|
+|★★★★★|Nightmare|Massive sized grids that are heavily armed and/or armored.|
 
 ***
 
@@ -14,11 +26,11 @@
 
 |Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|
-|Space|Encounters can appear in space (zero gravity)|
-|Atmosphere|Encounters can appear on planets with an atmosphere|
-|Gravity|Encounters can appear on planets without an atmosphere|
-|Water|Encounters can appear on water surface (while using Water Mod)|
-|Underwater|Encounters can appear under the water surface (while using Water Mod)|
+|Space|Encounters can appear in space (zero gravity).|
+|Atmosphere|Encounters can appear on planets with an atmosphere.|
+|Gravity|Encounters can appear on planets without an atmosphere.|
+|Water|Encounters can appear on water surface (while using Water Mod).|
+|Underwater|Encounters can appear under the water surface (while using Water Mod).|
 
 ***
 
