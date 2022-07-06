@@ -1,5 +1,7 @@
 # Behavior Difficulty
 
+This section defines the various difficulty levels of encounters behaviors, ie how they interact with the player and other entities in the world.
+
 |Rating|Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|:-----|
 |★☆☆☆☆|No Challenge|Encounters are not hostile.|
