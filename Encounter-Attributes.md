@@ -49,6 +49,18 @@
 
 ***
 
+# Spawning Conditions
+
+|Condition&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
+|:-----|:-----|
+|Chance|Encounters will use an additional chance roll to determine if they're allowed to spawn in certain environments.|
+|Reputation|Encounters will only appear if a player's reputation with an NPC faction is at a certain value.|
+|Threat Score|Encounters will only appear once players have progressed / built enough grid resources in an area.|
+|Weather|Certain encounters will only appear during specific weather events or times of the day.|
+|Zones|Certain encounters will only appear in certain areas.|
+
+***
+
 # Special Abilities
 
 |Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
