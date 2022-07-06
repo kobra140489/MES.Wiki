@@ -14,6 +14,8 @@ This section defines the various difficulty levels of encounters behaviors, ie h
 
 # Grid Difficulty
 
+This section defines how difficult the ships / stations you'll encounter can be.
+
 |Rating|Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|:-----|
 |★☆☆☆☆|No Challenge|Grids are not significantly armed and/or armored.|
@@ -25,6 +27,8 @@ This section defines the various difficulty levels of encounters behaviors, ie h
 ***
 
 # Environments
+
+This section defines the various environments that encounters can appear in.
 
 |Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|
@@ -38,10 +42,12 @@ This section defines the various difficulty levels of encounters behaviors, ie h
 
 # Encounter Types
 
+This section defines the various types of encounters and how/when they generally spawn.
+
 |Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|
-|Space Cargo Ship|Encounters that appear in space, fly in a linear path, and despawn when they reach the end of their path.|
-|Planetary Cargo Ship|Encounters that appear near a planet's surface, fly in a linear path, and despawn when they reach the end of their path.|
+|Space Cargo Ship|Encounters that appear on a timer in space, fly in a linear path, and despawn when they reach the end of their path.|
+|Planetary Cargo Ship|Encounters that appear on a timer near a planet's surface, fly in a linear path, and despawn when they reach the end of their path.|
 |Random Encounter|Encounters that appear at random in space as the player travels across large distances.|
 |Planetary Installation|Encounters that appear at random on a planet's surface as the player travels across large distances.|
 |Static Encounter|Encounters that appear once the player has gotten close to where it should appear. These encounters only appear once.|
@@ -52,6 +58,8 @@ This section defines the various difficulty levels of encounters behaviors, ie h
 ***
 
 # Spawning Conditions
+
+This section defines various additional conditions that may also be used when determining if an encounter is eligible to spawn.
 
 |Condition&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|
@@ -64,6 +72,8 @@ This section defines the various difficulty levels of encounters behaviors, ie h
 ***
 
 # Special Abilities
+
+This section defines special blocks, attributes, and abilities that encounters may possess.
 
 |Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|
