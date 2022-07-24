@@ -1500,7 +1500,7 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |:----|:----|
 |Tag Format:|`[PrefabSpawningMode:Value1]`|
 |Description:|This tag allows you to specify how the prefabs in the SpawnGroup will be spawned. The default value `All` spawns all prefabs at their specified positions offsets. The `Random` value will choose 1 random prefab and use that for the spawn. The `SelectedIndexes` value allows you to provide a list of indexes that are specifically chosen for spawning (eg: SpawnGroup has 4 prefabs, and you provide indexes `0` and `2`, it will spawn the first prefab and the 3rd prefab). And finally the `RandomSelectedIndexes` allows you to create groups of indexes and then the spawner will cycle through each group and spawn one prefab randomly from the provided indexes in the group.|
-|Allowed Values:|`All`<br />`Random`<br />`SelectedIndexes`<br />`RandomSelectedIndexes`|
+|Allowed Values:|`All`<br />`Random`<br />`SelectedIndexes`<br />`RandomSelectedIndexes`<br />`RandomFixedCount`|
 |Default Value(s):|`All`|
 |Multiple Tag Allowed:|No|
 
@@ -1546,6 +1546,15 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Tag Format:|`[PrefabOffsetOverrides:Value]`|
 |Description:|This tag allows you to specify one or more sets of position offset coordinates that are used to override the position offsets of the prefabs. Example: if you are randomly spawning 3 prefabs, then you can force them into specific formations, regardless of the grids that are chosen.|
 |Allowed Values:|Vector3D Coordinates<br />eg: '{X:0 Y:0 Z:0}'|
+|Default Value(s):|`N/A`|
+|Multiple Tag Allowed:|Yes|
+
+<!-- PrefabFixedCount-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PrefabFixedCount|
+|:----|:----|
+|Tag Format:|`[PrefabFixedCount:Value]`|
+|Description:|This tag allows you to specify a number of prefabs that should be randomly selected for spawn if using the `RandomFixedCount` value in the `PrefabSpawningMode` tag. It is recommended to also use the `PrefabOffsetOverrides` tags to ensure you don't get any prefabs overlapping positions.|
+|Allowed Values:|Any Number `1` or Greater|
 |Default Value(s):|`N/A`|
 |Multiple Tag Allowed:|Yes|
 
