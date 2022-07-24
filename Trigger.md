@@ -33,6 +33,9 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 |Type:|Description:|
 |:----|:----|
 |`AcquiredTarget`|A trigger that activates when the NPC has acquired a target when not having a previous target|
+|`ActiveGunsPercentage`|A trigger that will activate if the NPC Static Guns Remaining are above a certain percentage.|
+|`ActiveTurretsPercentage`|A trigger that will activate if the NPC Turrets Remaining are above a certain percentage.|
+|`ActiveWeaponsPercentage`|A trigger that will activate if the NPC Total Weapons Remaining are above a certain percentage.|
 |`BehaviorTriggerA`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
 |`BehaviorTriggerB`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
 |`BehaviorTriggerC`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
@@ -47,6 +50,7 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 |`Despawn`|A trigger that is activated when the NPC is despawned by RivalAI.|
 |`DespawnMES`|A trigger that is activated when the NPC is despawned by the Modular Encounters Spawner.|
 |`HasTarget`|A trigger that will activate while NPC has a valid target.|
+|`HealthPercentage`|A trigger that will activate if the NPC health is above a certain percentage.|
 |`InsideZone`|A trigger that will activate while NPC is inside a specified zone.|
 |`JumpCompleted`|A trigger that will activate when a Jump Drive completes its jump.|
 |`JumpRequested`|A trigger that will activate when a nearby Jump Drive is activated.|
@@ -415,4 +419,22 @@ Below are the tags you are able to use in your Trigger Profiles. Please note tha
 |Description:|This tag specifies the button index that is monitored when using a `ButtonPress` trigger. For example, a 4 button block would have indexes 0, 1, 2, 3.|
 |Allowed Value(s):|Any ButtonPanel Index|
 |Compatible Types:|`ButtonPress`|
+|Multiple Tags Allowed:|No|
+
+<!-- PercentageOfWeaponsRemaining -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PercentageOfWeaponsRemaining|
+|:----|:----|
+|Tag Format:|`[PercentageOfWeaponsRemaining:Value]`|
+|Description:|This tag allows you to specify the percentage of weapons that must be remaining in order for the trigger to be able to activate.|
+|Allowed Value(s):|Any Number Greater/Equal To `0`|
+|Compatible Types:|`ActiveGunsPercentage`<br />`ActiveTurretsPercentage`br />`ActiveWeaponsPercentage`|
+|Multiple Tags Allowed:|No|
+
+<!-- PercentageOfHealthRemaining -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PercentageOfHealthRemaining|
+|:----|:----|
+|Tag Format:|`[PercentageOfHealthRemaining:Value]`|
+|Description:|This tag allows you to specify the percentage of grid health that must be remaining in order for the trigger to be able to activate.|
+|Allowed Value(s):|Any Number Greater/Equal To `0`|
+|Compatible Types:|`HealthPercentage`|
 |Multiple Tags Allowed:|No|
