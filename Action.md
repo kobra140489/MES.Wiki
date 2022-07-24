@@ -1080,7 +1080,7 @@ This section contains actions that affect the reputation of players interacting 
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReputationChangeFactions|
 |:----|:----|
 |Tag Format:|`[ReputationChangeFactions:Value]`|
-|Description:|Specifies one or more Faction Tags that player reputation is changed with. This tag must be paired with a `ReputationChangeAmount` value|
+|Description:|Specifies one or more Faction Tags that player reputation is changed with. If you provide the value `{Self}`, the NPCs faction will be used. This tag must be paired with a `ReputationChangeAmount` value|
 |Allowed Values:|Any Faction Tag|
 |Multiple Tag Allowed:|Yes|
 
@@ -1112,7 +1112,7 @@ This section contains actions that affect the reputation of players interacting 
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeAttackerReputationFaction|
 |:----|:----|
 |Tag Format:|`[ChangeAttackerReputationFaction:Value]`|
-|Description:|Specifies one or more Faction Tags that player reputation is changed with. This tag must be paired with a `ChangeAttackerReputationAmount` value|
+|Description:|Specifies one or more Faction Tags that player reputation is changed with. If you provide the value `{Self}`, the NPCs faction will be used. This tag must be paired with a `ChangeAttackerReputationAmount` value|
 |Allowed Values:|Any Faction Tag|
 |Multiple Tag Allowed:|Yes|
 
