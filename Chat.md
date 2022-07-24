@@ -47,6 +47,7 @@ When specifying chat messages in the tags below, there are special tags you can 
 
  - `{PlayerName}` - will be replaced with the name of the player receiving the message.  
  - `{AntennaName}` - will be replaced with the name of the sending antenna (highest range antenna is used.) This also works for the Author Name as well.
+ - `{Faction}` - will be replaced with the Faction Tag of the NPC.
  - `{GPS}` - will be replaced with the GPS coordinates of the grid broadcasting the message (should only use this with chat).
  - `{GridName}` - will be replaced with the name of the sending grid. This also works for the Author Name as well.
 
