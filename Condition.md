@@ -586,3 +586,27 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|This tag specifies whether the grid must be in a planetary lane in order for the `CheckForPlanetaryLane` check to pass.|
 |Allowed Value(s):|`true`<br />`false`|
 |Multiple Tags Allowed:|No|
+
+<!-- IsAttackerHostile -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IsAttackerHostile|
+|:----|:----|
+|Tag Format:|`[IsAttackerHostile:Value]`|
+|Description:|This tag allows you to specify if the condition should check if the attacking entity has a hostile relation with the NPC. This tag should only be used on triggers using the `Damage` type.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- IsAttackerNeutral -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IsAttackerNeutral|
+|:----|:----|
+|Tag Format:|`[IsAttackerNeutral:Value]`|
+|Description:|This tag allows you to specify if the condition should check if the attacking entity has a neutral relation with the NPC. This tag should only be used on triggers using the `Damage` type.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
+
+<!-- IsAttackerFriendly -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IsAttackerFriendly|
+|:----|:----|
+|Tag Format:|`[IsAttackerFriendly:Value]`|
+|Description:|This tag allows you to specify if the condition should check if the attacking entity has a friendly relation with the NPC. This tag should only be used on triggers using the `Damage` type.|
+|Allowed Value(s):|`true`<br />`false`|
+|Multiple Tags Allowed:|No|
