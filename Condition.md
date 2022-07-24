@@ -91,6 +91,14 @@ Here's an example of how a Condition Profile Definition is setup:
 |Allowed Values:|Any name string excluding characters `:`, `[`, `]`|
 |Multiple Tag Allowed:|Yes|
 
+<!--AllowAnyTrueBoolean-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowAnyTrueBoolean|
+|:----|:----|
+|Tag Format:|`[AllowAnyTrueBoolean:Value]`|
+|Description:|This tag allows you to specify if the condition should pass if any of the provided boolean names evaluate as true.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
 <!--CheckCustomCounters-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckCustomCounters|
 |:----|:----|
@@ -123,6 +131,14 @@ Here's an example of how a Condition Profile Definition is setup:
 |Allowed Values:|`GreaterOrEqual`<br>`Greater`<br>`Equal`<br>`NotEqual`<br>`Less`<br>`LessOrEqual`|
 |Multiple Tag Allowed:|Yes|
 
+<!--AllowAnyValidCounter-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowAnyValidCounter|
+|:----|:----|
+|Tag Format:|`[AllowAnyValidCounter:Value]`|
+|Description:|This tag allows you to specify if the condition should pass if any of the provided counters pass their check.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
 <!--CheckTrueSandboxBooleans-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckTrueSandboxBooleans|
 |:----|:----|
@@ -138,6 +154,14 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|Specifies the name of a Sandbox Boolean Variable you want to have checked if `CheckTrueSandboxBooleans` is `true`.|
 |Allowed Values:|Any name string excluding characters `:`, `[`, `]`|
 |Multiple Tag Allowed:|Yes|
+
+<!--AllowAnyTrueSandboxBoolean-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowAnyTrueSandboxBoolean|
+|:----|:----|
+|Tag Format:|`[AllowAnyTrueSandboxBoolean:Value]`|
+|Description:|This tag allows you to specify if the condition should pass if any of the provided boolean names evaluate as true.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
 
 <!--CheckCustomSandboxCounters-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckCustomSandboxCounters|
@@ -170,6 +194,14 @@ Here's an example of how a Condition Profile Definition is setup:
 |Description:|Specifies the logic used to determine if the sandbox counter check passes or not for each provided counter. If no value is provided for a counter name, then `GreaterOrEqual` is used by default.|
 |Allowed Values:|`GreaterOrEqual`<br>`Greater`<br>`Equal`<br>`NotEqual`<br>`Less`<br>`LessOrEqual`|
 |Multiple Tag Allowed:|Yes|
+
+<!--AllowAnyValidSandboxCounter-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowAnyValidSandboxCounter|
+|:----|:----|
+|Tag Format:|`[AllowAnyValidSandboxCounter:Value]`|
+|Description:|This tag allows you to specify if the condition should pass if any of the provided counters pass their check.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
 
 <!--CheckGridSpeed-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckGridSpeed|
