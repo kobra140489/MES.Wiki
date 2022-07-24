@@ -546,6 +546,22 @@ This section contains actions that affect the state of blocks on the NPC grid.
 |Allowed Values:|Any Block Name|
 |Multiple Tag Allowed:|Yes|
 
+<!--RazeBlocksOfType-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RazeBlocksOfType|
+|:----|:----|
+|Tag Format:|`[RazeBlocksOfType:Value]`|
+|Description:|This tag specifies if some block types should be destroyed on the NPC grid.|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|No|
+
+<!--RazeBlocksTypes-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RazeBlocksTypes|
+|:----|:----|
+|Tag Format:|`[RazeBlocksTypes:Value]`|
+|Description:|This tag specifies types of blocks that are destroyed when the action is executed.|
+|Allowed Values:|Any Block Type (eg `MyObjectBuilder_CubeBlock/SomeBlockSubtypeId`)|
+|Multiple Tag Allowed:|Yes|
+
 <!--ToggleBlocksOfType-->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleBlocksOfType|
 |:----|:----|
