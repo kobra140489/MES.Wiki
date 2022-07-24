@@ -1132,6 +1132,22 @@ This section contains actions that affect the reputation of players interacting 
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|No|
 
+<!-- ReputationMinCap -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReputationMinCap|
+|:----|:----|
+|Tag Format:|`[ReputationMinCap:Value]`|
+|Description:|This tag allows you to specify the Minimum Reputation level that the action is able to decrease to. If the existing reputation is already lower than the cap, then no further decrease will occur.|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`|
+|Multiple Tags Allowed:|No|
+
+<!-- ReputationMaxCap -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ReputationMaxCap|
+|:----|:----|
+|Tag Format:|`[ReputationMaxCap:Value]`|
+|Description:|This tag allows you to specify the Maximum Reputation level that the action is able to increase to. If the existing reputation is already higher than the cap, then no further increase will occur.|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`|
+|Multiple Tags Allowed:|No|
+
 ***
 
 # Spawning
