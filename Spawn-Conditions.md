@@ -1740,6 +1740,14 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Default Value(s):|`-1`|
 |Multiple Tag Allowed:|No|
 
+<!-- ThreatScorePlanetaryHandicap -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ThreatScorePlanetaryHandicap|
+|:----|:----|
+|Tag Format:|`[ThreatScorePlanetaryHandicap:Value]`|
+|Description:|This tag allows you to specify a value that is added to the Min/Max Threat values if the grid is attempting to spawn in gravity. This allows you to set increased / decreased difficulty for spawns that happen in a gravity well.|
+|Allowed Value(s):|Any Integer Greater/Equal To `0`|
+|Multiple Tags Allowed:|No|
+
 <!-- UsePCUCheck  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UsePCUCheck|
 |:----|:----|
