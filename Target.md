@@ -118,21 +118,21 @@ Here's an example of how a Target Profile Definition is setup:
 |:----|:----|
 |Tag Format:|`[MatchAllFilters:Value]`|
 |Description:|This tag allows you to specify one or more extra conditions that must be met when acquiring or evaluating a target. If any of the specified conditions under this tag are not met, the target is not considered valid.|
-|Allowed Values:|`Altitude`<br>`Broadcasting`<br>`Faction`<br>`Gravity`<br>`LineOfSight`<br>`MovementScore`<br>`Name`<br>`OutsideOfSafezone`<br>`Owner`<br>`PlayerControlled`<br>`PlayerKnownLocation`<br>`Powered`<br>`Relation`<br>`Shielded`<br>`Speed`<br>`Static`<br>`TargetValue`|
+|Allowed Values:|`Altitude`<br>`Broadcasting`<br>`Faction`<br>`Gravity`<br>`IgnoreStealthDrive`<br />`LineOfSight`<br>`MovementScore`<br>`Name`<br>`OutsideOfSafezone`<br>`Owner`<br>`PlayerControlled`<br>`PlayerKnownLocation`<br>`Powered`<br>`Relation`<br>`Shielded`<br>`Speed`<br>`Static`<br>`TargetValue`|
 |Multiple Tag Allowed:|Yes|
 
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MatchAnyFilters|
 |:----|:----|
 |Tag Format:|`[MatchAnyFilters:Value]`|
 |Description:|This tag allows you to specify one or more extra conditions that must be met when acquiring or evaluating a target. If any of the specified conditions under this tag are met, the target is considered valid.|
-|Allowed Values:|`Altitude`<br>`Broadcasting`<br>`Faction`<br>`Gravity`<br>`LineOfSight`<br>`MovementScore`<br>`Name`<br>`OutsideOfSafezone`<br>`Owner`<br>`PlayerControlled`<br>`PlayerKnownLocation`<br>`Powered`<br>`Relation`<br>`Shielded`<br>`Speed`<br>`Static`<br>`TargetValue`|
+|Allowed Values:|`Altitude`<br>`Broadcasting`<br>`Faction`<br>`Gravity`<br>`IgnoreStealthDrive`<br />`LineOfSight`<br>`MovementScore`<br>`Name`<br>`OutsideOfSafezone`<br>`Owner`<br>`PlayerControlled`<br>`PlayerKnownLocation`<br>`Powered`<br>`Relation`<br>`Shielded`<br>`Speed`<br>`Static`<br>`TargetValue`|
 |Multiple Tag Allowed:|Yes|
 
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MatchNoneFilters|
 |:----|:----|
 |Tag Format:|`[MatchNoneFilters:Value]`|
 |Description:|This tag allows you to specify one or more extra conditions that must be met when acquiring or evaluating a target. If any of the specified conditions under this tag are met, the target is not considered valid.|
-|Allowed Values:|`Altitude`<br>`Broadcasting`<br>`Faction`<br>`Gravity`<br>`LineOfSight`<br>`MovementScore`<br>`Name`<br>`OutsideOfSafezone`<br>`Owner`<br>`PlayerControlled`<br>`PlayerKnownLocation`<br>`Powered`<br>`Relation`<br>`Shielded`<br>`Speed`<br>`Static`<br>`TargetValue`|
+|Allowed Values:|`Altitude`<br>`Broadcasting`<br>`Faction`<br>`Gravity`<br>`IgnoreStealthDrive`<br />`LineOfSight`<br>`MovementScore`<br>`Name`<br>`OutsideOfSafezone`<br>`Owner`<br>`PlayerControlled`<br>`PlayerKnownLocation`<br>`Powered`<br>`Relation`<br>`Shielded`<br>`Speed`<br>`Static`<br>`TargetValue`|
 |Multiple Tag Allowed:|Yes|
 
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|GetTargetBy|
@@ -332,4 +332,12 @@ Here's an example of how a Target Profile Definition is setup:
 |Description:|This tag allows you to override the Player Known Location Faction Check to use a faction that is different from the faction that owns the NPC Remote Control|
 |Filter Required:|`PlayerKnownLocation`|
 |Allowed Values:|Any NPC Faction Tag|
+|Multiple Tag Allowed:|No|
+
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|StealthDriveMinDistance|
+|:----|:----|
+|Tag Format:|`[StealthDriveMinDistance:Value]`|
+|Description:|This tag specifies the minimum distance a target must maintain in order to remain undetectable while using a Stealth Drive.|
+|Filter Required:|`LineOfSight`|
+|Allowed Values:|Any Number Higher Than `0`|
 |Multiple Tag Allowed:|No|
