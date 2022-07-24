@@ -32,7 +32,7 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 
 |Type:|Description:|
 |:----|:----|
-|`AcquiredTarget`|A trigger that activates when the NPC has acquired a target|
+|`AcquiredTarget`|A trigger that activates when the NPC has acquired a target when not having a previous target|
 |`BehaviorTriggerA`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
 |`BehaviorTriggerB`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
 |`BehaviorTriggerC`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
@@ -40,6 +40,7 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 |`BehaviorTriggerE`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
 |`BehaviorTriggerF`|A trigger that is executed when behavior specific events happen (see Behavior Specific Tags for details)|
 |`ButtonPress`|A trigger that is activated when a button panel is pressed on the NPC grid.|
+|`ChangedTarget`|A trigger that activates when any of `AcquiredTarget`, `LostTarget`, or `SwitchedTarget` activate.|
 |`CommandReceived`|A command listener that executes actions if another NPC Behavior broadcasts a correct Command Code|
 |`Compromised`|A trigger that is activated when the Remote Control block stops working.|
 |`Damage`|A damage watcher that executes actions when damage to the NPC is detected.|
@@ -49,7 +50,7 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 |`InsideZone`|A trigger that will activate while NPC is inside a specified zone.|
 |`JumpCompleted`|A trigger that will activate when a Jump Drive completes its jump.|
 |`JumpRequested`|A trigger that will activate when a nearby Jump Drive is activated.|
-|`LostTarget`|A trigger that activates when the NPC has lost a target.|
+|`LostTarget`|A trigger that activates when the NPC has lost a target and doesn't acquire a new one.|
 |`Manual`|A trigger that activates when specifically called from another Action Profile.|
 |`NoTarget`|A trigger that will activate while NPC has no valid target.|
 |`NoWeapon`|A block watcher that executes actions if all weapons on the NPC grid becomes non-fireable|
@@ -61,6 +62,7 @@ All Trigger Profiles require the `Type` tag. This is what determines what sort o
 |`SensorActive`|A proximity watcher that executes actions if a named Sensor Block is currently Activated.|
 |`SensorIdle`|A proximity watcher that executes actions if a named Sensor Block is currently Idle.|
 |`Session`|A trigger that only activates once per session (ie: when the encounter spawns or when the game loads/reloads).|
+|`SwitchTarget`|A trigger that activates when the NPC switches from one target to another.|
 |`TargetFar`|A proximity watcher that executes actions if a target is outside a certain range.|
 |`TargetInSafezone`|A target watcher that executes actions if a target moves into a SafeZone|
 |`TargetNear`|A proximity watcher that executes actions if a target come within a certain range.|
