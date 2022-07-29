@@ -245,6 +245,13 @@ Here is a list of command categories:
 |Chat Command 2:|`/MES.Spawn.PlanetaryInstallation.Value`<br />`/MES.SPI.Value`|
 |Description:|This chat command allows you to spawn a Planetary Installation near your player character. This spawn will obey the rules you have set for encounters to appear in that area. Chat Command 1 will spawn a random group from whatever groups are available. Chat Command 2 allows you to specify the Spawn Group you want to spawn, just replace `Value` with the SubtypeId of the Spawn Group you want to spawn.|
 
+|Setting:|Spawn Drone Encounter|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Spawn.DroneEncounter`<br />`/MES.SDE`|
+|Chat Command 2:|`/MES.Spawn.DroneEncounter.Value`<br />`/MES.SDE.Value`|
+|Description:|This chat command allows you to spawn a Drone Encounter near your player character. This spawn will obey the rules you have set for encounters to appear in that area. Chat Command 1 will spawn a random group from whatever groups are available. Chat Command 2 allows you to specify the Spawn Group you want to spawn, just replace `Value` with the SubtypeId of the Spawn Group you want to spawn.|
+
 |Setting:|Spawn Prefab|
 |:----|:----|
 |XML:|`N/A`|
