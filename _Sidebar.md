@@ -69,10 +69,12 @@
   * [Threat Score Guide](https://gist.github.com/MeridiusIX/52fbf5679e67107a8cf37706205b5812)
 
 # Mod Repositories 
-  * [Air Traffic](https://github.com/MeridiusIX/Air-Traffic)  
+  * [Imber Corporation](https://github.com/MeridiusIX/Imber-Corporation)  
+  * [Independent Contractors](https://github.com/MeridiusIX/Independent-Contractors)  
   * [Marine Pirate Encounters](https://github.com/MeridiusIX/Marine-Pirate-Encounters)
   * [Orks: The Great WAAAGH!](https://github.com/MeridiusIX/Orks-The-Great-WAAAGH)
+  * [Parallax Concepts Encounters](https://github.com/MeridiusIX/Parallax-Concepts-Encounters)  
   * [Reavers: Terror Of The Verse](https://github.com/MeridiusIX/Reavers-Terror-of-the-Verse)
   * [Robot Raider Pods](https://github.com/MeridiusIX/Robot-Raider-Pods)    
-  * [Surface Occupation](https://github.com/MeridiusIX/Surface-Occupation)  
+
 
