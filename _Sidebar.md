@@ -9,6 +9,7 @@
 # Admin & Configuration
   * [General Settings](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-General-Settings)
   * [Grid Settings](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Grid-Settings)
+  * [Combat Settings](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Combat-Settings)
   * [Space Cargo Ships](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Space-Cargo-Ships)
   * [Random Encounters](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Random-Encounters)
   * [Planetary Cargo Ships](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Planetary-Cargo-Ships)
