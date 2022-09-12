@@ -62,6 +62,7 @@
 # Modder Resources
   * [Armor Modules Included with MES](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Armor-Modules)  
   * [Block Replacement Profiles](https://gist.github.com/MeridiusIX/415b45b53174c608c6486ce06bb58e2c)
+  * [Encounter Attributes](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Encounter-Attributes)
   * [Loot Profiles](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Loot-Profiles)
   * [NPC Grid Setup Guidelines](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Modding:-Tutorial-&-Guidelines:-NPC-Grid-Setup-Guidelines)
   * [Random Name Generator Guide](https://gist.github.com/MeridiusIX/8888bbc06a623cac90f8362dd948033c)
