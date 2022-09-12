@@ -50,7 +50,7 @@ Below are several types of condition tags you can include in your Spawn Conditio
 [**Other-NPCs**](#Other-NPCs)  
   
 [**General**](#General)  
-[**Combat**](#Combat) 
+[**Combat**](#Combat)  
 [**Cost**](#Cost)  
 [**Date-Time**](#Date-Time)  
 [**Economy**](#Economy)  
