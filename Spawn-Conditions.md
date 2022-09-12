@@ -50,6 +50,7 @@ Below are several types of condition tags you can include in your Spawn Conditio
 [**Other-NPCs**](#Other-NPCs)  
   
 [**General**](#General)  
+[**Combat**](#Combat) 
 [**Cost**](#Cost)  
 [**Date-Time**](#Date-Time)  
 [**Economy**](#Economy)  
@@ -834,6 +835,36 @@ Below are the SpawnGroup tags are specific to Creature Spawning (you can also us
 |Description:|This tag specifies if any Voxels that are spawned with the encounter should be removed if the grid is no longer present (only works for Random Encounters and Planetary Installations).|
 |Allowed Values:|`true`<br>`false`|
 |Default Value(s):|`true`|
+|Multiple Tag Allowed:|No|
+
+
+# Combat
+
+<!-- UseCombatPhase-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseCombatPhase|
+|:----|:----|
+|Tag Format:|`[UseCombatPhase:Value]`|
+|Description:|This tag specifies if this encounter should only spawn during a Combat Phase. If left false, the encounter will only spawn during a Peace phase. If the combat phase system is disabled in config, the encounter will omit this check.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- IgnoreCombatPhase-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IgnoreCombatPhase|
+|:----|:----|
+|Tag Format:|`[IgnoreCombatPhase:Value]`|
+|Description:|This tag specifies if the encounter should always spawn, regardless of whether the world is in Combat or Peace phase.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
+|Multiple Tag Allowed:|No|
+
+<!-- CombatPhaseChecksInPersistentCondition-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CombatPhaseChecksInPersistentCondition|
+|:----|:----|
+|Tag Format:|`[CombatPhaseChecksInPersistentCondition:Value]`|
+|Description:|This tag should be set to `true` if you are using any of the Combat Phase tags in a Persistent SpawnConditions profile, otherwise it can be left `false`.|
+|Allowed Values:|`true`<br>`false`|
+|Default Value(s):|`false`|
 |Multiple Tag Allowed:|No|
 
 
