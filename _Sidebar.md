@@ -69,6 +69,7 @@
   * [Scripting API](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Scripting-API)
   * [Troubleshooting Tips](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Troubleshooting-Tips)
   * [Threat Score Guide](https://gist.github.com/MeridiusIX/52fbf5679e67107a8cf37706205b5812)
+  * [Tutorials](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Tutorials)
 
 # Mod Repositories 
   * [Imber Corporation](https://github.com/MeridiusIX/Imber-Corporation)  
