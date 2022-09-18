@@ -64,7 +64,7 @@ This section defines various additional conditions that may also be used when de
 |Condition&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |:-----|:-----|
 |Chance|Encounters will use an additional chance roll to determine if they're allowed to spawn in certain environments.|
-|Combat|Encounters will only appear during a Combat Phase in the world. If Combat Phases are disabled, then this check is omitted.|
+|Combat Phase|Encounters will only appear during a Combat Phase in the world. If Combat Phases are disabled, then this check is omitted.|
 |Reputation|Encounters will only appear if a player's reputation with an NPC faction is at a certain value.|
 |Threat Score|Encounters will only appear once players have progressed / built enough grid resources in an area.|
 |Weather|Certain encounters will only appear during specific weather events or times of the day.|
