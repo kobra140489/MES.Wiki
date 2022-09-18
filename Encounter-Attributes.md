@@ -65,6 +65,7 @@ This section defines various additional conditions that may also be used when de
 |:-----|:-----|
 |Chance|Encounters will use an additional chance roll to determine if they're allowed to spawn in certain environments.|
 |Combat Phase|Encounters will only appear during a Combat Phase in the world. If Combat Phases are disabled, then this check is omitted.|
+|Known Player Location|Encounters can designate an area around a player as a Known Player Location, which can potentially allow encounters to spawn more often or detect the player easier.|
 |Reputation|Encounters will only appear if a player's reputation with an NPC faction is at a certain value.|
 |Threat Score|Encounters will only appear once players have progressed / built enough grid resources in an area.|
 |Weather|Certain encounters will only appear during specific weather events or times of the day.|
