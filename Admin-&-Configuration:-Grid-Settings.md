@@ -114,9 +114,16 @@ You can find the Grids Settings Configuration File in `MySaveWorldFolder\Storage
 |Chat Command:|`/MES.Settings.Grids.MaxAmmoInventoryWeight.Value`|
 |Description:|This setting allows you to determine the maximum weapon inventory mass that is allowed to be filled with ammo if using the `UseMaxAmmoInventoryWeight` option. `Value` should be any number greater than `0`|
 
+|Setting:|RandomizedWeaponsUseFullRange|
+|:----|:----|
+|XML:|`<RandomizedWeaponsUseFullRange>Value</RandomizedWeaponsUseFullRange>`|
+|Chat Command:|`/MES.Settings.Grids.RandomizedWeaponsUseFullRange.Value`|
+|Description:|This setting specifies whether NPCs with Randomized Weapons should have their weapon ranges maximized at spawn. May conflict with Behavior controls that manually set weapon ranges. `Value` can be replaced with `true` or `false` |
+
 |Setting:|GlobalReplenishmentProfiles|
 |:----|:----|
 |XML:|`<GlobalReplenishmentProfiles>`<br />   `<string>Value1</string>`<br />   `<string>Value2</string>`<br />`</GlobalReplenishmentProfiles>`|
 |Chat Command (Add):|`/MES.Settings.Grids.GlobalReplenishmentProfiles.Add.Value`|
 |Chat Command (Remove):|`/MES.Settings.Grids.GlobalReplenishmentProfiles.Remove.Value`|
 |Description:|This setting allows you to specify one or more Global Replenishment Profile names that are used to restrict how much inventory a grid receives when its systems are replenished at spawn. `Value` should be replaced with any Replenishment Profile SubtypeId.
+
