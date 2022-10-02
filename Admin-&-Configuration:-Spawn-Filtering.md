@@ -27,4 +27,4 @@ These allow you to prevent certain SpawnGroups from appearing when they are spaw
 |:----|:----|
 |Chat Command (Add):   |`/MES.Settings.SpawnType.PlanetSpawnFilters.Add.PlanetId.Value`|
 |Chat Command (Remove):|`/MES.Settings.SpawnType.PlanetSpawnFilters.Remove.PlanetId.Value`|
-|Description:|This setting allows you to certain encounters or entire mod IDs from spawning on certain planets. Replace `SpawnType` with the type of spawn you want to control against (eg: `SpaceCargoShips`). Replace `PlanetId` with the EntityId of the planet you want to control spawning on (you can get this with the `/MES.GESAP` chat command while standing on the planet). Replace `Value` with the SpawnGroup subtypeId or mod Id.|
+|Description:|This setting allows you to blacklist certain encounters or entire mod IDs from spawning on certain planets. Replace `SpawnType` with the type of spawn you want to control against (eg: `SpaceCargoShips`). Replace `PlanetId` with the EntityId of the planet you want to control spawning on (you can get this with the `/MES.GESAP` chat command while standing on the planet). Replace `Value` with the SpawnGroup subtypeId or mod Id.|
