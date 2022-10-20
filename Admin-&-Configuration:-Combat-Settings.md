@@ -35,29 +35,29 @@ You can find the Grids Settings Configuration File in `MySaveWorldFolder\Storage
 |Setting:|CombatPhaseModIdOverride|
 |:----|:----|
 |XML:|`<CombatPhaseModIdOverride>`<br />   `<string>Value1</string>`<br />   `<string>Value2</string>`<br />`</CombatPhaseModIdOverride>`|
-|Chat Command (Add):|`/MES.Settings.Grids.CombatPhaseModIdOverride.Add.Value`|
-|Chat Command (Remove):|`/MES.Settings.Grids.CombatPhaseModIdOverride.Remove.Value`|
+|Chat Command (Add):|`/MES.Settings.Combat.CombatPhaseModIdOverride.Add.Value`|
+|Chat Command (Remove):|`/MES.Settings.Combat.CombatPhaseModIdOverride.Remove.Value`|
 |Description:|Allows you to specify one or more Mod IDs that will have their encounters registered as Combat phase only encounters. To add more IDs to the list, simply create a new line between the `<CombatPhaseModIdOverride>` and `</CombatPhaseModIdOverride>` tags and enter the following `<string>Value</string>` - Replace `Value` with the Mod ID you want to register.
 
 |Setting:|AllPhaseModIdOverride|
 |:----|:----|
 |XML:|`<AllPhaseModIdOverride>`<br />   `<string>Value1</string>`<br />   `<string>Value2</string>`<br />`</AllPhaseModIdOverride>`|
-|Chat Command (Add):|`/MES.Settings.Grids.AllPhaseModIdOverride.Add.Value`|
-|Chat Command (Remove):|`/MES.Settings.Grids.AllPhaseModIdOverride.Remove.Value`|
+|Chat Command (Add):|`/MES.Settings.Combat.AllPhaseModIdOverride.Add.Value`|
+|Chat Command (Remove):|`/MES.Settings.Combat.AllPhaseModIdOverride.Remove.Value`|
 |Description:|Allows you to specify one or more Mod IDs that will have their encounters registered to be able to spawn during Combat and Peace phases. To add more IDs to the list, simply create a new line between the `<AllPhaseModIdOverride>` and `</AllPhaseModIdOverride>` tags and enter the following `<string>Value</string>` - Replace `Value` with the Mod ID you want to register.
 
 |Setting:|CombatPhaseSpawnGroupOverride|
 |:----|:----|
 |XML:|`<CombatPhaseSpawnGroupOverride>`<br />   `<string>Value1</string>`<br />   `<string>Value2</string>`<br />`</CombatPhaseSpawnGroupOverride>`|
-|Chat Command (Add):|`/MES.Settings.Grids.CombatPhaseSpawnGroupOverride.Add.Value`|
-|Chat Command (Remove):|`/MES.Settings.Grids.CombatPhaseSpawnGroupOverride.Remove.Value`|
+|Chat Command (Add):|`/MES.Settings.Combat.CombatPhaseSpawnGroupOverride.Add.Value`|
+|Chat Command (Remove):|`/MES.Settings.Combat.CombatPhaseSpawnGroupOverride.Remove.Value`|
 |Description:|Allows you to specify one or more SpawnGroup Names that will have their encounters registered as Combat phase only encounters. To add more Names to the list, simply create a new line between the `<CombatPhaseSpawnGroupOverride>` and `</CombatPhaseSpawnGroupOverride>` tags and enter the following `<string>Value</string>` - Replace `Value` with the SpawnGroup you want to register.
 
 |Setting:|AllPhaseSpawnGroupOverride|
 |:----|:----|
 |XML:|`<AllPhaseSpawnGroupOverride>`<br />   `<string>Value1</string>`<br />   `<string>Value2</string>`<br />`</AllPhaseSpawnGroupOverride>`|
-|Chat Command (Add):|`/MES.Settings.Grids.AllPhaseSpawnGroupOverride.Add.Value`|
-|Chat Command (Remove):|`/MES.Settings.Grids.AllPhaseSpawnGroupOverride.Remove.Value`|
+|Chat Command (Add):|`/MES.Settings.Combat.AllPhaseSpawnGroupOverride.Add.Value`|
+|Chat Command (Remove):|`/MES.Settings.Combat.AllPhaseSpawnGroupOverride.Remove.Value`|
 |Description:|Allows you to specify one or more SpawnGroup Names that will have their encounters registered to be able to spawn during Combat and Peace phases. To add more Names to the list, simply create a new line between the `<AllPhaseSpawnGroupOverride>` and `</AllPhaseSpawnGroupOverride>` tags and enter the following `<string>Value</string>` - Replace `Value` with the SpawnGroup you want to register.
 
 |Setting:|UseCombatPhaseSpawnTimerMultiplier|
