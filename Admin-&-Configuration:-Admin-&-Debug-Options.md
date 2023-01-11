@@ -113,6 +113,12 @@ Here is a list of command categories:
 |Description:|This chat command allows you to reset all players reputation with a specified faction.|
 |Allowed Value:|Any NPC Faction Tag|
 
+|Setting:|Reset Zones|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command:|`/MES.Debug.ResetZones`|
+|Description:|This chat command allows you to reset all zones currently loaded in the game world and reload them using the profiles currently present in the mod loadout.|
+
 |Setting:|Unlock Admin Blocks|
 |:----|:----|
 |XML:|`N/A`|
