@@ -15,7 +15,7 @@ The settings you can modify are listed below:
 |Setting:|TimeoutRadius|
 |:----|:----|
 |XML:|`<TimeoutRadius>Value</TimeoutRadius>`|
-|Chat Command:|`/MES.Settings.EncounterType.UseTimeout.Value`|
+|Chat Command:|`/MES.Settings.EncounterType.TimeoutRadius.Value`|
 |Description:|This setting allows you to specify the radius from a spawn that a timeout will cover. `Value` can be `0` or higher|
 
 |Setting:|TimeoutSpawnLimit|
