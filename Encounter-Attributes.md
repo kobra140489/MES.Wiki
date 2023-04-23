@@ -85,6 +85,7 @@ This section defines special blocks, attributes, and abilities that encounters m
 |Hand Drill Inhibitor|Disables Hand Drills while in the inhibitor block range (disable the inhibitor block to stop this effect).|
 |Jetpack Inhibitor|Disables Jetpack Dampeners while in the inhibitor block range, and disables Jetpack entirely at closer ranges (disable the inhibitor block to stop this effect).|
 |Jump Drive Inhibitor|Disables Jump Drive blocks while in the inhibitor block range (disable the inhibitor block to stop this effect).|
+|Merchant Equipment|Encounters may include store blocks, Shipyard System, and/or Suit Upgrade Stations.|
 |Nanobot Inhibitor|Disables Nanobot blocks while in the inhibitor block range (disable the inhibitor block to stop this effect).|
 |Personnel Inhibitor|Damages unseated players while in the inhibitor block range (disable the inhibitor block to stop this effect).|
 |Reinforcements|Calls for additional support / spawns drones to assist.|
