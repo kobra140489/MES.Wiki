@@ -93,6 +93,18 @@ Here is a list of command categories:
 |Chat Command 1:|`/MES.Debug.DrawPaths`|
 |Description:|This chat command allows you to enable/disable (this command toggles) debug draw on behavior autopilot. This only works while you are offline or local host, it will not work on a dedicated server. While autopilot is active, several lines may be drawn from ships/drones using MES Behavior Autopilot.<br /><br /> - Green: Current Waypoint<br /> - Red: Collision<br /> - Orange: Evasion<br /> - Cyan: Offset Waypoint<br /> - Magenta: Planetary Pathing<br /> - Yellow: Weapon Prediction Waypoint<br /><br />If using a behavior that has water pathing, a Green path may be drawn showing the various water nodes it is currently following.|
 
+|Setting:|Force Combat Phase|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Debug.ForceCombatPhase`|
+|Description:|This chat command allows you to immediately enable Combat Phase in the current world.|
+
+|Setting:|Force Peace Phase|
+|:----|:----|
+|XML:|`N/A`|
+|Chat Command 1:|`/MES.Debug.ForcePeacePhase`|
+|Description:|This chat command allows you to immediately enable Peace Phase in the current world (stops the current Combat Phase).|
+
 |Setting:|Process Prefabs|
 |:----|:----|
 |XML:|`N/A`|
