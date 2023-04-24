@@ -80,5 +80,6 @@
   * [Pravda Heavy Industries](https://github.com/MeridiusIX/Pravda-Heavy-Industries)  
   * [Reavers: Terror Of The Verse](https://github.com/MeridiusIX/Reavers-Terror-of-the-Verse)  
   * [Robot Raider Pods](https://github.com/MeridiusIX/Robot-Raider-Pods)    
+  * [Trade Operators Coalition](https://github.com/MeridiusIX/Trade-Operators-Coalition)    
 
 
