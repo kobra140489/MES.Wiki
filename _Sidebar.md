@@ -54,6 +54,7 @@
       * [Trigger Group](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Trigger-Group)
       * [Waypoint](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Waypoint)
       * [Weapons](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Weapons)
+  * [**Events (Getting Started)**](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Events:-Getting-Started)
 
 # Template / Example Files
   * [SpawnGroup.sbc](https://gist.github.com/MeridiusIX/1ae743505ec489d31e6ac17edf16e5e0?ts=2)
