@@ -2,7 +2,6 @@ Event Condition Profiles allow you to define some extra conditions that must be 
 
 Here's an example of how a Event Condition Profile Definition is setup:
 
-```
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
@@ -17,15 +16,8 @@ Here's an example of how a Event Condition Profile Definition is setup:
       [MES Event Condition]
 	  
 	[CheckTrueBooleans:true]
-	[TrueBooleans:AHEActive]  
-	[TrueBooleans:GCActive]  
-
-	[CheckFalseBooleans:true]	  
-	[FalseBooleans:GCvsAHE]	 	
-	[FalseBooleans:AHE-HQDestroyed]	 		  
-	  
-	  
-	  
+	[TrueBooleans:SomeRandomBoolean]  
+ 
 	[CheckThreatScore:true]
 	[ThreatScoreAmount:600]
 	[ThreatScoreDistance:5000]
