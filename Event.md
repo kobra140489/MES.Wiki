@@ -4,29 +4,30 @@ Events are like triggers, but they don't require a behavior / remote control. In
 Here is an example of how an Event Profile definition is setup:
 
 ```
-   <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>TAG-Event-Example</SubtypeId>
-      </Id>
-      <Description>
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+  <Id>
+	  <TypeId>Inventory</TypeId>
+	  <SubtypeId>TAG-Event-Example</SubtypeId>
+  </Id>
+  <Description>
 
-		[MES Event]
-		[UseEvent:false]
-		[UniqueEvent:true]
-		[Tags:BattleforAHEHQ]
+	[MES Event]
+	[UseEvent:false]
+	[UniqueEvent:true]
+	[Tags:BattleforAHEHQ]
 
-		[ConditionIds:TAG-EventCondition-Example]	
+	[ConditionIds:TAG-EventCondition-Example]	
 
-		[ActionExecution:Sequential]
-		[TimeUntilNextActionMs:6000]
+	[ActionExecution:Sequential]
+	[TimeUntilNextActionMs:6000]
 
-		[ActionIds:TAG-EventAction-Example]
-		[ActionIds:TAG-EventAction-Example2]
+	[ActionIds:TAG-EventAction-Example]
+	[ActionIds:TAG-EventAction-Example2]
 		
-      </Description>
-	</EntityComponent>
+  </Description>
+</EntityComponent>
 ```
+
 
 
 <!--UseEvent  -->
