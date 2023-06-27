@@ -9,7 +9,7 @@ Here's an example of how a Event Condition Profile Definition is setup:
 	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>MES-EventCondition-Example/SubtypeId>
+          <SubtypeId>TAG-EventCondition-Example/SubtypeId>
       </Id>
       <Description>
 
