@@ -16,8 +16,8 @@ Here is an example of how an Event Action Profile definition is setup:
 
 	  [MES Event Action]
       
-      [UseChatBroadcast:true]
-      [ChatData:RAI-ExampleChatProfile]
+          [UseChatBroadcast:true]
+          [ChatData:RAI-ExampleChatProfile]
 
 	  [ChangeBooleans:true]
 	  [SetBooleansTrue:SomeRandomBool]	
