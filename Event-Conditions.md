@@ -22,7 +22,6 @@ Here's an example of how a Event Condition Profile Definition is setup:
 	[ThreatScoreType:PlayerLocation]
 	[ThreatScoreGridConfiguration:Static]
         </Description>
-  
 </EntityComponent>	
 ```
 
