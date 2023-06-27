@@ -29,173 +29,277 @@ Here is an example of how an Event Action Profile definition is setup:
 </Definitions>
 ```
 
-<!--UseFailCondition  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseFailCondition|
+
+<!--DebugHudMessage  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DebugHudMessage|
 |:----|:----|
-|Tag Format:|`[UseFailCondition:Value]`|
+|Tag Format:|`[DebugHudMessage:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|no|
+<!--ChangeBooleans  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeBooleans|
+|:----|:----|
+|Tag Format:|`[ChangeBooleans:Value]`|
 |Description:|nan|
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
-<!--UseAnyPassingCondition  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseAnyPassingCondition|
+<!--SetBooleansTrue  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetBooleansTrue|
 |:----|:----|
-|Tag Format:|`[UseAnyPassingCondition:Value]`|
-|Description:|nan|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|no|
-<!--CheckTrueBooleans  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckTrueBooleans|
-|:----|:----|
-|Tag Format:|`[CheckTrueBooleans:Value]`|
-|Description:|nan|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|no|
-<!--TrueBooleans  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|TrueBooleans|
-|:----|:----|
-|Tag Format:|`[TrueBooleans:Value]`|
+|Tag Format:|`[SetBooleansTrue:Value]`|
 |Description:|nan|
 |Allowed Values:|Any name string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|yes|
-<!--AllowAnyTrueBoolean  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowAnyTrueBoolean|
+<!--SetBooleansFalse  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetBooleansFalse|
 |:----|:----|
-|Tag Format:|`[AllowAnyTrueBoolean:Value]`|
-|Description:|nan|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|no|
-<!--CheckFalseBooleans  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckFalseBooleans|
-|:----|:----|
-|Tag Format:|`[CheckFalseBooleans:Value]`|
-|Description:|nan|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|no|
-<!--FalseBooleans  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|FalseBooleans|
-|:----|:----|
-|Tag Format:|`[FalseBooleans:Value]`|
+|Tag Format:|`[SetBooleansFalse:Value]`|
 |Description:|nan|
 |Allowed Values:|Any name string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|yes|
-<!--AllowAnyFalseBoolean  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowAnyFalseBoolean|
+<!--ChangeCounters  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeCounters|
 |:----|:----|
-|Tag Format:|`[AllowAnyFalseBoolean:Value]`|
+|Tag Format:|`[ChangeCounters:Value]`|
 |Description:|nan|
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
-<!--CheckCustomCounters  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckCustomCounters|
+<!--IncreaseCounters  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IncreaseCounters|
 |:----|:----|
-|Tag Format:|`[CheckCustomCounters:Value]`|
-|Description:|nan|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|no|
-<!--CustomCounters  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomCounters|
-|:----|:----|
-|Tag Format:|`[CustomCounters:Value]`|
+|Tag Format:|`[IncreaseCounters:Value]`|
 |Description:|nan|
 |Allowed Values:|Any name string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|yes|
-<!--CustomCountersTargets  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomCountersTargets|
+<!--DecreaseCounters  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DecreaseCounters|
 |:----|:----|
-|Tag Format:|`[CustomCountersTargets:Value]`|
+|Tag Format:|`[DecreaseCounters:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--IncreaseCountersAmount  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IncreaseCountersAmount|
+|:----|:----|
+|Tag Format:|`[IncreaseCountersAmount:Value]`|
 |Description:|nan|
 |Allowed Values:|Any interger equal or greater than 0|
 |Multiple Tag Allowed:|yes|
-<!--CounterCompareTypes  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CounterCompareTypes|
+<!--DecreaseCountersAmount  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DecreaseCountersAmount|
 |:----|:----|
-|Tag Format:|`[CounterCompareTypes:Value]`|
+|Tag Format:|`[DecreaseCountersAmount:Value]`|
 |Description:|nan|
-|Allowed Values:|`GreaterOrEqual`<br>`Greater`<br>`Equal`<br>`NotEqual`<br>`Less`<br>`LessOrEqual`|
+|Allowed Values:|Any interger equal or greater than 0|
 |Multiple Tag Allowed:|yes|
-<!--CheckPlayerNear  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckPlayerNear|
+<!--SetCounters  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetCounters|
 |:----|:----|
-|Tag Format:|`[CheckPlayerNear:Value]`|
+|Tag Format:|`[SetCounters:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--SetCountersAmount  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SetCountersAmount|
+|:----|:----|
+|Tag Format:|`[SetCountersAmount:Value]`|
+|Description:|nan|
+|Allowed Values:|Any interger equal or greater than 0|
+|Multiple Tag Allowed:|yes|
+<!--UseChatBroadcast  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseChatBroadcast|
+|:----|:----|
+|Tag Format:|`[UseChatBroadcast:Value]`|
 |Description:|nan|
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
-<!--PlayerNearCoords  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlayerNearCoords|
+<!--ChatData  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChatData|
 |:----|:----|
-|Tag Format:|`[PlayerNearCoords:Value]`|
+|Tag Format:|`[ChatData:Value]`|
+|Description:|nan|
+|Allowed Values:|Any behaviour Chat Profile SubtypeId|
+|Multiple Tag Allowed:|yes|
+<!--SpawnEncounter  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnEncounter|
+|:----|:----|
+|Tag Format:|`[SpawnEncounter:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--SpawnVector3Ds  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnVector3Ds|
+|:----|:----|
+|Tag Format:|`[SpawnVector3Ds:Value]`|
 |Description:|nan|
 |Allowed Values:|A Vector3D Value in the following format:<br />`{X:# Y:# Z:#}`<br />Replace `#` with values in meters.|
-|Multiple Tag Allowed:|no|
-<!--PlayerNearDistanceFromCoords  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlayerNearDistanceFromCoords|
+|Multiple Tag Allowed:|yes|
+<!--SpawnFactionTags  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnFactionTags|
 |:----|:----|
-|Tag Format:|`[PlayerNearDistanceFromCoords:Value]`|
+|Tag Format:|`[SpawnFactionTags:Value]`|
 |Description:|nan|
-|Allowed Values:|Any interger equal or greater than 0|
-|Multiple Tag Allowed:|no|
-<!--PlayerFilterIds  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlayerFilterIds|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--Spawner  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Spawner|
 |:----|:----|
-|Tag Format:|`[PlayerFilterIds:Value]`|
+|Tag Format:|`[Spawner:Value]`|
 |Description:|nan|
-|Allowed Values:|Any PlayerFilter Profile SubtypeId|
+|Allowed Values:|Any behaviour Spawner Profile SubtypeId|
 |Multiple Tag Allowed:|no|
-<!--CheckThreatScore  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckThreatScore|
+<!--ChangeZoneAtPosition  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeZoneAtPosition|
 |:----|:----|
-|Tag Format:|`[CheckThreatScore:Value]`|
+|Tag Format:|`[ChangeZoneAtPosition:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|yes|
+<!--ZoneNames  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneNames|
+|:----|:----|
+|Tag Format:|`[ZoneNames:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--ZoneCoords  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneCoords|
+|:----|:----|
+|Tag Format:|`[ZoneCoords:Value]`|
+|Description:|nan|
+|Allowed Values:|A Vector3D Value in the following format:<br />`{X:# Y:# Z:#}`<br />Replace `#` with values in meters.|
+|Multiple Tag Allowed:|yes|
+<!--ZoneToggleActiveModes  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ZoneToggleActiveModes|
+|:----|:----|
+|Tag Format:|`[ZoneToggleActiveModes:Value]`|
+|Description:|true will activate it. false will set disable it|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|yes|
+<!--AddGPSForAll  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddGPSForAll|
+|:----|:----|
+|Tag Format:|`[AddGPSForAll:Value]`|
 |Description:|nan|
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
-<!--ThreatScoreAmount  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ThreatScoreAmount|
+<!--RemoveGPSForAll  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RemoveGPSForAll|
 |:----|:----|
-|Tag Format:|`[ThreatScoreAmount:Value]`|
+|Tag Format:|`[RemoveGPSForAll:Value]`|
 |Description:|nan|
-|Allowed Values:|Any interger equal or greater than 0|
+|Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
-<!--ThreatScoreDistance  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ThreatScoreDistance|
+<!--UseGPSObjective  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseGPSObjective|
 |:----|:----|
-|Tag Format:|`[ThreatScoreDistance:Value]`|
+|Tag Format:|`[UseGPSObjective:Value]`|
 |Description:|nan|
-|Allowed Values:|Any interger equal or greater than 0|
+|Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
-<!--ThreatScoreType  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ThreatScoreType|
+<!--GPSNames  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|GPSNames|
 |:----|:----|
-|Tag Format:|`[ThreatScoreType:Value]`|
+|Tag Format:|`[GPSNames:Value]`|
 |Description:|nan|
-|Allowed Values:|Player<br>PlayerLocation<br>Location|
-|Multiple Tag Allowed:|no|
-<!--ThreatScoreCoords  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ThreatScoreCoords|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--GPSDescriptions  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|GPSDescriptions|
 |:----|:----|
-|Tag Format:|`[ThreatScoreCoords:Value]`|
+|Tag Format:|`[GPSDescriptions:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--GPSVector3Ds  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|GPSVector3Ds|
+|:----|:----|
+|Tag Format:|`[GPSVector3Ds:Value]`|
 |Description:|nan|
 |Allowed Values:|A Vector3D Value in the following format:<br />`{X:# Y:# Z:#}`<br />Replace `#` with values in meters.|
-|Multiple Tag Allowed:|no|
-<!--ThreatScoreDistanceFromCoords  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ThreatScoreDistanceFromCoords|
+|Multiple Tag Allowed:|yes|
+<!--GPSColors  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|GPSColors|
 |:----|:----|
-|Tag Format:|`[ThreatScoreDistanceFromCoords:Value]`|
+|Tag Format:|`[GPSColors:Value]`|
 |Description:|nan|
-|Allowed Values:|Any interger equal or greater than 0|
-|Multiple Tag Allowed:|no|
-<!--ThreatScoreGridConfiguration  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ThreatScoreGridConfiguration|
+|Allowed Values:|A Vector3D Value in the following format:<br />`{X:# Y:# Z:#}`<br />.|
+|Multiple Tag Allowed:|yes|
+<!--ToggleEvents  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleEvents|
 |:----|:----|
-|Tag Format:|`[ThreatScoreGridConfiguration:Value]`|
+|Tag Format:|`[ToggleEvents:Value]`|
 |Description:|nan|
-|Allowed Values:|`All`<br>`Static`<br>`Dynamic`|
+|Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
-<!--nan  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|nan|
+<!--ToggleEventIds  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleEventIds|
 |:----|:----|
-|Tag Format:|`[nan:Value]`|
+|Tag Format:|`[ToggleEventIds:Value]`|
 |Description:|nan|
-|Allowed Values:|nan|
+|Allowed Values:|Any Event Profile SubtypeId|
+|Multiple Tag Allowed:|yes|
+<!--ToggleEventIdModes  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleEventIdModes|
+|:----|:----|
+|Tag Format:|`[ToggleEventIdModes:Value]`|
+|Description:|true will activate it. false will set disable it|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|yes|
+<!--ToggleEventTags  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleEventTags|
+|:----|:----|
+|Tag Format:|`[ToggleEventTags:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--ToggleEventTagModes  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleEventTagModes|
+|:----|:----|
+|Tag Format:|`[ToggleEventTagModes:Value]`|
+|Description:|true will activate it. false will set disable it|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|yes|
+<!--ResetCooldownTimeOfEvents  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ResetCooldownTimeOfEvents|
+|:----|:----|
+|Tag Format:|`[ResetCooldownTimeOfEvents:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
-
-
+<!--ResetEventCooldownIds  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ResetEventCooldownIds|
+|:----|:----|
+|Tag Format:|`[ResetEventCooldownIds:Value]`|
+|Description:|nan|
+|Allowed Values:|Any Event Profile SubtypeId|
+|Multiple Tag Allowed:|yes|
+<!--ResetEventCooldownTags  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ResetEventCooldownTags|
+|:----|:----|
+|Tag Format:|`[ResetEventCooldownTags:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding characters ": [ ]"|
+|Multiple Tag Allowed:|yes|
+<!--ActivateCustomAction  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ActivateCustomAction|
+|:----|:----|
+|Tag Format:|`[ActivateCustomAction:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--CustomActionName  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionName|
+|:----|:----|
+|Tag Format:|`[CustomActionName:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|no|
+<!--CustomActionArguments  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArguments|
+|:----|:----|
+|Tag Format:|`[CustomActionArguments:Value]`|
+|Description:|nan|
+|Allowed Values:|t.b.d|
+|Multiple Tag Allowed:|yes|
