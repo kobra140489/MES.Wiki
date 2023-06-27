@@ -1,7 +1,7 @@
 Event Condition Profiles allow you to define some extra conditions that must be met before a Event Profile can execute its Actions. It is important that you use a unique SubtypeId for each Condition Profile you create, otherwise they may not work correctly.
 
 Here's an example of how a Event Condition Profile Definition is setup:
-
+```
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
