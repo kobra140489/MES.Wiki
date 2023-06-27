@@ -26,16 +26,14 @@
 |:----|:----|
 |Tag Format:|`[MinCooldownMs:Value]`|
 |Description:|nan|
-|Allowed Values:|Any interger equal or greater than 0
-|
+|Allowed Values:|Any interger equal or greater than 0|
 |Multiple Tag Allowed:|no|
 <!--MaxCooldownMs  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MaxCooldownMs|
 |:----|:----|
 |Tag Format:|`[MaxCooldownMs:Value]`|
 |Description:|nan|
-|Allowed Values:|Any interger equal or greater than 0
-|
+|Allowed Values:|Any interger equal or greater than 0|
 |Multiple Tag Allowed:|no|
 <!--ConditionIds  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ConditionIds|
@@ -70,6 +68,5 @@
 |:----|:----|
 |Tag Format:|`[TimeUntilNextActionMs:Value]`|
 |Description:|nan|
-|Allowed Values:|Any interger equal or greater than 0
-|
+|Allowed Values:|Any interger equal or greater than 0|
 |Multiple Tag Allowed:|no|
