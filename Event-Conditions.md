@@ -2,22 +2,18 @@ Event Condition Profiles allow you to define some extra conditions that must be 
 
 Here's an example of how a Event Condition Profile Definition is setup:
 ```
-<?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+	<Id>
+	  <TypeId>Inventory</TypeId>
+	  <SubtypeId>TAG-EventCondition-Example/SubtypeId>
+	</Id>
+	<Description>
 
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>TAG-EventCondition-Example/SubtypeId>
-      </Id>
-      <Description>
-
-      [MES Event Condition]
+	[MES Event Condition]
 	  
 	[CheckTrueBooleans:true]
 	[TrueBooleans:SomeRandomBoolean]  
- 
+
 	[CheckThreatScore:true]
 	[ThreatScoreAmount:600]
 	[ThreatScoreDistance:5000]
@@ -25,12 +21,9 @@ Here's an example of how a Event Condition Profile Definition is setup:
 	[ThreatScoreDistanceFromCoords:90000]
 	[ThreatScoreType:PlayerLocation]
 	[ThreatScoreGridConfiguration:Static]
-      </Description>
-      
-    </EntityComponent>	
-
-  </EntityComponents>
-</Definitions>
+  </Description>
+  
+</EntityComponent>	
 ```
 
 
