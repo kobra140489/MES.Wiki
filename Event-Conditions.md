@@ -1,4 +1,45 @@
+Event Condition Profiles allow you to define some extra conditions that must be met before a Event Profile can execute its Actions. It is important that you use a unique SubtypeId for each Condition Profile you create, otherwise they may not work correctly.
 
+Here's an example of how a Event Condition Profile Definition is setup:
+
+```
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>MES-EventCondition-Example/SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Event Condition]
+	  
+	[CheckTrueBooleans:true]
+	[TrueBooleans:AHEActive]  
+	[TrueBooleans:GCActive]  
+
+	[CheckFalseBooleans:true]	  
+	[FalseBooleans:GCvsAHE]	 	
+	[FalseBooleans:AHE-HQDestroyed]	 		  
+	  
+	  
+	  
+	[CheckThreatScore:true]
+	[ThreatScoreAmount:600]
+	[ThreatScoreDistance:5000]
+	[ThreatScoreCoords:{X:-1129033.5 Y:126871.5 Z:1293873.5}]
+	[ThreatScoreDistanceFromCoords:90000]
+	[ThreatScoreType:PlayerLocation]
+	[ThreatScoreGridConfiguration:Static]
+      </Description>
+      
+    </EntityComponent>	
+
+  </EntityComponents>
+</Definitions>
+```
 
 <!--DebugHudMessage  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DebugHudMessage|
