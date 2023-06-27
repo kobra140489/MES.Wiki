@@ -195,10 +195,3 @@ Here's an example of how a Event Condition Profile Definition is setup:
 |Description:|nan|
 |Allowed Values:|`All`<br>`Static`<br>`Dynamic`|
 |Multiple Tag Allowed:|no|
-<!--nan  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|nan|
-|:----|:----|
-|Tag Format:|`[nan:Value]`|
-|Description:|nan|
-|Allowed Values:|nan|
-|Multiple Tag Allowed:|no|
