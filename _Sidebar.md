@@ -63,7 +63,7 @@
   * [Factions.sbc](https://gist.github.com/MeridiusIX/cd9b4decb58dea335290a05b728a7276?ts=2)	
 
 # Modder Resources
-  * [Armor Modules Included with MES](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Armor-Modules)  
+  * [Armor Modules Included with MES (Page Unavailable)](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Armor-Modules)  
   * [Block Replacement Profiles](https://gist.github.com/MeridiusIX/415b45b53174c608c6486ce06bb58e2c)
   * [Encounter Attributes](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Encounter-Attributes)
   * [Loot Profiles](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Loot-Profiles)
