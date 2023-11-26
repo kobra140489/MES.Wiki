@@ -1,10 +1,4 @@
-ScT-CreateGPS
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2998575759
-
-
-
-
+# EventActions continuation
 
 ### Tags 
 <!--ActivateCustomAction  -->
@@ -72,78 +66,162 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2998575759
 |Multiple Tag Allowed:|yes|
 
 
+# Scenario Tools
+
+[Mod link](https://steamcommunity.com/sharedfiles/filedetails/?id=2998575759)
+
+Scenario Tools is an extension of MES. 
+
+
+
+**Scenario Tools Custom Actions:**
+
+
+[ScT-CreateGPS](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/ScenarioTools-for-MES-Events/#ScT-CreateGPS)
+
+[ScT-RemoveGPS](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/ScenarioTools-for-MES-Events/#ScT-RemoveGPS)
+
+[ScT-AddNews](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/ScenarioTools-for-MES-Events/#ScT-AddNews)
+
+[ScT-SpawnPlanetaryInstallation](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/ScenarioTools-for-MES-Events/#ScT-SpawnPlanetaryInstallation)
 
 
 
 
 
+## Custom Actions
 
-Description: This custom action creates a new GPS marker with specified parameters.
 
-Parameters:
+### ScT-CreateGPS
 
-string name: The name of the GPS marker.
-string desc: The description of the GPS marker.
-int time: The time (in seconds) the GPS marker will be active.
-Vector3D coord: The coordinates of the GPS marker.
-Usage:
-
-csharp
-Copy code
-MESApi.RegisterCustomAction(true, "ScT-CreateGPS", CustomActions.CreateGPS);
-ScT-RemoveGPS
-Description: This custom action removes GPS markers with names containing a specified string.
-
-Parameters:
-
-string name: The string used to filter GPS markers for removal.
-Usage:
-
-csharp
-Copy code
-MESApi.RegisterCustomAction(true, "ScT-RemoveGPS", CustomActions.RemoveGPS);
-ScT-AddNews
-Description: This custom action adds a news item to the system, broadcasting it to all players.
+This custom action creates a new GPS marker with specified parameters.
 
 Parameters:
 
-string text: The text of the news item.
-Usage:
+`string` name: The name of the GPS marker.
 
-csharp
-Copy code
-MESApi.RegisterCustomAction(true, "ScT-AddNews", CustomActions.AddNews);
-ScT-SpawnPlanetaryInstallation
+`string `desc: The description of the GPS marker.
+
+`int` time: The time (in minutes) the GPS marker will be active.
+
+`Vector3D`coord: The coordinates of the GPS marker.
+
+
+```
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+  <Id>
+	  <TypeId>Inventory</TypeId>
+	  <SubtypeId>MOD-EventAction-Test</SubtypeId>
+  </Id>
+  <Description>
+	[MES Event Action]
+	[ActivateCustomAction:true]
+	[CustomActionName:ScT-CreateGPS]
+	[CustomActionArgumentsString:Story Event]
+	[CustomActionArgumentsString:Oh the humanity!]
+	[CustomActionArgumentsInt:120]		
+	[CustomActionArgumentsVector3D:{X:-1725718.78 Y:1493440.69 Z:-698321.45}]
+  </Description>
+</EntityComponent>
+```
+![](https://steamuserimages-a.akamaihd.net/ugc/2029485208071521476/F9E1FFFAD880D21B73D67CE0583E367BD9A3AB47/)
+
+### ScT-RemoveGPS
+
+Parameters:
+
+`string` name:Name of the GPS, so that was created by Create GPS
+
+The name of the GPS.
+Usage:
+```
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+  <Id>
+	  <TypeId>Inventory</TypeId>
+	  <SubtypeId>MOD-EventAction-Test</SubtypeId>
+  </Id>
+  <Description>
+	[MES Event Action]
+	[ActivateCustomAction:true]
+	[CustomActionName:ScT-RemoveGPS]
+	[CustomActionArgumentsString:Story Event]
+  </Description>
+</EntityComponent>
+```
+
+
+### ScT-AddNews
+
+This custom action adds a news item to a LCD script.
+
+Parameters:
+
+`string` text: The text of the news item.
+
+```
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+  <Id>
+	  <TypeId>Inventory</TypeId>
+	  <SubtypeId>MOD-EventAction-Test</SubtypeId>
+  </Id>
+  <Description>
+	[MES Event Action]
+	[ActivateCustomAction:true]
+	[CustomActionName:ScT-AddNews]
+	[CustomActionArgumentsString:FAF Captured Carcosa]
+  </Description>
+</EntityComponent>
+```
+
+![](https://steamuserimages-a.akamaihd.net/ugc/2029485208071488065/6E482174D5D82826F80A853D68F3BB5F262B723A/)
+
+### ScT-SpawnPlanetaryInstallation
+
 Description: This custom action spawns a planetary installation at a specified location.
 
 Parameters:
 
-string spawnGroup: The group name for the planetary installation.
-Vector3D coord: The coordinates where the installation should be spawned.
-Usage:
+`string` spawnGroup: The group name for the planetary installation.
 
-csharp
-Copy code
-MESApi.RegisterCustomAction(true, "ScT-SpawnPlanetaryInstallation", CustomActions.SpawnPlanetaryInstallation);
-ScT-SpawnPlanetaryBlockade
+`Vector3D` coord: The coordinates of the area where the installation should be spawned .
+
+```
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+  <Id>
+	  <TypeId>Inventory</TypeId>
+	  <SubtypeId>MOD-EventAction-Test</SubtypeId>
+  </Id>
+  <Description>
+	[MES Event Action]
+	[ActivateCustomAction:true]
+	[CustomActionName:ScT-SpawnPlanetaryInstallation]
+	[CustomActionArgumentsString:FAFCarcosa]	
+	[CustomActionArgumentsVector3D:{X:-1169412.7 Y:97934.39 Z:1325510.96}]	
+  </Description>
+</EntityComponent>
+
+```
+
+
+
+
+### ScT-SpawnPlanetaryBlockade
+
 Description: This custom action spawns a planetary blockade near players within a specified radius.
+
 
 Parameters:
 
-
-
 string spawnGroup: The group name for the spawned blockade.
-int MinRadius: The minimum radius from players for spawning.
-int MaxRadius: The maximum radius from players for spawning.
-int SpawnDistance: The distance from players where the blockade should be spawned.
-Vector3D PlanetCentercoord: The coordinates of the center of the planet.
-Usage:
 
-csharp
-Copy code
-MESApi.RegisterCustomAction(true, "ScT-SpawnPlanetaryBlockade", CustomActions.SpawnPlanetaryBlockade);
-Additional Notes:
-Ensure that you have the necessary permissions and prerequisites for each custom action.
-Custom actions are registered with the MESApi for execution in the game environment.
-Adjust parameters as needed for your specific use case.
-Refer to individual method documentation for more details on parameter usage and functionality
+int MinRadius: The minimum radius from players for spawning.
+
+int MaxRadius: The maximum radius from players for spawning.
+
+int SpawnDistance: The distance from players where the blockade should be spawned.
+
+Vector3D PlanetCentercoord: The coordinates of the center of the planet.
+
+
+
+
