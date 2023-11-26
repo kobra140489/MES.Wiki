@@ -35,6 +35,18 @@ Here is an example of how an Event Action Profile definition is setup:
 
 [Variables](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#variables)
 
+[Chat](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#chat)
+
+[Spawning](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#Spawning)
+
+[Zones](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#Zones)
+
+[GPS](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#GPS)
+
+[Events](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#Events)
+
+
+
 
 ### Tags
 
