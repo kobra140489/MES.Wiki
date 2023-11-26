@@ -77,19 +77,15 @@ Scenario Tools is an extension of MES.
 **Scenario Tools Custom Actions:**
 
 
-[Variables](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#variables)
+**Overview:**
 
-[Variables](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#variables)
+**[ScT-CreateGPS](#ScT-CreateGPS)**  
+**[ScT-RemoveGPS](#ScT-RemoveGPS)**  
+**[ScT-AddNews](#ScT-AddNews)**  
+**[ScT-SpawnPlanetaryInstallation](#ScT-SpawnPlanetaryInstallation)**  
+**[ScT-SpawnPlanetaryBlockade](#ScT-SpawnPlanetaryBlockade)**    
 
-[Variables](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#variables)
-
-[Variables](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#variables)
-
-
-## Custom Actions
-
-
-### ScT-CreateGPS
+## ScT-CreateGPS
 
 This custom action creates a new GPS marker with specified parameters.
 
@@ -123,7 +119,7 @@ Parameters:
 ```
 ![](https://steamuserimages-a.akamaihd.net/ugc/2029485208071521476/F9E1FFFAD880D21B73D67CE0583E367BD9A3AB47/)
 
-### ScT-RemoveGPS
+## ScT-RemoveGPS
 
 Parameters:
 
@@ -147,7 +143,7 @@ Usage:
 ```
 
 
-### ScT-AddNews
+## ScT-AddNews
 
 This custom action adds a news item to a LCD script.
 
@@ -172,7 +168,7 @@ Parameters:
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/2029485208071488065/6E482174D5D82826F80A853D68F3BB5F262B723A/)
 
-### ScT-SpawnPlanetaryInstallation
+## ScT-SpawnPlanetaryInstallation
 
 Description: This custom action spawns a planetary installation at a specified location.
 
