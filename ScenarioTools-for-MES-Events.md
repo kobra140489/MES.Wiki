@@ -1,4 +1,83 @@
 ScT-CreateGPS
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2998575759
+
+
+
+
+
+### Tags 
+<!--ActivateCustomAction  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ActivateCustomAction|
+|:----|:----|
+|Tag Format:|`[ActivateCustomAction:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--CustomActionName  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionName|
+|:----|:----|
+|Tag Format:|`[CustomActionName:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|no|
+<!--CustomActionArgumentsString  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArgumentsString|
+|:----|:----|
+|Tag Format:|`[CustomActionArgumentsString:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--CustomActionArgumentsBool  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArgumentsBool|
+|:----|:----|
+|Tag Format:|`[CustomActionArgumentsBool:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|yes|
+<!--CustomActionArgumentsInt  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArgumentsInt|
+|:----|:----|
+|Tag Format:|`[CustomActionArgumentsInt:Value]`|
+|Description:|nan|
+|Allowed Values:|Any interger equal or greater than 0|
+|Multiple Tag Allowed:|yes|
+<!--CustomActionArgumentsFloat  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArgumentsFloat|
+|:----|:----|
+|Tag Format:|`[CustomActionArgumentsFloat:Value]`|
+|Description:|nan|
+|Allowed Values:|Any float equal or greater than 0|
+|Multiple Tag Allowed:|yes|
+<!--CustomActionArgumentsLong  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArgumentsLong|
+|:----|:----|
+|Tag Format:|`[CustomActionArgumentsLong:Value]`|
+|Description:|nan|
+|Allowed Values:|Any long equal or greater than 0|
+|Multiple Tag Allowed:|yes|
+<!--CustomActionArgumentsDouble  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArgumentsDouble|
+|:----|:----|
+|Tag Format:|`[CustomActionArgumentsDouble:Value]`|
+|Description:|nan|
+|Allowed Values:|Any double equal or greater than 0|
+|Multiple Tag Allowed:|yes|
+<!--CustomActionArgumentsVector3D  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArgumentsVector3D|
+|:----|:----|
+|Tag Format:|`[CustomActionArgumentsVector3D:Value]`|
+|Description:|nan|
+|Allowed Values:|Any Vector3D equal or greater than 0|
+|Multiple Tag Allowed:|yes|
+
+
+
+
+
+
+
+
 Description: This custom action creates a new GPS marker with specified parameters.
 
 Parameters:
@@ -50,6 +129,8 @@ ScT-SpawnPlanetaryBlockade
 Description: This custom action spawns a planetary blockade near players within a specified radius.
 
 Parameters:
+
+
 
 string spawnGroup: The group name for the spawned blockade.
 int MinRadius: The minimum radius from players for spawning.
