@@ -209,19 +209,36 @@ Parameters:
 
 Description: This custom action spawns a planetary blockade near players within a specified radius.
 
+This needs to be connected to a Event Condition that uses playernear
 
 Parameters:
 
-string spawnGroup: The group name for the spawned blockade.
+`string` spawnGroup: The group name for the spawned blockade.
 
-int MinRadius: The minimum radius from players for spawning.
+`int` MinRadius: The minimum radius from players for spawning.
 
-int MaxRadius: The maximum radius from players for spawning.
+`int` MaxRadius: The maximum radius from players for spawning.
 
-int SpawnDistance: The distance from players where the blockade should be spawned.
+`int` SpawnDistance: The distance from players where the blockade should be spawned.
 
-Vector3D PlanetCentercoord: The coordinates of the center of the planet.
+`Vector3D` PlanetCentercoord: The coordinates of the center of the planet.
 
-
-
+```
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Mod-EventAction-Test</SubtypeId>
+      </Id>
+      <Description>
+	[MES Event Action]
+	[ActivateCustomAction:true]
+	[CustomActionName:ScT-SpawnPlanetaryBlockade]
+	[CustomActionArgumentsString:GC-SpawnGroup-HeavyGarrison]
+	[CustomActionArgumentsInt:70000]	
+	[CustomActionArgumentsInt:78000]
+	[CustomActionArgumentsInt:4500]
+	[CustomActionArgumentsVector3D:{X:1449429.5 Y:-622819.5 Z:-2854387.5}]
+      </Description>
+    </EntityComponent>	
+```
 
