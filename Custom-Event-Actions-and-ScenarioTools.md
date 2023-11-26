@@ -77,13 +77,13 @@ Scenario Tools is an extension of MES.
 **Scenario Tools Custom Actions:**
 
 
-[ScT-CreateGPS](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/ScenarioTools-for-MES-Events/#ScT-CreateGPS)
+[ScT-CreateGPS](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Custom-Event-Actions-and-ScenarioTools/#ScT-CreateGPS)
 
-[ScT-RemoveGPS](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/ScenarioTools-for-MES-Events/#ScT-RemoveGPS)
+[ScT-RemoveGPS](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Custom-Event-Actions-and-ScenarioTools/#ScT-RemoveGPS)
 
-[ScT-AddNews](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/ScenarioTools-for-MES-Events/#ScT-AddNews)
+[ScT-AddNews](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Custom-Event-Actions-and-ScenarioTools/#ScT-AddNews)
 
-[ScT-SpawnPlanetaryInstallation](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/ScenarioTools-for-MES-Events/#ScT-SpawnPlanetaryInstallation)
+[ScT-SpawnPlanetaryInstallation](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Custom-Event-Actions-and-ScenarioTools/#ScT-SpawnPlanetaryInstallation)
 
 
 
