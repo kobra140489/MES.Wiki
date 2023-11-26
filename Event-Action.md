@@ -30,6 +30,14 @@ Here is an example of how an Event Action Profile definition is setup:
 ```
 
 
+
+**Overview:**
+
+[Variables](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action/#variables)
+
+
+### Tags
+
 <!--DebugHudMessage  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DebugHudMessage|
 |:----|:----|
@@ -37,6 +45,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Description:|nan|
 |Allowed Values:|Any name string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|no|
+
+### Variables
+
 <!--ChangeBooleans  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeBooleans|
 |:----|:----|
@@ -107,6 +118,10 @@ Here is an example of how an Event Action Profile definition is setup:
 |Description:|nan|
 |Allowed Values:|Any interger equal or greater than 0|
 |Multiple Tag Allowed:|yes|
+
+
+### Chat
+
 <!--UseChatBroadcast  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseChatBroadcast|
 |:----|:----|
@@ -121,6 +136,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Description:|nan|
 |Allowed Values:|Any behaviour Chat Profile SubtypeId|
 |Multiple Tag Allowed:|yes|
+
+### Spawning
+
 <!--SpawnEncounter  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnEncounter|
 |:----|:----|
@@ -149,6 +167,10 @@ Here is an example of how an Event Action Profile definition is setup:
 |Description:|nan|
 |Allowed Values:|Any behaviour Spawner Profile SubtypeId|
 |Multiple Tag Allowed:|no|
+
+
+### Zones
+
 <!--ChangeZoneAtPosition  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeZoneAtPosition|
 |:----|:----|
@@ -177,6 +199,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Description:|true will activate it. false will set disable it|
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|yes|
+
+### GPS
+
 <!--AddGPSForAll  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddGPSForAll|
 |:----|:----|
@@ -226,6 +251,10 @@ Here is an example of how an Event Action Profile definition is setup:
 |Description:|nan|
 |Allowed Values:|A Vector3D Value in the following format:<br />`{X:# Y:# Z:#}`<br />.|
 |Multiple Tag Allowed:|yes|
+
+### Events
+
+
 <!--ToggleEvents  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleEvents|
 |:----|:----|
@@ -282,24 +311,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Description:|nan|
 |Allowed Values:|Any name string excluding characters ": [ ]"|
 |Multiple Tag Allowed:|yes|
-<!--ActivateCustomAction  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ActivateCustomAction|
-|:----|:----|
-|Tag Format:|`[ActivateCustomAction:Value]`|
-|Description:|nan|
-|Allowed Values:|`true`<br>`false`|
-|Multiple Tag Allowed:|no|
-<!--CustomActionName  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionName|
-|:----|:----|
-|Tag Format:|`[CustomActionName:Value]`|
-|Description:|nan|
-|Allowed Values:|Any name string excluding `:`, `[`, `]`|
-|Multiple Tag Allowed:|no|
-<!--CustomActionArguments  -->
-|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CustomActionArguments|
-|:----|:----|
-|Tag Format:|`[CustomActionArguments:Value]`|
-|Description:|nan|
-|Allowed Values:|t.b.d|
-|Multiple Tag Allowed:|yes|
+
+
+
+### Custom Actions
+
+[See Here](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Custom-Event-Actions-and-ScenarioTools)
