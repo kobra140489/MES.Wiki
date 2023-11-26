@@ -32,6 +32,7 @@ Here is an example of how an Event Action Profile definition is setup:
 
 
 **Overview:**
+
 **[Variables](#Variables)**  
 **[Chat](#Chat)**  
 **[Spawning](#Spawning)**  
@@ -39,7 +40,7 @@ Here is an example of how an Event Action Profile definition is setup:
 **[GPS](#GPS)**   
 **[Events](#Events)**  
 
-### Tags
+# Tags
 
 <!--DebugHudMessage  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|DebugHudMessage|
@@ -49,7 +50,8 @@ Here is an example of how an Event Action Profile definition is setup:
 |Allowed Values:|Any name string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|no|
 
-### Variables
+# Variables
+This Secition ...
 
 <!--ChangeBooleans  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeBooleans|
@@ -123,7 +125,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Multiple Tag Allowed:|yes|
 
 
-### Chat
+# Chat
+
+This Secition ...
 
 <!--UseChatBroadcast  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseChatBroadcast|
@@ -140,7 +144,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Allowed Values:|Any behaviour Chat Profile SubtypeId|
 |Multiple Tag Allowed:|yes|
 
-### Spawning
+# Spawning
+
+This Secition ...
 
 <!--SpawnEncounter  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SpawnEncounter|
@@ -172,7 +178,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Multiple Tag Allowed:|no|
 
 
-### Zones
+# Zones
+
+This Secition ...
 
 <!--ChangeZoneAtPosition  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ChangeZoneAtPosition|
@@ -203,7 +211,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|yes|
 
-### GPS
+# GPS
+
+This Secition ...
 
 <!--AddGPSForAll  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddGPSForAll|
@@ -255,8 +265,9 @@ Here is an example of how an Event Action Profile definition is setup:
 |Allowed Values:|A Vector3D Value in the following format:<br />`{X:# Y:# Z:#}`<br />.|
 |Multiple Tag Allowed:|yes|
 
-### Events
+# Events
 
+This Secition ...
 
 <!--ToggleEvents  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ToggleEvents|
@@ -317,6 +328,8 @@ Here is an example of how an Event Action Profile definition is setup:
 
 
 
-### Custom Actions
+# Custom Actions
+
+This Secition ...
 
 [See Here](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Custom-Event-Actions-and-ScenarioTools)
