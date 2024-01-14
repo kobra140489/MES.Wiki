@@ -169,10 +169,10 @@ This Secition ...
 |Description:|nan|
 |Allowed Values:|Any name string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|yes|
-<!--Spawner  -->
+<!--SpawnData  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Spawner|
 |:----|:----|
-|Tag Format:|`[Spawner:Value]`|
+|Tag Format:|`[SpawnData:Value]`|
 |Description:|nan|
 |Allowed Values:|Any behaviour Spawner Profile SubtypeId|
 |Multiple Tag Allowed:|no|
