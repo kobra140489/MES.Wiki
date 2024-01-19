@@ -34,7 +34,7 @@ Below are all of the eligible tags you can use in your Bot Spawn Profiles:
 |:----|:----|
 |Tag Format:|`[BotType:Value]`|
 |Description:|This tag specifies the type of bot that will be spawned.|
-|Allowed Values:|Any Bot Character SubtypeId|
+|Allowed Values:|Any Character SubtypeId (the `Name` field in the SBC)|
 |Multiple Tag Allowed:|No|
 
 <!--BotBehavior-->
