@@ -227,7 +227,7 @@ Below are all of the eligible tags you can use in your Bot Spawn Profiles:
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|TargetPriorities|
 |:----|:----|
 |Tag Format:|`[TargetPriorities:Value]`|
-|Description:|This tag allows you to specify one or more target priorities that the bot will use when attacking.|
+|Description:|This tag allows you to specify one or more target priorities that the bot will use when attacking. Add them in priority order.|
 |Allowed Value(s):|IMyCharacter, IMyUserControllableGun, IMyShipController, IMyPowerProducer, IMyThrust, IMyGyro, IMyProductionBlock, IMyDoor, IMyProgrammableBlock, IMyProjector, IMyConveyor, IMyCargoContainer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMySlimBlock|
 |Default Value(s):|IMyCharacter, IMyUserControllableGun, IMyShipController, IMyPowerProducer, IMyThrust, IMyGyro, IMyProductionBlock, IMyDoor, IMyProgrammableBlock, IMyProjector, IMyConveyor, IMyCargoContainer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMySlimBlock|
 |Multiple Tags Allowed:|Yes|
@@ -236,7 +236,7 @@ Below are all of the eligible tags you can use in your Bot Spawn Profiles:
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RepairPriorities|
 |:----|:----|
 |Tag Format:|`[RepairPriorities:Value]`|
-|Description:|This tag allows you to specify one or more repair priorities that the bot will use when repairing.|
+|Description:|This tag allows you to specify one or more repair priorities that the bot will use when repairing. Add them in priority order.|
 |Allowed Value(s):|IMyUserControllableGun, IMyShipController, IMyPowerProducer, IMyThrust, IMyGyro, IMyProductionBlock, IMyDoor, IMyProgrammableBlock, IMyProjector, IMyConveyor, IMyCargoContainer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMySlimBlock|
 |Default Value(s):|IMyUserControllableGun, IMyShipController, IMyPowerProducer, IMyThrust, IMyGyro, IMyProductionBlock, IMyDoor, IMyProgrammableBlock, IMyProjector, IMyConveyor, IMyCargoContainer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMySlimBlock|
 |Multiple Tags Allowed:|Yes|
