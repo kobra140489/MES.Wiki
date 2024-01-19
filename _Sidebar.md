@@ -16,6 +16,7 @@
   * [Planetary Installations](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Planetary-Installations)
   * [Boss Encounters](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Boss-Encounters)
   * [Creatures](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Creatures)
+  * [AiEnabled Bot Spawning](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Bot-Spawn)
   * [Wave Spawners](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Wave-Spawners)
   * [Clean-Up](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Clean-Up)
   * [Spawn Filtering](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Admin-&-Configuration:-Spawn-Filtering)
