@@ -229,7 +229,7 @@ Below are all of the eligible tags you can use in your Bot Spawn Profiles:
 |Tag Format:|`[TargetPriorities:Value]`|
 |Description:|This tag allows you to specify one or more target priorities that the bot will use when attacking. Add them in priority order. Remove entries to have the bot ignore them completely (requires at least one entry for this to take effect).|
 |Allowed Value(s):|IMyCharacter<br />IMyUserControllableGun<br />IMyShipController<br />IMyPowerProducer<br />IMyThrust<br />IMyGyro<br />IMyProductionBlock<br />IMyDoor<br />IMyProgrammableBlock<br />IMyProjector<br />IMyConveyor<br />IMyCargoContainer<br />IMyFunctionalBlock<br />IMyTerminalBlock<br />IMyCubeBlock<br />IMySlimBlock|
-|Default Value(s):|IMyCharacter<br />IMyUserControllableGun<br />IMyShipController<br />IMyPowerProducer<br />IMyThrust<br />IMyGyro<br />IMyProductionBlock<br />IMyDoor<br />IMyProgrammableBlock<br />IMyProjector<br />IMyConveyor<br />IMyCargoContainer<br />IMyFunctionalBlock<br />IMyTerminalBlock<br />IMyCubeBlock<br />IMySlimBlock|
+|Default Value(s):|All allowed values|
 |Multiple Tags Allowed:|Yes|
 
 <!-- RepairPriorities -->
@@ -238,5 +238,5 @@ Below are all of the eligible tags you can use in your Bot Spawn Profiles:
 |Tag Format:|`[RepairPriorities:Value]`|
 |Description:|This tag allows you to specify one or more repair priorities that the bot will use when repairing. Add them in priority order. Remove entries to have the bot ignore them completely (requires at least one entry for this to take effect).|
 |Allowed Value(s):|IMyUserControllableGun<br />IMyShipController<br />IMyPowerProducer<br />IMyThrust<br />IMyGyro<br />IMyProductionBlock<br />IMyDoor<br />IMyProgrammableBlock<br />IMyProjector<br />IMyConveyor<br />IMyCargoContainer<br />IMyFunctionalBlock<br />IMyTerminalBlock<br />IMyCubeBlock<br />IMySlimBlock|
-|Default Value(s):|IMyUserControllableGun<br />IMyShipController<br />IMyPowerProducer<br />IMyThrust<br />IMyGyro<br />IMyProductionBlock<br />IMyDoor<br />IMyProgrammableBlock<br />IMyProjector<br />IMyConveyor<br />IMyCargoContainer<br />IMyFunctionalBlock<br />IMyTerminalBlock<br />IMyCubeBlock<br />IMySlimBlock|
+|Default Value(s):|All allowed values|
 |Multiple Tags Allowed:|Yes|
