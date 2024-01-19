@@ -218,7 +218,7 @@ Below are all of the eligible tags you can use in your Bot Spawn Profiles:
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CanDamageGrids|
 |:----|:----|
 |Tag Format:|`[CanDamageGrids:Value]`|
-|Description:|This tag allows you to specify if the bot is able to damage grids|
+|Description:|This tag allows you to specify if the bot is able to damage grids (ie target blocks).|
 |Allowed Value(s):|`true`<br />`false`|
 |Default Value(s):|`false`|
 |Multiple Tags Allowed:|No|
