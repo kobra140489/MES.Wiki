@@ -1,4 +1,6 @@
-Filter players for certain actions ,or use it as an extra condition for Events, Trigger and Spawnconditions
+Filter players based on specific actions, or utilize it as an additional condition for Events, Triggers, and Spawn conditions.
+
+Handy for MP situations.
 
 ### Used for some tags in
 [Event Conditions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Conditions#Player)  
