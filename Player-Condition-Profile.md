@@ -12,7 +12,7 @@ Here's an example of how a Player Condition Profile definition is setup:
 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>PlayerConditionProfile-AHEFriendly</SubtypeId>
+          <SubtypeId>PlayerConditionProfile-AHESpecialMessage</SubtypeId>
       </Id>
       <Description>
 	[MES Player Condition]
@@ -22,13 +22,12 @@ Here's an example of how a Player Condition Profile definition is setup:
 	[MinPlayerReputation:500]
 	[MaxPlayerReputation:1500]
 
+       	[CheckPlayerTags:true]
+	[IncludedPlayerTag:RecentyAttackedGCVessel]
 
       </Description> 
     </EntityComponent>
 ```
-
-
-
 
 <!--AllowOverrides  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowOverrides|
