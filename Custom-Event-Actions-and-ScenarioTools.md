@@ -168,7 +168,7 @@ Parameters:
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/2029485208071488065/6E482174D5D82826F80A853D68F3BB5F262B723A/)
 
-## ScT-SpawnPlanetaryInstallation
+## ScT-SpawnPlanetaryInstallation (DON"T USE)
 
 Description: This custom action spawns a planetary installation at a specified location.
 
@@ -198,7 +198,7 @@ Parameters:
 
 
 
-### ScT-SpawnPlanetaryBlockade
+### ScT-SpawnPlanetaryBlockade (DON"T USE)
 
 Description: This custom action spawns a planetary blockade near players within a specified radius.
 
