@@ -21,6 +21,8 @@ Here's an example of how a Player Condition Profile definition is setup:
 	[CheckReputationwithFaction:AHE]
 	[MinPlayerReputation:500]
 	[MaxPlayerReputation:1500]
+
+
       </Description> 
     </EntityComponent>
 ```
