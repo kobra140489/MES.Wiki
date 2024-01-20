@@ -60,6 +60,9 @@
       * [Event Condition](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Conditions)
       * [Event Action](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action)
           * [Custom Event Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Custom-Event-Actions-and-ScenarioTools)
+  * [**Player Conditions (New)**](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Player-Condition-Profile)
+
+
 # Template / Example Files
   * [SpawnGroup.sbc](https://gist.github.com/MeridiusIX/1ae743505ec489d31e6ac17edf16e5e0?ts=2)
   * [Factions.sbc](https://gist.github.com/MeridiusIX/cd9b4decb58dea335290a05b728a7276?ts=2)	
