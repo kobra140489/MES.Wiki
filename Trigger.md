@@ -132,6 +132,26 @@ Below are the tags you are able to use in your Trigger Profiles. Please note tha
 |Compatible Types:|`PlayerNear`<br>`PlayerFar`|
 |Multiple Tag Allowed:|No|
 
+
+<!--UsePlayerCondition-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UsePlayerCondition|
+|:----|:----|
+|Tag Format:|`[UsePlayerCondition:Value]`|
+|Description:||
+|Allowed Values:|`true`<br>`false`|
+|Compatible Types:|`PlayerNear`<br>`PlayerFar`|
+|Multiple Tag Allowed:|No|
+
+<!--PlayerConditionIds-->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlayerConditionIds|
+|:----|:----|
+|Tag Format:|`[PlayerConditionIds:Value]`|
+|Description:||
+|Allowed Values:|Any Text Value|
+|Compatible Types:|`PlayerNear`<br>`PlayerFar`<br>`PlayerFar`|
+|Multiple Tag Allowed:|yes|
+
+
 <!--PlayerNearPositionOffset  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlayerNearPositionOffset|
 |:----|:----|
