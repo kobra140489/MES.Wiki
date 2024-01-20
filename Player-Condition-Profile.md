@@ -1,18 +1,19 @@
 On it self it doesn't do anything, check where it is being referenced below.
 
-For most cases, it loops through all the players and for each player it checks if the player passes all conditions, if that is the case the action, chat, spawncondition will only activate for that player.
+For most cases, it loops through all the players and for each player it checks if the player passes all conditions, if that is the case the action, chat, spawncondition will only activate for that player. Handy for MP situations. 
 
-Handy for MP situations. 
 
-You can add Tags to certain players, what can be added by Behavioral actions and Events, and be used as an extra condition for this condition profile. 
-
-Examples on what you can make: (basically what I (CptArthur) will do with it 😛 )
+### Player Tags
+You can add Tags to certain players, what can be added by [Behavior Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Action#PlayerTags) and [Event Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action#Players), and be used as an extra condition for this condition profile. Examples on what you can make: (basically what I (CptArthur) will do with it 😛 )
 
 -Player attacks a factions ship -> Player gets tag ("Attacked_GC_recently") -> Retribution Spawngroup becomes eligible only for that player
 
 -Make an Event that checks which SpawnOption the player chooses. -> What happens: Player chooses SpawnoptionA -> Event will trigger that activates some chat message -> using PlayerCondition again the message will only be visible  for the player
 
 -Some custom behaviour/chat messages from NPC based which tags player have.
+
+
+
 
 
 ### Referenced by:
