@@ -2,7 +2,7 @@ Filter players based on specific actions, or utilize it as an additional conditi
 
 Handy for MP situations.
 
-### Used for some tags in
+### Referenced by:
 [Event Conditions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Conditions#Player)  
 [Event Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action#Players)   
 [Behavior Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Action#PlayerTags)  
