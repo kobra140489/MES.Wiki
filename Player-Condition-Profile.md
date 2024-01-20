@@ -4,7 +4,7 @@ For most cases, it loops through all the players and for each player it checks i
 
 
 ### Player Tags
-You can add Tags to certain players, what can be added by [Behavior Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Action#PlayerTags) and [Event Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action#Players), and be used as an extra condition for this condition profile. Examples on what you can make: (basically what I (CptArthur) will do with it 😛 )
+You can add Tags to certain players, what can be added by [Behavior Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Action#PlayerTags) and [Event Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action#Players), and be used as an extra condition for this condition profile. Examples on what you can make: (basically what CptArthur will do with it 😛 )
 
 -Player attacks a factions ship -> Player gets tag ("Attacked_GC_recently") -> Retribution Spawngroup becomes eligible only for that player
 
