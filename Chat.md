@@ -55,6 +55,7 @@ When specifying chat messages in the tags below, there are special tags you can 
 
 Below are the tags you are able to use in your Chat Profiles:
 
+
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseChat|
 |:----|:----|
 |Tag Format:|`[UseChat:Value]`|
@@ -174,6 +175,15 @@ Below are the tags you are able to use in your Chat Profiles:
 |Allowed Values:|Any String Excluding Character `:`.|
 |Multiple Tag Allowed:|No|
 
+
+<!--GPSOffset   -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|GPSOffset |
+|:----|:----|
+|Tag Format:|`[GPSOffset :Value]`|
+|Description:|nan|
+|Allowed Values:|A Vector3D Value in the following format:<br />`{X:# Y:# Z:#}`<br />.|
+|Multiple Tag Allowed:|no|
+
 <!-- AllowDuplicatedMessages -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AllowDuplicatedMessages|
 |:----|:----|
@@ -182,3 +192,18 @@ Below are the tags you are able to use in your Chat Profiles:
 |Allowed Value(s):|`true`<br />`false`|
 |Multiple Tags Allowed:|No|
 
+### SendToSpecificPlayers   
+<!--SendToSpecificPlayers   -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SendToSpecificPlayers |
+|:----|:----|
+|Tag Format:|`[SendToSpecificPlayers :Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--PlayerConditionIds  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlayerConditionIds|
+|:----|:----|
+|Tag Format:|`[PlayerConditionIds:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
