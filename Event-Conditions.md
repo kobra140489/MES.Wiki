@@ -26,6 +26,18 @@ Here's an example of how a Event Condition Profile Definition is setup:
 ```
 
 
+
+
+**[Basic](#Basic)**
+
+**[SandboxVariables](#SandboxVariables)**
+
+**[Player](#Player)**
+
+**[TheatScore](#TheatScore)**
+
+# Basic
+
 <!--UseFailCondition  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|UseFailCondition|
 |:----|:----|
@@ -40,6 +52,8 @@ Here's an example of how a Event Condition Profile Definition is setup:
 |Description:|nan|
 |Allowed Values:|`true`<br>`false`|
 |Multiple Tag Allowed:|no|
+# SandboxVariables
+
 <!--CheckTrueBooleans  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckTrueBooleans|
 |:----|:----|
@@ -101,7 +115,7 @@ Here's an example of how a Event Condition Profile Definition is setup:
 |:----|:----|
 |Tag Format:|`[CustomCountersTargets:Value]`|
 |Description:|nan|
-|Allowed Values:|Any interger equal or greater than 0|
+|Allowed Values:|Any interger|
 |Multiple Tag Allowed:|yes|
 <!--CounterCompareTypes  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CounterCompareTypes|
@@ -109,6 +123,22 @@ Here's an example of how a Event Condition Profile Definition is setup:
 |Tag Format:|`[CounterCompareTypes:Value]`|
 |Description:|nan|
 |Allowed Values:|`GreaterOrEqual`<br>`Greater`<br>`Equal`<br>`NotEqual`<br>`Less`<br>`LessOrEqual`|
+|Multiple Tag Allowed:|yes|
+# Player
+
+<!--CheckPlayerCondition   -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckPlayerCondition |
+|:----|:----|
+|Tag Format:|`[CheckPlayerCondition :Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--PlayerConditionIds  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PlayerConditionIds|
+|:----|:----|
+|Tag Format:|`[PlayerConditionIds:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
 |Multiple Tag Allowed:|yes|
 <!--CheckPlayerNear  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckPlayerNear|
@@ -138,6 +168,8 @@ Here's an example of how a Event Condition Profile Definition is setup:
 |Description:|nan|
 |Allowed Values:|Any PlayerFilter Profile SubtypeId|
 |Multiple Tag Allowed:|no|
+# TheatScore
+
 <!--CheckThreatScore  -->
 |Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|CheckThreatScore|
 |:----|:----|
