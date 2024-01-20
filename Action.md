@@ -42,6 +42,7 @@ Below are the tags you are able to use in your Action Profiles. They are divided
 **[General](#General)**  
 **[Grid](#Grid)**  
 **[Inventory](#Inventory)**  
+**[PlayerTags](#PlayerTags)**  
 **[Reputation](#Reputation)**  
 **[Spawning](#Spawning)**  
 **[Targeting](#Targeting)**  
@@ -1055,6 +1056,79 @@ This section contains actions that affect the entire grid.
 |Description:|Specifies the number of random Datapads that get added to seats on the grid.|
 |Allowed Values:|Any Number Greater Than `0`|
 |Multiple Tag Allowed:|No|
+
+# PlayerTags
+
+<!--AddTagstoPlayers  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddTagstoPlayers|
+|:----|:----|
+|Tag Format:|`[AddTagstoPlayers:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--AddTagsPlayerConditionIds  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddTagsPlayerConditionIds|
+|:----|:----|
+|Tag Format:|`[AddTagsPlayerConditionIds:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--AddTags  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddTags|
+|:----|:----|
+|Tag Format:|`[AddTags:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--AddTagsIncludeSavedPlayerIdentity  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddTagsIncludeSavedPlayerIdentity|
+|:----|:----|
+|Tag Format:|`[AddTagsIncludeSavedPlayerIdentity:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--AddTagsOverridePositionInPlayerCondition  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AddTagsOverridePositionInPlayerCondition|
+|:----|:----|
+|Tag Format:|`[AddTagsOverridePositionInPlayerCondition:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--RemoveTagsFromPlayers  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RemoveTagsFromPlayers|
+|:----|:----|
+|Tag Format:|`[RemoveTagsFromPlayers:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--RemoveTagsPlayerConditionIds  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RemoveTagsPlayerConditionIds|
+|:----|:----|
+|Tag Format:|`[RemoveTagsPlayerConditionIds:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--RemoveTags  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RemoveTags|
+|:----|:----|
+|Tag Format:|`[RemoveTags:Value]`|
+|Description:|nan|
+|Allowed Values:|Any name string excluding `:`, `[`, `]`|
+|Multiple Tag Allowed:|yes|
+<!--RemoveTagsIncludeSavedPlayerIdentity  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RemoveTagsIncludeSavedPlayerIdentity|
+|:----|:----|
+|Tag Format:|`[RemoveTagsIncludeSavedPlayerIdentity:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
+<!--RemoveTagsOverridePositioninPlayerCondition  -->
+|Tag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|RemoveTagsOverridePositioninPlayerCondition|
+|:----|:----|
+|Tag Format:|`[RemoveTagsOverridePositioninPlayerCondition:Value]`|
+|Description:|nan|
+|Allowed Values:|`true`<br>`false`|
+|Multiple Tag Allowed:|no|
 
 # Reputation
 
