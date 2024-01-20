@@ -3,7 +3,9 @@ Filter players for certain actions ,or use it as an extra condition for Events, 
 ### Used for some tags in
 [Event Conditions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Conditions#Player)  
 [Event Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action#Players)   
-[Behavior Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Action)
+[Behavior Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Action)  
+[Chat Profiles](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Chat#sendtospecificplayers)  
+[SpawnConditions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Spawn-Conditions#Players)
 
 Here's an example of how a Player Condition Profile definition is setup:
 ```
