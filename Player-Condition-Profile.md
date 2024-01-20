@@ -1,8 +1,8 @@
 Filter players for certain actions ,or use it as an extra condition for Events, Trigger and Spawnconditions
 
 ### Used for some tags in
+[Event Conditions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Conditions#Player)
 [Event Actions](https://github.com/MeridiusIX/Modular-Encounters-Systems/wiki/Event-Action#Players) 
-
 
 
 Here's an example of how a Player Condition Profile definition is setup:
